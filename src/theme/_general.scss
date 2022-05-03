@@ -1,0 +1,28 @@
+// Background Primary
+.container-1NXEtd, 
+.panels-3wFtMD
+{background-color: var(--background-primary) !important;}
+
+// Background Secondary
+.members-3WRCEx, .members-3WRCEx>div
+{background-color: var(--background-secondary) !important;}
+
+// Fixes
+[class="anchor-1MIwyf anchorUnderlineOnHover-2qPutX"][href="https://support.discord.com"] {
+    display: none !important;
+}
+
+// // //
+
+.avatar-2e8lTP, :root .wrapper-1VLyxH foreignObject, :root .callAvatarMask-fiNMWy foreignObject, :root .avatarContainer-gPrCzX foreignObject, :root .avatarMasked-qX7NI7 {
+    mask: none!important;
+    -webkit-mask: none!important;
+    border-radius: var(--avatar-radius) !important;
+}
+
+#app-mount .childWrapper-1j_1ub, #app-mount .svg-2zuE5p, #app-mount .icon-3AqZ2e, #app-mount .wrapper-28eC3z, #app-mount .wrapper-28eC3z foreignObject, #app-mount .circleIconButton-jET_ig, #app-mount .guildIcon-1nnIAv foreignObject, #app-mount .categoryItemGuildCategory-3mvXlo foreignObject, #app-mount .mask-1hlQQ6 foreignObject, #app-mount .guildIcon-2SUGiq, #app-mount [mask="url(#svg-mask-squircle)"], #app-mount .popout-server-search .image-33JSyf {
+    mask: none!important;
+    border-radius: var(--avatar-radius) !important;
+    transition: .1s ease-out!important;
+}
+

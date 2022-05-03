@@ -1,0 +1,102 @@
+/* -------- BASE ---- */
+  
+  :root {
+    /* ---- base -- */
+    --indicator-border-info:2px solid;
+  
+    /* ---- selected -- */
+    --indicator-selected-border:rgba(var(--indicator-selected));
+    --indicator-selected-background:rgba(var(--indicator-selected), 0.1);
+    --indicator-selected-hover:rgba(var(--indicator-selected), 0.18);
+  
+    /* ---- unreads -- */
+    --indicator-unread-border:rgba(var(--indicator-unread), 0.6);
+    --indicator-unread-background:rgba(var(--indicator-unread), 0.01);
+  
+    /* ---- connected -- */
+    --indicator-connected-border:rgba(var(--indicator-connected));
+    --indicator-connected-background:rgba(var(--indicator-connected), 0.1);
+    --indicator-connected-hover:rgba(var(--indicator-connected), 0.18);
+  }
+  
+  /* ---- Borders -- */
+  
+  #app-mount {
+    /* ---- Remove Default -- */
+    /* -------- CHANNEL INDICATORS ---- */
+    /* ---- Channel Hover -- */
+    /* ---- Channel Selected -- */
+    /* ---- Channel Unread -- */
+    /* ---- VC Connected -- */
+    /* ---- DM Channel Positioning -- */
+  
+    .containerDefault-YUSmu3 .wrapper-NhbLHG, .channel-1Shao0 {
+      border-radius: var(--indicator-rounding) !important;
+    }
+  
+    .containerDefault-YUSmu3 .wrapper-NhbLHG::before, .channel-1Shao0::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+    }
+  
+    .content-1gYQeQ, .channel-1Shao0 .layout-1qmrhw {
+      background-color: transparent;
+    }
+  
+    .containerDefault-YUSmu3 .wrapper-NhbLHG:not(.modeSelected-3DmyhH):not(.modeConnected-NrO4cP):hover, .channel-1Shao0:not(.selected-1-Z6gm):hover {
+      background: var(--indicator-hovered);
+    }
+  
+    .modeSelected-3DmyhH, .channel-1Shao0.selected-1-Z6gm {
+      background-color: var(--indicator-selected-background);
+      
+    }
+  
+    .modeSelected-3DmyhH:hover, .channel-1Shao0.selected-1-Z6gm:hover {
+      background-color: var(--indicator-selected-hover);
+    }
+  
+    .modeSelected-3DmyhH::before, .channel-1Shao0.selected-1-Z6gm::before {
+      border-left: var(--indicator-border-info) var(--indicator-selected-border);
+    }
+  
+    .modeUnread-3Cxepe {
+      background: var(--indicator-unread-background);
+  
+      &::before {
+        border-left: var(--indicator-border-info) var(--indicator-unread-border);
+      }
+  
+      .unread-36eUEm {
+        display: none;
+      }
+    }
+  
+    .modeConnected-NrO4cP {
+      background-color: var(--indicator-connected-background);
+  
+      &:hover {
+        background-color: var(--indicator-connected-hover);
+      }
+  
+      &::before {
+        border-left: var(--indicator-border-info) var(--indicator-connected-border);
+      }
+    }
+  
+    .channel-1Shao0 {
+      margin-left: 0;
+      max-width: 100%;
+  
+      div .avatar-6qzftW {
+        margin-left: 8px;
+      }
+    }
+  }
+
+  .content-1Tgc42 {
+    margin-left: -35px;
+  }

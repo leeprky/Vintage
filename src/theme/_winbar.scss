@@ -1,0 +1,72 @@
+// Framing
+.withFrame-2dL45i {
+	padding-top: 0.5px;
+	height: 32.5px;
+	margin-top: 4px;
+}
+
+// Buttons
+.winButton-3UMjdg {
+	position: relative;
+	top: -4px;
+    right: 0px;
+	cursor: pointer;
+	width: 36px;
+	height: 36px;
+	pointer-events: auto;
+	-webkit-app-region: no-drag;
+}
+.titleBar-1it3bQ {
+	>* {
+		&:nth-child(2) {
+			&:hover {
+				background-color: #aa2210;
+			}
+		}
+		&:nth-child(3) {
+			&:hover {
+				background-color: #c9990a;
+			}
+		}
+		&:nth-child(4) {
+			&:hover {
+				background-color: #0ea70e;
+			}
+		}
+	}
+}
+
+// Watermark
+.wordmark-2u86JB {
+	&:after {
+		color: var(--text) !important;
+		content: var(--watermark-text);
+		font-size: 13px;
+		font-weight: 500;
+		position: absolute;
+		width: 1000000%;
+		top: 12.8px;
+	}
+	left: calc(var(--watermark-Alignment) - var(--watermark-offset)) !important;
+	vertical-align: middle;
+	top: -0.5px;
+	>svg {
+		width: 0px;
+	}
+}
+.theme-light {
+	.wordmark-2u86JB {
+		&:after {
+			color: rgb(48, 48, 48);
+		}
+	}
+}
+.theme-dark {
+	.wordmark-2u86JB {
+		&:after {
+			color: rgb(247, 245, 245);
+		}
+	}
+}
+
+
