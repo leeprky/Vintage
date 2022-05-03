@@ -1,12 +1,13 @@
 .membersWrap-3NUR2t {
     padding: 8px;
     border-radius: var(--radius) !important;
-    height: 97.3%;
+    position: relative !important;
     margin-right: 8px !important; 
 }
 
 .members-3WRCEx, .members-3WRCEx > div {
     border-radius: var(--radius) !important;
+    margin-bottom: 30px;
 }
 
 [class="members-3WRCEx thin-31rlnD scrollerBase-_bVAAt fade-1R6FHN"] {
@@ -15,6 +16,10 @@
 
 [class="membersGroup-2eiWxl container-q97qHp"] {
     padding: 16px !important;
+}
+
+.container-1oeRFJ {
+    width: 88%;
 }
 
 #app-mount .wrapper-1VLyxH svg:not(:root){overflow:visible}
@@ -47,4 +52,8 @@
     border-radius: var(--avatar-radius) !important;
     border: 6px solid var(--background-floating) !important;
     background-color: var(--background-floating);
+}
+
+#app-mount .wrapper-1VLyxH rect[fill="#43b581"], #app-mount .wrapper-1VLyxH rect[fill="rgba(67, 181, 129, 1)"], #app-mount .wrapper-1VLyxH rect[mask*=online] {
+    box-shadow: 0px 0px 50px 9.5px var(--rs-online-color) !important;
 }

@@ -134,7 +134,7 @@
 }
 
 
-@media only screen and (max-width: 1420px) {
+@media only screen and (max-width: 1500px) {
     .toolbar-3_r2xA .iconWrapper-2awDjA::after {
       display: none;
     }
@@ -142,7 +142,8 @@
   
   @media only screen and (max-width: 940px) {
     .container-2o3qEW {
-       width: 65px !important;
+       width: 95px !important;
+       margin-right: 10px;
        transition: 500ms;
     }
     .membersGroup-2eiWxl, .content-1U25dZ {

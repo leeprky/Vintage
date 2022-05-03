@@ -5,6 +5,7 @@
 
 :root 
 {
+    // Scrollbars
     --scrollbar-display: none;
 
     // Watermark
@@ -13,24 +14,39 @@
     --watermark-text: "Underground v" var(--version) " -  by " var(--theme-owner) "";
     --display-version: none !important; 
 
-        --rs-small-spacing:0;
-        --rs-large-spacing:0;
-        --rs-width:2px;
-        --rs-avatar-shape:var(--avatar-radius);
-        --rs-online-color:rgb(121, 255, 139);
-        --rs-idle-color:#ffcc74;
-        --rs-dnd-color:#ff7979;
-        --rs-offline-color:#ffd4d4;
-        --rs-streaming-color:#b68bff;
-        --rs-invisible-color:#ffd2d2;
-        --rs-phone-visible:block;
-        --rs-phone-color:var(--rs-online-color);
+    // User Status Bar
+    --rs-small-spacing:0;
+    --rs-large-spacing:0;
+    --rs-width:2px;
+    --rs-avatar-shape:var(--avatar-radius);
+    --rs-online-color:rgb(121, 255, 139);
+    --rs-idle-color:#ffcc74;
+    --rs-dnd-color:#ff7979;
+    --rs-offline-color:#fff9f9;
+    --rs-streaming-color:#b68bff;
+    --rs-invisible-color:#ffe9e9;
     
+    // Windows Buttons
+    --win-buttons-width: 42px;
+
+    --win-close-background-colour: #b9534681;
+    --win-close-text-colour: #ffefec;
+
+    --win-max-background-colour: #c5a74e79;
+    --win-max-text-colour: #ffefc1;
+
+    --win-min-background-colour: #60a86073;
+    --win-min-text-colour: #beffbe;
+    --win-min-border-radius: 0px 0px 0px 12px;
+    
+    // Global Border Radius
     --radius: 12px !important;
     --avatar-radius: 20% !important;
 
+    // Global Padding
     --padding: 4px;
 
+    // Blurple Colour
     --main-colour: 204, 127, 108 !important;
     --main-colour2: #cc7f6c !important;
     --main-colour3: 12 !important;
@@ -195,7 +211,8 @@
 
     --background-mentioned: rgba(var(--main-colour), 0.2);
     --background-mentioned-hover: rgba(var(--main-colour), 0.3);
-    --background-message-hover: rgba(var(--main-colour), 0.05);
+    --background-message: rgba(var(--main-colour), 0.1);
+    --background-message-hover: rgba(var(--main-colour), 0.08);
 
     --background-message-automod: hsla(359,calc(var(--saturation-factor, 1)*82.6%),59.4%,0.05);
     --background-message-automod-hover: hsla(359,calc(var(--saturation-factor, 1)*82.6%),59.4%,0.1);

@@ -1,15 +1,38 @@
+@import "https://leeprky.github.io/snippits/discoloured.css";
+
 // Background Primary
 .container-1NXEtd, 
-.panels-3wFtMD
-{background-color: var(--background-primary) !important;}
+.panels-3wFtMD,
+.peopleColumn-1wMU14,
+.nowPlayingColumn-1eCBCN
+{background: var(--background-primary) !important;}
 
 // Background Secondary
-.members-3WRCEx, .members-3WRCEx>div
-{background-color: var(--background-secondary) !important;}
+.members-3WRCEx, .members-3WRCEx>div,
+.colorable-3rVGna.primaryDark-2UJt1G
+{background: var(--background-secondary) !important;}
 
 // Fixes
 [class="anchor-1MIwyf anchorUnderlineOnHover-2qPutX"][href="https://support.discord.com"] {
     display: none !important;
+}
+
+.itemCard-3Etziu {
+    width: 290px !important;
+}
+.nowPlayingColumn-1eCBCN>div>div {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: none !important;
+    grid-gap: 10px;
+    grid-template-rows: repeat(auto-fill, minmax(70px, 0px));
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+:root {
+    --user-banner: 
 }
 
 // // //
@@ -25,4 +48,43 @@
     border-radius: var(--avatar-radius) !important;
     transition: .1s ease-out!important;
 }
+
+
+/* Rename Settings page v2.1 */
+.item-3XjbnG[data-item-id="pc-moduleManager-themes"] {
+    font-size: 0px;
+      visibility: none !important;
+      padding-top: 6px;
+    padding-bottom: 1px;
+    margin-bottom: 2px;
+  }
+  .item-3XjbnG[data-item-id="pc-moduleManager-themes"]:after {
+    font-size: 16px;
+      visibility: visible !important;
+    content: "Quick CSS";
+  }
+  .item-3XjbnG[data-item-id="pc-moduleManager-themes"]:not(:selected):hover:after {
+    color: var(--interactive-hover) !important;
+  }
+  .item-3XjbnG[data-item-id="pc-moduleManager-themes"]:active:after {
+    color: var(--interactive-active) !important;
+  }
+  .item-3XjbnG[data-item-id="pc-moduleManager-themes"]:selected:after {
+    color: var(--interactive-active) !important;
+  }
+  .item-3XjbnG[data-item-id="pc-moduleManager-themes"], .item-3XjbnG[data-item-id="theme-toggler"] {
+     padding-bottom: 6px;
+  }
+  
+.side-2ur1Qk > div {
+    order: -1;
+}
+.side-2ur1Qk > div[data-item-id="pc-general"],
+.side-2ur1Qk > div[data-item-id="pc-general"] ~ div {
+    order: 2;
+}
+.side-2ur1Qk > div[data-item-id="theme-toggler"] {
+    order: 1 !important;
+}
+
 

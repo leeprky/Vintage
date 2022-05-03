@@ -1,0 +1,13 @@
+.callContainer-HtHELf {
+    background: var(--background-primary) !important;
+    background-color: var(--background-primary) !important;
+}
+
+.gradientContainer-phMG8d {
+    pointer-events: none;
+    height: 160px;
+    -webkit-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(var(--background-primary)),color-stop(19%,rgb(32, 27, 24)),color-stop(34%,rgb(32, 27, 24)),color-stop(47%,rgb(32, 27, 24)),color-stop(56.5%,rgb(32, 27, 24)),color-stop(65%,rgb(32, 27, 24)),color-stop(73%,rgb(32, 27, 24)),color-stop(80.2%,rgb(32, 27, 24)),color-stop(86.1%,rgb(32, 27, 24)),color-stop(91%,rgb(32, 27, 24)),color-stop(95.2%,rgb(32, 27, 24)),color-stop(98.2%,rgb(32, 27, 24)),to(transparent));
+    background-image: linear-gradient(var(--background-primary),rgba(32, 27, 24, 0.925) 19%,rgba(32, 27, 24, 0.712) 34%,rgba(32, 27, 24, 0.658) 47%,rgba(32, 27, 24, 0.452) 56.5%,rgba(32, 27, 24, 0.336) 65%,rgba(32, 27, 24, 0.212) 73%,rgba(32, 27, 24, 0.151) 80.2%,rgba(32, 27, 24, 0.062) 86.1%,rgba(32, 27, 24, 0.0) 90.1, rgba(32, 27, 24, 0.027) 27, 24) 95.2%,rgb(32, 27, 24) 98.2%,transparent;
+}
