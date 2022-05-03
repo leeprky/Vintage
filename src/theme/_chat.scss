@@ -32,13 +32,10 @@
     border-radius: var(--radius);
     margin-left: 16px;
 }
-.message-2CShn3:hover {
-    background-color: var(--background-message-hover);
+.message-2CShn3:hover, .compact-2Nkcau.wrapper-30-Nkg, .cozy-VmLDNB.wrapper-30-Nkg:hover {
+    background-color: var(--background-message-hover) !important;
     filter: brightness(95%);
     border-radius: var(--radius);
-}
-.compact-2Nkcau.wrapper-30-Nkg, .cozy-VmLDNB.wrapper-30-Nkg:hover {
-    background-color: transparent;
 }
 .group-spacing-16 .groupStart-3Mlgv1 {
     margin-top: 0px;
@@ -49,4 +46,10 @@
 .group-spacing-16 .divider-IqmEqJ.hasContent-1y12-u {
     margin-bottom: 20px !important;
     margin-top: 20px; 
+}
+
+.group-spacing-16 .divider-IqmEqJ.beforeGroup-1BvJAt {
+    margin-bottom: 15px !important;
+    margin-top: 0px;
+    top: 0.3rem !important;
 }

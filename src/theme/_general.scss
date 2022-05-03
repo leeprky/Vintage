@@ -12,6 +12,12 @@
 .colorable-3rVGna.primaryDark-2UJt1G
 {background: var(--background-secondary) !important;}
 
+// Tertiary 
+.theme-dark .outer-2JOHae.active-1W_Gl9, .theme-dark .outer-2JOHae.interactive-2zD88a:hover, 
+.theme-dark .focused-2FU0YH {
+  background-color: var(--background-tertiary);
+}
+
 // Fixes
 [class="anchor-1MIwyf anchorUnderlineOnHover-2qPutX"][href="https://support.discord.com"] {
     display: none !important;
@@ -87,4 +93,8 @@
     order: 1 !important;
 }
 
+// // // 
 
+.updateIconForeground-2V_zo4 {
+  fill: var(--alt-color2) !important;
+}
