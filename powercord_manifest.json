@@ -1,8 +1,8 @@
 {
-    "version": "0.0.1PCB",
+    "version": "0.2.0PCB",
     "author": "Leeprky#2063",
     "license": "MIT",
     "theme": "theme.scss",
-    "name": "Underground [BETA]",
-    "description": "A Theme For People That Dont Leave There Room"
+    "name": "Vintage Theme [BETA]",
+    "description": "A Windows XI x Material You Mix With a Rustic Feel"
 }
