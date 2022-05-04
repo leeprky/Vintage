@@ -11,7 +11,7 @@
     // Watermark
     --watermark-Alignment: 50%;
     --watermark-offset: 4%;
-    --watermark-text: "Underground v" var(--version) " -  by " var(--theme-owner) "";
+    --watermark-text: var(--theme) " v" var(--version) " -  by " var(--theme-owner) "";
     --display-version: none !important; 
 
     // User Status Bar
