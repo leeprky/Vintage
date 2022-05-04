@@ -1,7 +1,7 @@
 .container-YkUktl {
-    height: 49px;
+    height: 50px;
     position: relative;
-    bottom: 24px;
+    bottom: 12px;
     margin-left: 10px;
     background-color: var(--background-secondary) !important; 
     border-radius: var(--radius);
@@ -22,6 +22,11 @@
     border-radius: var(--radius);
   }
 
+  
+  .powercord-spotify .container-YkUktl {
+    bottom: 15px;
+  }
+
   .button-12Fmur {
       background-color: transparent;
       border-radius: var(--radius);
@@ -29,14 +34,20 @@
   }
 
   .activityPanel-9icbyU {
-    height: 30px;
+    height: 35px;
     position: relative;
-    bottom: 28px;
+    bottom: 23px;
     background-color: var(--background-secondary);
     border-radius: var(--radius);
     margin-top: 10px;
     margin-left: 10px;
     border-bottom: 0px solid var(--background-modifier-accent) !important;
+  }
+  .body-1FrnJD {
+    margin-top: 2px;
+  }
+  .gameWrapper-2TFy7F {
+    margin-left: 12px;
   }
   
   #app-mount .lookFilled-yCfaCM.colorBrand-I6CyqQ:not(.buttonActive-Uc1jHx) {
@@ -50,7 +61,7 @@
   .container-1zzFcN {
     height: 75px;
     position: relative;
-    bottom: 28px;
+    bottom: 21px;
     margin-top: 5px;
     background-color: var(--background-secondary);
     border-radius: var(--radius);
@@ -149,3 +160,23 @@
   .powercord-spotify .spotify-seek-bar-progress {
     box-shadow: 0px 0px 20px .5px var(--alt-color2);
   }
+
+  /* Spotify Covers Go Wheeeee */
+/* profile */
+.assetsLargeImageSpotify-17ME3M {
+  animation: spin 3s linear infinite;
+  border-radius: 50%
+}
+/* spotify controls pc */
+.spotify-cover {
+  animation: spin 3s linear infinite;
+}
+/* the animation  */
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,5 +1,6 @@
 .scrollableContainer-15eg7h, .base-3bcbY3 .cooldownWrapper-2k1jHK, .base-3bcbY3 .typingDots-1Y8dki {
     margin-right: -10px;
+    margin-bottom: -12px;
     min-height: 50px !important;
     position: relative;
 }
@@ -53,3 +54,26 @@
     margin-top: 0px;
     top: 0.3rem !important;
 }
+
+.messagesWrapper-RpOMA3 {
+    padding: 10px;
+    margin: 10px 5px 32px 16px;
+    border-radius: var(--radius) !important;
+    background-color: var(--background-secondary) !important;
+  }
+  .wrapper-15CKyy, .wrapper-3HVHpV {
+      background-color: var(--background-message) !important;
+      border-radius: var(--radius) !important;
+      margin-top: 10px;
+  }
+  .wrapper-3HVHpV {
+    background-color: var(--background-secondary) !important;
+    border-radius: var(--radius) !important;
+  }
+  .messagesWrapper-RpOMA3 .scrollerBase-_bVAAt {
+      margin-bottom: -25px !important;
+  }
+
+  .mentioned-Tre-dv:before {
+    box-shadow: 0px 0px 20px 1.5px var(--alt-color2);
+  }

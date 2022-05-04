@@ -1,0 +1,17 @@
+@media only screen and (max-width: 940px) {
+    .container-2o3qEW {
+      width: 50px;
+      transition: var(--pop-transiton-time);
+    }
+  }
+
+  @media only screen and (max-width: 1040px) {
+    .sidebar-1tnWFu {
+        width: 75px;
+        transition: var(--pop-transiton-time);
+      }
+      .sidebar-1tnWFu:hover {
+        width: 240px;
+        transition: var(--pop-transiton-time);
+      }
+  }

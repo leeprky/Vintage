@@ -7,7 +7,7 @@
 
 .members-3WRCEx, .members-3WRCEx > div {
     border-radius: var(--radius) !important;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 [class="members-3WRCEx thin-31rlnD scrollerBase-_bVAAt fade-1R6FHN"] {
@@ -27,7 +27,7 @@
 #app-mount .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(1){cy:-8!important;cx:-8.5!important}
 #app-mount .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(2){cy:-8!important;cx:-2.25!important}
 #app-mount .wrapper-1VLyxH .dots-1BwzZQ circle:nth-child(3){cy:-8!important;cx:4!important}
-#app-mount .wrapper-1VLyxH .mask-1FEkla > rect[x="22"]{x:-12;y:5;width:.5px;height:21px}
+#app-mount .wrapper-1VLyxH .mask-1FEkla > rect[x="22"]{x:-14;y:5;width:.5px;height:21px}
 #app-mount .wrapper-1VLyxH .cursorDefault--wfhy5 rect{x:-49;y:-53}
 #app-mount .wrapper-1VLyxH .pointerEvents-9SZWKj[x="14.5"]{fill:rgba(0,0,0,0.5)!important;width:30px;height:30px;x:1;y:1}
 #app-mount .wrapper-1VLyxH > svg > foreignObject img{border-radius:var(--rs-avatar-shape)}
@@ -56,4 +56,7 @@
 
 #app-mount .wrapper-1VLyxH rect[fill="#43b581"], #app-mount .wrapper-1VLyxH rect[fill="rgba(67, 181, 129, 1)"], #app-mount .wrapper-1VLyxH rect[mask*=online] {
     box-shadow: 0px 0px 50px 9.5px var(--rs-online-color) !important;
+}
+.member-2gU6Ar, .clickable-28SzVr:hover .layout-1qmrhw {
+    border-radius: var(--radius);
 }

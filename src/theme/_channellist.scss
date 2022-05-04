@@ -98,7 +98,10 @@
   }
 
   .content-1Tgc42 {
-    margin-left: -35px;
+    margin-left: -20px;
+    margin-top: 2.5px;
+    border-radius: var(--radius);
+    margin-right: 8px;
   }
 
   // // // //
@@ -118,4 +121,89 @@
 
 .iconContainer-21RCa3 {
   transform: scale(0.9);
+}
+
+.wrapper-NhbLHG {
+  margin-left: 10px;
+}
+.container-1Bj0eq {
+  margin-left: 14px;
+}
+#app-mount .containerDefault-YUSmu3 .wrapper-NhbLHG, #app-mount .channel-1Shao0 {
+  border-radius: 0px 12px 12px 0px !important;
+  margin-right: 8px;
+  width: 93% !important;
+}
+.containerDefault-3TQ5YN, .containerDragAfter-1J_-1V, .containerDragBefore-ei4h1m, .containerUserOver-3woq86 {
+  top: -5px !important;
+}
+
+.container-1NXEtd {
+  margin-left: 10px;
+  background-color: var(--background-secondary) !important;
+  margin-bottom: 20px !important;
+  margin-top: 65px;
+  border-radius: var(--radius);
+}
+
+[class="container-1-ERn5 clickable-vvKY2q hasBanner-2IrYih bannerVisible-Vkyg1I communityInfoVisible-3zc5_s"] {
+  margin-left: 10px;
+  background-color: var(--background-secondary) !important;
+  margin-bottom: 30px !important;
+  margin-top: 0px;
+  border-radius: var(--radius);
+}
+[class="container-1-ERn5 clickable-vvKY2q selected-1GtAC5 hasBanner-2IrYih bannerVisible-Vkyg1I communityInfoVisible-3zc5_s"] {
+  margin-left: 10px;
+  background-color: var(--background-secondary) !important;
+  margin-bottom: 30px !important;
+  margin-top: 0px;
+  border-radius: var(--radius);
+}
+.animatedContainer-2laTjx, .bannerImage-ubW8K- {
+  top: -55px !important;
+  border-radius: var(--radius);
+  height: 45px;
+  margin-left: 0px;
+  width: 230px;
+  z-index: 10 !important;
+  opacity: 0.1;
+}
+[class="container-1-ERn5 clickable-vvKY2q hasBanner-2IrYih bannerVisible-Vkyg1I communityInfoVisible-3zc5_s"] {
+  margin: 0 !important;
+}
+.bannerVisible-Vkyg1I .headerContent-2SNbie {
+  z-index: 99 !important;
+  margin-top: -10px;
+}
+
+.header-3OsQeK {
+  border-radius: var(--radius);
+  bottom: 10px;
+  background-color: var(--background-secondary) !important;
+  width: 230px;
+  position: absolute;
+}
+.header-3OsQeK:hover {
+  background-color: var(--background-modifier-hover) !important;
+}
+[style="height: 84px;"]  {
+  display: none;
+}
+.communityInfoVisible-3zc5_s .communityInfoContainer-1dMVpU {
+  margin-top: -20px;
+  margin-left: 115px;
+}
+
+.sidebar-1tnWFu {
+  background-color: var(--background-primary) !important;
+}
+
+
+
+.privateChannelRecipientsInviteButtonIcon-1ObKXK {
+  background-color: transparent;
+  padding: 0;
+  height: 20px;
+  margin-top: -7px;
 }

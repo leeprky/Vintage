@@ -5,6 +5,10 @@
 
 :root 
 {
+
+    // Pop Transition Time
+    --pop-transiton-time: ease-in-out 0.4s;
+
     // Scrollbars
     --scrollbar-display: none;
 
@@ -83,10 +87,10 @@
     --text-danger: hsl(359,calc(var(--saturation-factor, 1)*82%),73.9%);
     --text-brand: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
 
-    --interactive-normal: #fddcce;
-    --interactive-hover: #ffc9b3;
+    --interactive-normal: #fddccefb;
+    --interactive-hover: #ffc9b3ec;
     --interactive-active: #ffece3;
-    --interactive-muted: #ffbfa4;
+    --interactive-muted: #ffbfa47c;
 
     --toast-background: var(--background-floating);
     --toast-header: var(--background-tertiary);
@@ -105,7 +109,7 @@
     --background-mobile-primary: #201b18;
     --background-mobile-secondary: #3b2d2c;
 
-    --background-modifier-hover: rgba(var(--main-colour), 0.3);
+    --background-modifier-hover: rgba(var(--main-colour), 0.1);
     --background-modifier-active: rgba(var(--main-colour), 0.3);
     --background-modifier-selected: rgba(var(--main-colour), 0.5);
     --background-modifier-accent: rgba(var(--main-colour), 0.2);
@@ -218,7 +222,7 @@
 
     --background-mentioned: rgba(var(--main-colour), 0.2);
     --background-mentioned-hover: rgba(var(--main-colour), 0.3);
-    --background-message: rgba(var(--main-colour), 0.1);
+    --background-message: rgba(var(--main-colour), 0.05);
     --background-message-hover: rgba(var(--main-colour), 0.08);
 
     --background-message-automod: hsla(359,calc(var(--saturation-factor, 1)*82.6%),59.4%,0.05);
