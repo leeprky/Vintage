@@ -1,0 +1,16 @@
+// Splash
+#splash {
+    -webkit-app-region: drag;
+    background: #126dff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3000;
+    transform: translateZ(0);
+    padding-bottom: 10px;
+}

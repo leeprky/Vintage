@@ -1,8 +1,9 @@
 {
-    "version": "0.2.0PCB",
+    "version": "0.8.0",
     "author": "Leeprky#2063",
     "license": "MIT",
     "theme": "theme.scss",
+    "splashTheme": "splash.scss",
     "name": "Vintage Theme [BETA]",
     "description": "A Windows XI x Material You Mix With a Rustic Feel"
 }
