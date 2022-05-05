@@ -28,10 +28,10 @@
 }
 .message-2CShn3 {
     padding: var(--padding);
-    background-color: var(--background-message);
     margin: 5px;
     border-radius: var(--radius);
-    margin-left: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 .message-2CShn3:hover, .compact-2Nkcau.wrapper-30-Nkg, .cozy-VmLDNB.wrapper-30-Nkg:hover {
     background-color: var(--background-message-hover) !important;
@@ -54,6 +54,15 @@
     margin-top: 0px;
     top: 0.3rem !important;
 }
+.searchResultsWrap-5RVOkx {
+    padding: 10px;
+    margin: 10px 16px 12px 8px;
+    border-radius: var(--radius) !important;
+    background-color: var(--background-secondary) !important;
+  }
+  .searchHeader-1r_ZSh {
+      border-radius: var(--radius);
+  }
 
 .messagesWrapper-RpOMA3 {
     padding: 10px;
@@ -76,4 +85,13 @@
 
   .mentioned-Tre-dv:before {
     box-shadow: 0px 0px 20px 1.5px var(--alt-color2);
+  }
+
+[class="cooldownWrapper-2k1jHK"] {
+      bottom: 70px;
+      position: relative;
+  }
+  .content-3spvdd {
+      background: transparent !important;
+      padding: 5px !important;
   }

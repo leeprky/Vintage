@@ -1,11 +1,10 @@
 :root {
-    --style-name: "Default" !important;
+    --style-name: "Default Style" !important;
     --style-creator: "Leeprky#2063";
   }
 
 :root 
 {
-
     // Pop Transition Time
     --pop-transiton-time: ease-in-out 0.4s;
 
@@ -14,8 +13,8 @@
 
     // Watermark
     --watermark-Alignment: 50%;
-    --watermark-offset: 4%;
-    --watermark-text: var(--theme) " v" var(--version) " -  by " var(--theme-owner) "";
+    --watermark-offset: 7%; // Higher = More Left
+    --watermark-text: "" var(--theme) " v" var(--version) " - (" var(--style-name) ") -  by " var(--theme-owner) "";
     --display-version: none !important; 
 
     // User Status Bar
@@ -44,8 +43,8 @@
     --win-min-border-radius: 0px 0px 0px 12px;
     
     // Global Border Radius
-    --radius: 12px !important;
-    --avatar-radius: 20% !important;
+    --radius: 6px !important; // 6 Is Squareish | 12 Is Bubbly
+    --avatar-radius: 12% !important; // 12% is square | 24% is bubbly
 
     // Global Padding
     --padding: 4px;
