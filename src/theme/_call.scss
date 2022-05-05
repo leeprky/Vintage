@@ -11,3 +11,45 @@
     background-image: -webkit-gradient(linear,left top,left bottom,from(var(--background-primary)),color-stop(19%,rgb(32, 27, 24)),color-stop(34%,rgb(32, 27, 24)),color-stop(47%,rgb(32, 27, 24)),color-stop(56.5%,rgb(32, 27, 24)),color-stop(65%,rgb(32, 27, 24)),color-stop(73%,rgb(32, 27, 24)),color-stop(80.2%,rgb(32, 27, 24)),color-stop(86.1%,rgb(32, 27, 24)),color-stop(91%,rgb(32, 27, 24)),color-stop(95.2%,rgb(32, 27, 24)),color-stop(98.2%,rgb(32, 27, 24)),to(transparent));
     background-image: linear-gradient(var(--background-primary),rgba(32, 27, 24, 0.925) 19%,rgba(32, 27, 24, 0.712) 34%,rgba(32, 27, 24, 0.658) 47%,rgba(32, 27, 24, 0.452) 56.5%,rgba(32, 27, 24, 0.336) 65%,rgba(32, 27, 24, 0.212) 73%,rgba(32, 27, 24, 0.151) 80.2%,rgba(32, 27, 24, 0.062) 86.1%,rgba(32, 27, 24, 0.0) 90.1, rgba(32, 27, 24, 0.027) 27, 24) 95.2%,rgb(32, 27, 24) 98.2%,transparent;
 }
+
+.callContainer-HtHELf {
+    padding: 5px;
+    margin: 8px 16px 5px 16px;
+    border-radius: var(--radius) !important;
+    background-color: var(--background-secondary) !important;
+}
+
+.wrapper-1gVUIN.minimum-fXpVNc {
+    background-color: var(--background-primary);
+}
+
+.root-22AK9z {
+    padding-top: 10px;
+}
+.quickSelect-384d3G {
+    padding-top: 10px;
+}
+
+// Popup
+// Popup
+@keyframes call-glow {
+    50% {
+      box-shadow: 0px 0px 10px 5px var(--alt-color2);
+    }
+  }
+  
+  .root-1e2tfc {
+    border-radius: var(--radius);
+    padding: 10px;
+    transform: scale(1.3) !important;
+    background-position: center;
+    -webkit-box-shadow: var(--elevation-high);
+    animation: call-glow 2s infinite;
+    box-shadow: 0px 0px 10px 5px var(--rs-online-color);
+    min-width: 232px;
+    position: relative;
+  }
+  [aria-label="Join Call"] .lineHeightReset-1WxXXk .controlIcon-10O-4h {
+      left: -4px !important;
+      position: relative;
+  }

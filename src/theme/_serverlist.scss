@@ -1,3 +1,4 @@
+// List
 .guilds-2JjMmN {
     width: 90px;
 }
@@ -29,6 +30,22 @@ div[style="opacity: 1; height: 56px; transform: scale(1);"] {
       fill: #F62B30;
 }
 
-  .childWrapper-1j_1ub:hover, .wrapper-3kah-n .childWrapper-1j_1ub:hover {
-      background-color: inherit !important;
+  .childWrapper-1j_1ub:hover, .wrapper-3kah-n[aria-label=" Favourites"] .childWrapper-1j_1ub:hover {
+      background-color: #f62b2e44 !important;
+      backdrop-filter: blur(2px);
+      
+}
+
+// Items 
+.item-2LIpTv {
+    border-radius: var(--radius);
+    width: 3px;
+    margin-left: 1px;
+    min-height: 15px;
+    transform: var(--pop-transition);
+}
+
+div[style="opacity: 1; height: 56px; transform: scale(1);"] {
+    margin-bottom: 2px;
+    top: 0px;
 }

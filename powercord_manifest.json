@@ -1,9 +1,10 @@
 {
+    "name": "Vintage Theme [BETA]",
     "version": "0.8.0",
     "author": "Leeprky#2063",
+    "description": "A Windows XI x Material You Mix With a Rustic Feel",
     "license": "MIT",
     "theme": "theme.scss",
-    "splashTheme": "splash.scss",
-    "name": "Vintage Theme [BETA]",
-    "description": "A Windows XI x Material You Mix With a Rustic Feel"
+    "splashTheme": "module/splash/_splash.scss",
+    "invite": "discord.gg/Ff3rqAYB89"
 }

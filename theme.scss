@@ -10,5 +10,78 @@
 //    Version: Powercord (https://https://powercord.dev/)
 
 // Important Imports
-@use "./src/main";
-@use "./src/version";
+@use "./main";
+
+//  __    _           _           _        __    __          __          __    __   
+//  /     / \   |     / \   | |   |_)      (_    /     |_|   |_    |V|   |_    (_    
+//  \__   \_/   |__   \_/   |_|   | \      __)   \__   | |   |__   | |   |__   __)   
+
+// Default Scheme - By Leeprky
+@use "./module/skin/default";
+
+//  __          __   ___    _          ___    __    __
+//  /     | |   (_     |    / \   |V|    |    (_    |_ 
+//  \__   |_|   __)    |    \_/   | |   _|_   __)   |__
+
+// MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar
+
+@use "./src/optional/macos";
+:root {
+    --macos-close-bg-dark: #e92a2a25;
+    --macos-close-bg-light: #380d074b;
+    --macos-close-bg-hover: #e92a2a;
+
+    --macos-min-bg-dark: #ebdd1721;
+    --macos-min-bg-light: #3738074b;
+    --macos-min-bg-hover: #f7bc1b;
+
+    --macos-max-bg-dark: #12db3323;
+    --macos-max-bg-light: #07380f4b;
+    --macos-max-bg-hover: #12db33;
+}
+/* */
+
+:root {
+// Global Rounding
+    --radius: 10px !important; // 6 Is Squareish | 12 Is Bubbly
+    --avatar-radius: 12% !important; // 12% is square | 24% is bubbly
+
+// Pop Out Buttons
+    --pop-transiton-time: ease-in-out 0.4s;
+
+// Scrollbars
+    --scrollbar-display: none;
+
+    // Watermark
+    --watermark-Alignment: 50%;
+    --watermark-offset: 7%; // Higher = More Left
+    --watermark-text: "" var(--theme) " v" var(--version) " - (" var(--style-name) ") -  by " var(--theme-owner) "";
+    --display-version: none !important; 
+
+    // User Status Bar
+    --rs-small-spacing:0;
+    --rs-large-spacing:0;
+    --rs-width:2px;
+    --rs-avatar-shape:var(--avatar-radius);
+    --rs-online-color:rgb(121, 255, 139);
+    --rs-idle-color:#ffcc74;
+    --rs-dnd-color:#ff7979;
+    --rs-offline-color:#fff9f9;
+    --rs-streaming-color:#b68bff;
+    --rs-invisible-color:#ffe9e9;
+    
+    // Windows Buttons
+    --win-buttons-width: 42px;
+
+    --win-close-background-colour: #b9534681;
+    --win-close-text-colour: #ffefec;
+
+    --win-max-background-colour: #c5a74e79;
+    --win-max-text-colour: #ffefc1;
+
+    --win-min-background-colour: #60a86073;
+    --win-min-text-colour: #beffbe;
+    --win-min-border-radius: 0px 0px 0px 12px;
+}
+
+
