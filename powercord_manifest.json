@@ -5,6 +5,6 @@
     "description": "A Windows XI x Material You Mix With a Rustic Feel",
     "license": "MIT",
     "theme": "clients/powercord/powercord.scss",
-    "splashTheme": "module/splash/_splash.scss",
+    "splashTheme": "modules/splash/_splash.scss",
     "invite": "discord.gg/Ff3rqAYB89"
 }
