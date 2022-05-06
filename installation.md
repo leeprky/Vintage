@@ -11,7 +11,7 @@ cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/vintag
 
 ### [For Vizality](https://vizality.com/)
 
-- **Step 1:** Open Your **Command Prompt**
+- **Step 1:** Open Your **Command Prompt** (Make Sure In C:\Users\name>...)
 - **Step 2:** Copy & Paste The Following Code:
 
 ```batch
@@ -27,6 +27,11 @@ cd vizality/addons/themes && git clone https://github.com/leeprky/vintage
  **Step 2:** Click on the `vintage.theme.css` and save as **CSS**.
 
  **Step 3:** Paste file inside your **betterdiscord/themes** Folder.
+
+ ### [For Goosemod](https://goosemod.com/)
+
+- **Step 1:** Press The Home Button & Open Themes
+- **Step 2:** Search **Vintage** & Click Install
 
 ### [For Browser & Web](https://github.com/leeprky/vintage/tree/main/clients/web)
 
