@@ -1,15 +1,10 @@
 {
+    "name": "Vintage Theme [BETA]",
     "version": "0.8.0",
     "author": "Leeprky#2063",
+    "description": "A Windows XI x Material You Mix With a Rustic Feel",
     "license": "MIT",
-<<<<<<< HEAD
-    "theme": "client/powercord/powercord.scss",
+    "theme": "theme.scss",
     "splashTheme": "module/splash/_splash.scss",
     "invite": "discord.gg/Ff3rqAYB89"
-=======
-    "theme": "theme.scss",
-    "splashTheme": "splash.scss",
-    "name": "Vintage Theme [BETA]",
-    "description": "A Windows XI x Material You Mix With a Rustic Feel"
->>>>>>> parent of 6722b44 (0.8.0)
 }
