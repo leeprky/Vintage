@@ -4,10 +4,10 @@
 //       ──▀▄▀─ ▄█▄ ░█──▀█ ─░█── ░█─░█ ░█▄▄█ ░█▄▄▄
 
 //                     .--------.
-//                     | v0.2.0 |
+//                     | v0.8.0 |
 //                     '--------' 
 //          Last Updated: 02/05/2022 17:39 (UK)
-//        Version: Vizality (https://vizality.com/)
+//    Version: Vizality (https://vizality.com/)
 
 // Main
 @use "../../main.scss";
@@ -25,19 +25,19 @@
 // // // // // // //
 
 // Vanilla Skin - By Discord
-// @use "../../modules/skin/vanilla";
+// @use "../../modules/skin/vanilla.css";
 
 // Default Skin - By Leeprky#2063
-@use "../../modules/skin/default.scss";
+@use "../../modules/skin/default.css";
 
 // Lavender Skin - By Lavender
-// @use "../../modules/skin/lavender";
+// @use "../../modules/skin/lavender.css";
 
 // Zelk Skin - By schnensch#4231
-// @use "../../modules/skin/zelk";
+// @use "../../modules/skin/zelk.css";
 
 // Ovel Skin - By Leeprky#2063
-// @use "../../modules/skin/ovel";
+// @use "../../modules/skin/ovel.css";
 
 //  __          __   ___    _          ___    __    __
 //  /     | |   (_     |    / \   |V|    |    (_    |_ 
@@ -46,7 +46,7 @@
 
 // MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar
 
-@use "../../src/optional/macos";
+@use "../../src/optional/macos.scss";
 :root {
     --macos-close-bg-dark: #e92a2a25;
     --macos-close-bg-light: #380d074b;
