@@ -1,0 +1,21 @@
+@keyframes call-glow {
+    50% {
+      box-shadow: 0px 0px 10px 5px var(--alt-color2);
+    }
+  }
+  
+  .root-1e2tfc {
+    border-radius: var(--radius);
+    padding: 10px;
+    transform: scale(1.3) !important;
+    background-position: center;
+    -webkit-box-shadow: var(--elevation-high);
+    animation: call-glow 2s infinite;
+    box-shadow: 0px 0px 10px 5px var(--rs-online-color);
+    min-width: 232px;
+    position: relative;
+  }
+  [aria-label="Join Call"] .lineHeightReset-1WxXXk .controlIcon-10O-4h {
+      left: -4px !important;
+      position: relative;
+  }

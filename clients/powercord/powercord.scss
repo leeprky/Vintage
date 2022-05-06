@@ -1,0 +1,108 @@
+//
+//       ░█──░█ ▀█▀ ░█▄─░█ ▀▀█▀▀ ─█▀▀█ ░█▀▀█ ░█▀▀▀ 
+//       ─░█░█─ ░█─ ░█░█░█ ─░█── ░█▄▄█ ░█─▄▄ ░█▀▀▀ 
+//       ──▀▄▀─ ▄█▄ ░█──▀█ ─░█── ░█─░█ ░█▄▄█ ░█▄▄▄
+
+//                     .--------.
+//                     | v0.2.0 |
+//                     '--------' 
+//          Last Updated: 02/05/2022 17:39 (UK)
+//    Version: Powercord (https://https://powercord.dev/)
+
+// Main
+@use "../../main.scss";
+
+// ___        _  __       ___        _  _        ___ 
+// / __|      | |/ /      |_ _|      | \| |      / __|
+// \__ \      |   <        | |       | .  |      \__ \
+// |___/      |_|\_\      |___|      |_|\_|      |___/
+
+// When Changing Skins Make Sure To Un-Comment (Green) The Previous Skin.
+
+// If You Wish To Edit A Theme OR Create Your Own | Remove '//' At Start Of Line Below Then Open That File & Edit As You Like
+// @use "./module/skin/custom";
+
+// // // // // // //
+
+// Vanilla Skin - By Discord
+// @use "../../modules/skin/vanilla";
+
+// Default Skin - By Leeprky#2063
+@use "../../modules/skin/default";
+
+// Lavender Skin - By Lavender
+// @use "../../modules/skin/lavender";
+
+// Zelk Skin - By schnensch#4231
+// @use "../../modules/skin/zelk";
+
+// Ovel Skin - By Leeprky#2063
+// @use "../../modules/skin/ovel";
+
+//  __          __   ___    _          ___    __    __
+//  /     | |   (_     |    / \   |V|    |    (_    |_ 
+//  \__   |_|   __)    |    \_/   | |   _|_   __)   |__
+
+
+// MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar
+
+@use "../../src/optional/macos";
+:root {
+    --macos-close-bg-dark: #e92a2a25;
+    --macos-close-bg-light: #380d074b;
+    --macos-close-bg-hover: #e92a2a;
+
+    --macos-min-bg-dark: #ebdd1721;
+    --macos-min-bg-light: #3738074b;
+    --macos-min-bg-hover: #f7bc1b;
+
+    --macos-max-bg-dark: #12db3323;
+    --macos-max-bg-light: #07380f4b;
+    --macos-max-bg-hover: #12db33;
+}
+/* */
+
+:root {
+// Global Rounding
+    --radius: 10px !important; // 6 Is Squareish | 12 Is Bubbly
+    --avatar-radius: 12% !important; // 12% is square | 24% is bubbly
+
+// Pop Out Buttons
+    --pop-transiton-time: ease-in-out 0.4s;
+
+// Scrollbar Display
+    --scrollbar-display: none;
+
+// Watermark Title
+    --watermark-Alignment: 50%; 
+    --watermark-offset: 4%; // (4%) Higher = More Left
+    --watermark-text: "" var(--theme) " v" var(--version) " - (" var(--style-name) ") -  by " var(--style-creator) ""; 
+
+// User Status Indicator's
+    --rs-small-spacing:0;
+    --rs-large-spacing:0;
+    --rs-width:2px;
+    --rs-avatar-shape:var(--avatar-radius);
+    --rs-online-color:#79ff8b;
+    --rs-idle-color:#ffcc74;
+    --rs-dnd-color:#ff7979;
+    --rs-offline-color:#fff9f9;
+    --rs-streaming-color:#b68bff;
+    --rs-invisible-color:#ffe9e9;
+    
+// Windows Buttons | Requires MacOS Buttons To Be Commented Out - Line 27
+    --win-buttons-width: 42px;
+
+    --win-close-background-colour: #b9534681;
+    --win-close-text-colour: #ffefec;
+
+    --win-max-background-colour: #c5a74e79;
+    --win-max-text-colour: #ffefc1;
+
+    --win-min-background-colour: #60a86073;
+    --win-min-text-colour: #beffbe;
+    --win-min-border-radius: 0px 0px 0px 12px;
+}
+
+
+

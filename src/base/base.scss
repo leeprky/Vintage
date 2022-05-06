@@ -9,30 +9,8 @@
 // Win Bar
 @use "./winbar";
 
-// Server List
-@use "./serverlist";
-
 // Titlebar
 @use "./titlebar";
-
-// Channel List
-@use "./channellist";
-@use "./channellist-panel";
-
-// Member List
-@use "./memberlist";
-
-// Chat
-@use "./chat";
-
-// Modals
-@use "./modals";
-
-// Call View
-@use "./call";
-
-// Settings
-@use "./settings";
 
 // CSS Snippits From #css-snippits In Powercord's Discord Server
 @use "./css-snippits";
