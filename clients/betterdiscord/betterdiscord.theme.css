@@ -6,10 +6,10 @@
 */
 /*
                      .--------.
-                     | v0.2.0 |
+                     | v0.8.0 |
                      '--------' 
           Last Updated: 02/05/2022 17:39 (UK)
-    Version: Powercord (https://https://powercord.dev/)
+Version: BetterDiscord (https://https://betterdiscord.app)
 */
 
 /* Main */
@@ -33,7 +33,7 @@
 /* @use "../../modules/skin/vanilla";
 
 /* Default Skin - By Leeprky#2063 */
-@import "https://github.com/leeprky/vintage/modules/skin/_default.scss";
+@import url("https://leeprky.github.io/vintage/modules/skin/default.scss");
 
 /* Lavender Skin - By Lavender */
 /* @use "../../modules/skin/lavender";
@@ -44,14 +44,16 @@
 /* Ovel Skin - By Leeprky#2063 */
 /* @use "../../modules/skin/ovel";
 
-//  __          __   ___    _          ___    __    __
-//  /     | |   (_     |    / \   |V|    |    (_    |_ 
-//  \__   |_|   __)    |    \_/   | |   _|_   __)   |__
+/*
+  __          __   ___    _          ___    __    __
+  /     | |   (_     |    / \   |V|    |    (_    |_ 
+  \__   |_|   __)    |    \_/   | |   _|_   __)   |__
+  */
 
 
-// MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar
+/* MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar */
 
-@use "../../src/optional/macos";
+@import "https://leeprky.github.io/vintage/src/optional/macos.scss";
 :root {
     --macos-close-bg-dark: #e92a2a25;
     --macos-close-bg-light: #380d074b;
@@ -68,22 +70,22 @@
 /* */
 
 :root {
-// Global Rounding
-    --radius: 10px !important; // 6 Is Squareish | 12 Is Bubbly
-    --avatar-radius: 12% !important; // 12% is square | 24% is bubbly
+/* Global Rounding */
+    --radius: 10px !important; /* 6 Is Squareish | 12 Is Bubbly */
+    --avatar-radius: 12% !important; /* 12% is square | 24% is bubbly */
 
-// Pop Out Buttons
+/* Pop Out Buttons */
     --pop-transiton-time: ease-in-out 0.4s;
 
-// Scrollbar Display
+/* Scrollbar Display */
     --scrollbar-display: none;
 
-// Watermark Title
+/* Watermark Title */
     --watermark-Alignment: 50%; 
-    --watermark-offset: 4%; // (4%) Higher = More Left
+    --watermark-offset: 4%; /* (4%) Higher = More Left */
     --watermark-text: "" var(--theme) " v" var(--version) " - (" var(--style-name) ") -  by " var(--style-creator) ""; 
 
-// User Status Indicator's
+/* User Status Indicator's */
     --rs-small-spacing:0;
     --rs-large-spacing:0;
     --rs-width:2px;
@@ -95,7 +97,7 @@
     --rs-streaming-color:#b68bff;
     --rs-invisible-color:#ffe9e9;
     
-// Windows Buttons | Requires MacOS Buttons To Be Commented Out - Line 27
+/* Windows Buttons | Requires MacOS Buttons To Be Commented Out - Line 27 */
     --win-buttons-width: 42px;
 
     --win-close-background-colour: #b9534681;

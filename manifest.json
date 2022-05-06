@@ -1,10 +1,11 @@
 {
+    "icon": "assets/duck.png",
     "name": "Vintage Theme [BETA]",
     "version": "0.8.0",
     "author": "Leeprky#2063",
     "description": "A Windows XI x Material You Mix With a Rustic Feel",
     "license": "MIT",
-    "theme": "clients/powercord/powercord.scss",
+    "theme": "clients/vizality/vizality.scss",
     "splashTheme": "modules/splash/_splash.scss",
     "invite": "discord.gg/Ff3rqAYB89"
 }
