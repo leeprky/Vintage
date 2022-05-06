@@ -1,7 +1,5 @@
 ![picture](./assets/vizality-theme-banner.png)
 
-A Windows XI x Material You Mix With a Rustic Feel For [discord](https://discord.com/), [powercord](https://powercord.dev), [betterdiscord](https://betterdiscord.app/) & [stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en-GB)
+A Windows XI x Material You Mix With a Rustic Feel For [Powercord](https://powercord.dev), [Vizality](https://vizality.com/), [Betterdiscord](https://betterdiscord.app/) & [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en-GB)
 
-| [(Un)Installation Guide](https://github.com/leeprky/vintage/blob/main/installation.md)
-
-| ------------------------------------------------------------ | ------------------------------------------------------------ | -------- |
+[(Un)Installation Guide](https://github.com/leeprky/vintage/blob/main/installation.md)
