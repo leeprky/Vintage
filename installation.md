@@ -9,6 +9,8 @@
 cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/vintage
 ```
 
+- **Step 3:** Fully close & re-open [DiscordCanary](https://discordapp.com/api/download/canary?platform=win)
+
 ### [For Vizality](https://vizality.com/)
 
 - **Step 1:** Open Your **Command Prompt** (Make Sure In C:\Users\name>...)
@@ -18,15 +20,13 @@ cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/vintag
 cd vizality/addons/themes && git clone https://github.com/leeprky/vintage
 ```
 
-- **Step 3:** Fully close & re-open [DiscordCanary](https://discordapp.com/api/download/canary?platform=win)
-
 ### [For BetterDiscord](https://betterdiscord.app/)
 
  **Step 1:** Go to [Latest Release](https://github.com/leeprky/vintage/releases) 
 
- **Step 2:** Click on the `vintage.theme.css` and save as **CSS**.
+ **Step 2:** Click on the `betterdiscord-vintage-080.theme.css` and save.
 
- **Step 3:** Paste file inside your **betterdiscord/themes** Folder.
+ **Step 3:** Move file inside your **AppData\Roaming\BetterDiscord\themes** Folder.
 
  ### [For Goosemod](https://goosemod.com/)
 
