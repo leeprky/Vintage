@@ -1,0 +1,35 @@
+:root {
+    --spotify-in-discord__end: 100%;
+    --spotify-in-discord__player-album-border-radius: 50%;
+    --spotify-in-discord__player-album-spin-speed: 20;
+    --spotify-in-discord__progress: 50%;
+    --spotify-in-discord__duration: 10s;
+    --spotify-in-discord__spotify-brand-color: var(--alt-color2) !important;
+}
+
+.spotify-in-discord-player {
+    margin-bottom: 8px !important;
+}
+
+.spotify-in-discord-player-seek-bar-progress {
+    animation-direction: normal;
+    animation-duration: var(--spotify-in-discord__duration);
+    animation-fill-mode: forwards;
+    animation-name: seekbar-progress-movement;
+    animation-timing-function: linear;
+    background-color: var(--spotify-in-discord__spotify-brand-color);
+    box-shadow: 0px 0px 20px .5px var(--alt-color2);
+    display: block;
+    height: 100%;
+    margin-left: 68px;
+    max-width: 65% !important;
+    margin-top: -18px;
+}
+
+.spotify-in-discord-player-seek-bar {
+    display: none;
+}
+
+[class="spotify-in-discord-player-album-cover avatar-1EWyVD"] {
+    animation: spotify-spin 3s linear infinite;
+  }
