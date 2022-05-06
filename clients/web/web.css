@@ -1,5 +1,3 @@
-@import url("https://leeprky.github.io/vintage/dist/main.css");
-
 /*
 
        ░█──░█ ▀█▀ ░█▄─░█ ▀▀█▀▀ ─█▀▀█ ░█▀▀█ ░█▀▀▀ 
@@ -11,11 +9,11 @@
                      | v0.8.0 |
                      '--------' 
           Last Updated: 02/05/2022 17:39 (UK)
-                   Version: Web
+                  Version: Stylus
 */
 
 /* Main */
-@import url("https://leeprky.github.io/vintage/dist/main.css");
+@import url("https://leeprky.github.io/vintage/clients/web/web.css");
 
 /*
  ___        _  __       ___        _  _        ___ 
@@ -51,25 +49,6 @@
   /     | |   (_     |    / \   |V|    |    (_    |_ 
   \__   |_|   __)    |    \_/   | |   _|_   __)   |__
   */
-
-
-/* MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar */
-
-@import "https://leeprky.github.io/vintage/src/optional/macos.scss";
-:root {
-    --macos-close-bg-dark: #e92a2a25;
-    --macos-close-bg-light: #380d074b;
-    --macos-close-bg-hover: #e92a2a;
-
-    --macos-min-bg-dark: #ebdd1721;
-    --macos-min-bg-light: #3738074b;
-    --macos-min-bg-hover: #f7bc1b;
-
-    --macos-max-bg-dark: #12db3323;
-    --macos-max-bg-light: #07380f4b;
-    --macos-max-bg-hover: #12db33;
-}
-/* */
 
 :root {
     --version:"0.8.0WEB" !important;
