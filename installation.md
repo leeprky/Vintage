@@ -42,6 +42,6 @@ cd vizality/addons/themes && git clone https://github.com/leeprky/vintage
 
    **Step 1:** Install [**Stylus**](https://add0n.com/stylus.html) from [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 
-   **Step 2:** After installing, head over to [this link](https://lavender-discord.github.io/Lavender/clients/lavender.user.css).
+   **Step 2:** After installing, head over to [this link](https://userstyles.world/style/4556/vintage-theme).
 
    **Step 3:** Press the "**Install Style**" button.
