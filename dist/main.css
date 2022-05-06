@@ -1591,17 +1591,17 @@ svg.slider-32CRPX svg {
 /* Spotify Covers Go Wheeeee */
 /* profile */
 .assetsLargeImageSpotify-17ME3M {
-  animation: spin 3s linear infinite;
+  animation: spotify-spin 3s linear infinite;
   border-radius: 50%;
 }
 
 /* spotify controls pc */
 .spotify-cover {
-  animation: spin 3s linear infinite;
+  animation: spotify-spin 3s linear infinite;
 }
 
 /* the animation  */
-@keyframes spin {
+@keyframes spotify-spin {
   from {
     transform: rotate(0);
   }
@@ -1837,6 +1837,12 @@ div[style="opacity: 1; height: 56px; transform: scale(1);"] {
   margin-bottom: -12px;
   min-height: 50px !important;
   position: relative;
+}
+
+.wrapper-1HIH0j {
+  background-color: var(--background-tertiary) !important;
+  margin-top: 10px;
+  border-radius: var(--radius);
 }
 
 .form-3gdLxP {
@@ -6639,9 +6645,54 @@ a[href*="https://support.discord.com"]:after {
 }
 
 :root {
+  --spotify-in-discord__end: 100%;
+  --spotify-in-discord__player-album-border-radius: 50%;
+  --spotify-in-discord__player-album-spin-speed: 20;
+  --spotify-in-discord__progress: 50%;
+  --spotify-in-discord__duration: 10s;
+  --spotify-in-discord__spotify-brand-color: var(--alt-color2) !important;
+}
+
+.spotify-in-discord-player {
+  margin-bottom: 8px !important;
+}
+
+.spotify-in-discord-player-seek-bar-progress {
+  animation-direction: normal;
+  animation-duration: var(--spotify-in-discord__duration);
+  animation-fill-mode: forwards;
+  animation-name: seekbar-progress-movement;
+  animation-timing-function: linear;
+  background-color: var(--spotify-in-discord__spotify-brand-color);
+  box-shadow: 0px 0px 20px 0.5px var(--alt-color2);
+  display: block;
+  height: 100%;
+  margin-left: 68px;
+  max-width: 65% !important;
+  margin-top: -18px;
+}
+
+.spotify-in-discord-player-seek-bar {
+  display: none;
+}
+
+[class="spotify-in-discord-player-album-cover avatar-1EWyVD"] {
+  animation: spotify-spin 3s linear infinite;
+}
+
+.inviteSplash-2nkLRX {
+  position: relative;
+  background-color: var(--background-modifier-accent);
+  border-radius: 4px 4px 0 0;
+  height: 84px;
+  margin: -16px -16px 16px;
+  overflow: hidden;
+}
+
+:root {
   --outdated_underground-080: none !important;
-  --version:"0.8.0PC" !important;
-  --build:"080PC" !important;
+  --version:"0.8.0";
+  --build:"080";
   --version-display: flex;
   --theme-owner: "Leeprky";
 }
