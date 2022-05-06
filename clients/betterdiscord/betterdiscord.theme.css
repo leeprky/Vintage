@@ -83,7 +83,7 @@ Version: BetterDiscord (https://https://betterdiscord.app)
 /* */
 
 :root {
-    --version:"0.8.0BD" !important;
+    --version: "0.8.0BD" !important;
     --build:"080BD" !important;
 
 /* Global Rounding */
