@@ -1,14 +1,28 @@
 :root {
-    --style-name: "Default Skin" !important;
-    --style-creator: "Leeprky#2063";
+    --style-name: "Zelk Skin" !important;
+    --style-creator: "schnensch#4231";
+}
+
+:root {
+    --macos-close-bg-dark: #e92a2a25;
+    --macos-close-bg-light: #380d074b;
+    --macos-close-bg-hover: #ff9999 !important;
+
+    --macos-min-bg-dark: #ebdd1721;
+    --macos-min-bg-light: #3738074b;
+    --macos-min-bg-hover: #ffde83 !important;
+
+    --macos-max-bg-dark: #12db3323;
+    --macos-max-bg-light: #07380f4b;
+    --macos-max-bg-hover: #92ffa4 !important;
 }
 
 :root 
 {
     // Blurple Colour
-    --main-colour: 204, 127, 108 !important;
-    --main-colour2: #cc7f6c !important;
-    --main-colour3: 12 !important;
+    --main-colour: 155, 188, 205 !important;
+    --main-colour2: #9bbccd !important;
+    --main-colour3: 200 !important;
 
     /* Channel Unreads */
     --indicator-connected: 60, 150, 60;
@@ -29,11 +43,11 @@
 }
 
 .theme-dark {
-    --header-primary: #fddcce;
-    --header-secondary: #fcc5ad;
+    --header-primary: #ceeafd;
+    --header-secondary: #ade3fc;
 
-    --text-normal: #fddfd3;
-    --text-muted: #f8b79e;
+    --text-normal: #d3f0fd;
+    --text-muted: #9ee6f8;
     --text-link: var(--main-colour2);
     --text-link-low-saturation: hsl(12,calc(var(--saturation-factor, 1)*100%),52.9%);
 
@@ -42,10 +56,10 @@
     --text-danger: hsl(359,calc(var(--saturation-factor, 1)*82%),73.9%);
     --text-brand: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
 
-    --interactive-normal: #fddccefb;
-    --interactive-hover: #ffc9b3ec;
-    --interactive-active: #ffece3;
-    --interactive-muted: #ffbfa47c;
+    --interactive-normal: #cee8fdfb;
+    --interactive-hover: #b3e7ffec;
+    --interactive-active: #e3f6ff;
+    --interactive-muted: #a4f1ff7c;
 
     --toast-background: var(--background-floating);
     --toast-header: var(--background-tertiary);
@@ -53,16 +67,16 @@
     --toast-box-shadow: rgba(0, 0, 0, .2);
     --toast-border: var(--background-tertiary);
 
-    --background-primary: #201b18;
-    --background-secondary: #2b2222;
-    --background-secondary-alt: #2b2020;
-    --background-tertiary: #161311;
+    --background-primary: #171d20;
+    --background-secondary: #1e2529;
+    --background-secondary-alt: #1e2529;
+    --background-tertiary: #14191b;
     --background-accent: #0f0d0c;
-    --background-floating: #0f0d0c;
+    --background-floating: #0b0e0f;
     --background-nested-floating: #201b18;
 
     --background-mobile-primary: var(--background-primary);
-    --background-mobile-secondary: var(--background-secondary);
+    --background-mobile-secondary: var(--background-secondar);
 
     --background-modifier-hover: rgba(var(--main-colour), 0.1);
     --background-modifier-active: rgba(var(--main-colour), 0.3);
@@ -152,8 +166,8 @@
     --button-outline-primary-background-active: var(--background-tertiary);
     --button-outline-primary-border-active: var(--background-tertiary);
 
-    --modal-background: #201b18;
-    --modal-footer-background: #2b2020;
+    --modal-background: #181d20;
+    --modal-footer-background: #20262b;
 
     --scrollbar-thin-thumb: #202225;
     --scrollbar-thin-track: transparent;
@@ -162,7 +176,7 @@
     --scrollbar-auto-scrollbar-color-thumb: #202225;
     --scrollbar-auto-scrollbar-color-track: #2f3136;
 
-    --input-background: #2e2322;
+    --input-background: #222a2e;
     --input-placeholder-text: hsl(216,calc(var(--saturation-factor, 1)*2.1%),53.9%);
 
     --elevation-stroke: 0 0 0 1px rgba(4,4,5,0.15);
@@ -170,7 +184,7 @@
     --elevation-medium: 0 4px 4px rgba(0,0,0,0.16);
     --elevation-high: 0 8px 16px rgba(0,0,0,0.24);
 
-    --logo-primary: rgb(255, 232, 226);
+    --logo-primary: rgb(226, 244, 255);
 
     --control-brand-foreground: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
     --control-brand-foreground-new: hsl(235,calc(var(--saturation-factor, 1)*86.1%),77.5%);
@@ -183,9 +197,9 @@
     --background-message-automod: hsla(359,calc(var(--saturation-factor, 1)*82.6%),59.4%,0.05);
     --background-message-automod-hover: hsla(359,calc(var(--saturation-factor, 1)*82.6%),59.4%,0.1);
 
-    --channels-default: #faccba;
-    --channel-icon: #fddfd3;
-    --channel-text-area-placeholder: #fddfd3;
+    --channels-default: #baedfa;
+    --channel-icon: #d3f1fd;
+    --channel-text-area-placeholder: #d3f1fd;
 
     --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);
 

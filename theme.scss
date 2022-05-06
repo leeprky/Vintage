@@ -12,16 +12,37 @@
 // Important Imports
 @use "./main";
 
-//  __    _           _           _        __    __          __          __    __   
-//  /     / \   |     / \   | |   |_)      (_    /     |_|   |_    |V|   |_    (_    
-//  \__   \_/   |__   \_/   |_|   | \      __)   \__   | |   |__   | |   |__   __)   
+// ___        _  __       ___        _  _        ___ 
+// / __|      | |/ /      |_ _|      | \| |      / __|
+// \__ \      |   <        | |       | .  |      \__ \
+// |___/      |_|\_\      |___|      |_|\_|      |___/
 
-// Default Scheme - By Leeprky
-@use "./module/skin/default";
+// When Changing Skins Make Sure To Un-Comment (Green) The Previous Skin.
+
+// If You Wish To Edit A Theme OR Create Your Own | Remove '//' At Start Of Line Below Then Open That File & Edit As You Like
+// @use "./module/skin/custom";
+
+// // // // // // //
+
+// Vanilla Skin - By Discord
+// @use "./module/skin/vanilla";
+
+// Default Skin - By Leeprky#2063
+ @use "./module/skin/default";
+
+// Lavender Skin - By Lavender
+// @use "./module/skin/lavender";
+
+// Zelk Skin - By schnensch#4231
+// @use "./module/skin/zelk";
+
+// Ovel Skin - By Leeprky#2063
+//@use "./module/skin/ovel";
 
 //  __          __   ___    _          ___    __    __
 //  /     | |   (_     |    / \   |V|    |    (_    |_ 
 //  \__   |_|   __)    |    \_/   | |   _|_   __)   |__
+
 
 // MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar
 
@@ -49,28 +70,27 @@
 // Pop Out Buttons
     --pop-transiton-time: ease-in-out 0.4s;
 
-// Scrollbars
+// Scrollbar Display
     --scrollbar-display: none;
 
-    // Watermark
-    --watermark-Alignment: 50%;
-    --watermark-offset: 7%; // Higher = More Left
-    --watermark-text: "" var(--theme) " v" var(--version) " - (" var(--style-name) ") -  by " var(--theme-owner) "";
-    --display-version: none !important; 
+// Watermark Title
+    --watermark-Alignment: 50%; 
+    --watermark-offset: 4%; // (4%) Higher = More Left
+    --watermark-text: "" var(--theme) " v" var(--version) " - (" var(--style-name) ") -  by " var(--style-creator) ""; 
 
-    // User Status Bar
+// User Status Indicator's
     --rs-small-spacing:0;
     --rs-large-spacing:0;
     --rs-width:2px;
     --rs-avatar-shape:var(--avatar-radius);
-    --rs-online-color:rgb(121, 255, 139);
+    --rs-online-color:#79ff8b;
     --rs-idle-color:#ffcc74;
     --rs-dnd-color:#ff7979;
     --rs-offline-color:#fff9f9;
     --rs-streaming-color:#b68bff;
     --rs-invisible-color:#ffe9e9;
     
-    // Windows Buttons
+// Windows Buttons | Requires MacOS Buttons To Be Commented Out - Line 27
     --win-buttons-width: 42px;
 
     --win-close-background-colour: #b9534681;
@@ -83,5 +103,6 @@
     --win-min-text-colour: #beffbe;
     --win-min-border-radius: 0px 0px 0px 12px;
 }
+
 
 
