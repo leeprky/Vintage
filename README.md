@@ -1,4 +1,4 @@
-![picture](./assets/vizality-theme-banner-with-goosemod.png)
+![picture](./assets/vizality-theme-banner.png)
 
 A Windows XI x Material You Mix With a Rustic Feel For 
 [Vizality](https://vizality.com/),
