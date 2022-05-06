@@ -19,7 +19,7 @@
 
 :root 
 {
-    // Blurple Colour
+    /* Blurple Colour */
     --main-colour: 121, 119, 254 !important;
     --main-colour2: #7977fe !important;
     --main-colour3: 241 !important;
@@ -31,7 +31,7 @@
     --indicator-selected: var(--alt-color);
     --indicator-rounding: var(--radius) !important;
 
-    // Green Colour
+    /* Green Colour */
     --green-color: var(--alt-color2) !important;
     --spotify-color: var(--green-color);
     --green-bar-on: #5c646480;

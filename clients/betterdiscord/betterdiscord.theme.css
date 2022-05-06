@@ -46,10 +46,10 @@ Version: BetterDiscord (https://https://betterdiscord.app)
 /* @use "../../modules/skin/vanilla";
 
 /* Default Skin - By Leeprky#2063 */
-@import url("https://leeprky.github.io/vintage/modules/skin/default.scss");
+@import url("https://leeprky.github.io/vintage/modules/skin/default.css");
 
 /* Lavender Skin - By Lavender */
-/* @use "../../modules/skin/lavender";
+/* @import url("https://leeprky.github.io/vintage/modules/skin/lavender.css");
 
 /* Zelk Skin - By schnensch#4231 */
 /* @use "../../modules/skin/zelk";

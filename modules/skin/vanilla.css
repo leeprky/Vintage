@@ -5,7 +5,7 @@
 
 :root 
 {
-    // Blurple Colour
+    /* Blurple Colour */
     --main-colour: 88, 101, 242 !important;
     --main-colour2: #5865f2 !important;
     --main-colour3: 235 !important;
@@ -17,7 +17,7 @@
     --indicator-selected: var(--alt-color);
     --indicator-rounding: var(--radius) !important;
 
-    // Green Colour
+    /* Green Colour */
     --green-color: var(--alt-color2) !important;
     --spotify-color: var(--green-color);
     --green-bar-on: #5c646480;
