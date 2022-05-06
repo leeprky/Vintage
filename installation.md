@@ -26,11 +26,14 @@ cd vizality/addons/themes && git clone https://github.com/leeprky/vintage
 
  **Step 2:** Click on the `betterdiscord-vintage-080.theme.css` and save.
 
- **Step 3:** Move file inside your **AppData\Roaming\BetterDiscord\themes** Folder.
+ **Step 3:** Move file to **AppData\Roaming\BetterDiscord\themes**.
+ 
+  **Step 4:** Enable In Settings > Themes
 
  ### [For Goosemod](https://goosemod.com/)
 
 - **Step 1:** Press The Home Button & Open Themes
+- 
 - **Step 2:** Search **Vintage** & Click Install
 
 ### [For Browser & Web](https://github.com/leeprky/vintage/tree/main/clients/web)
