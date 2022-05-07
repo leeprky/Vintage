@@ -6,6 +6,19 @@ A Windows XI x Material You Mix With a Rustic Feel For [Powercord](https://power
 [Installation Guide](https://github.com/leeprky/vintage/blob/main/installation.md)
 
 # Previews
+
+# Default Skin
+![picture](https://cdn.discordapp.com/attachments/825853492962787329/972316385835360266/unknown.png)
+
+# Lavender Skin By [Obsecure](https://github.com/Lavender-Discord/Lavender)
+![picture](https://cdn.discordapp.com/attachments/825853492962787329/972316385835360266/unknown.png)
+
+# Zelk Skin By [schnensch0](https://github.com/schnensch0/zelk)
+![picture](https://cdn.discordapp.com/attachments/825853492962787329/972316386451914762/unknown.png)
+
+Popout Modal
+![picture](https://cdn.discordapp.com/attachments/825845655170973728/972320003049283654/unknown.png)
+
 [More Previews](https://github.com/leeprky/vintage/blob/main/previews.md)
 
 # Important Plugins
