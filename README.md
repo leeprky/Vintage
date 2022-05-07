@@ -6,3 +6,4 @@ A Windows XI x Material You Mix With a Rustic Feel For [Powercord](https://power
 [Installation Guide](https://github.com/leeprky/vintage/blob/main/installation.md)
 
 # Previews
+[More Previews](https://github.com/leeprky/vintage/blob/main/previews.md)
