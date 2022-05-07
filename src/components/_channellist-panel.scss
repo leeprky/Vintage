@@ -164,12 +164,17 @@
   /* Spotify Covers Go Wheeeee */
 /* profile */
 .assetsLargeImageSpotify-17ME3M {
-  animation: spotify-spin 3s linear infinite;
-  border-radius: 50%
+  animation: spotify-spin 5s linear infinite;
+  border-radius: 50%;
+  transition: var(--pop-transiton-time);
+}
+.assets-3PQvAh:hover {
+  transform: scale(1.15);
+  transition: var(--pop-transiton-time);
 }
 /* spotify controls pc */
 .spotify-cover {
-  animation: spotify-spin 3s linear infinite;
+  animation: spotify-spin 5s linear infinite;
 }
 /* the animation  */
 @keyframes spotify-spin {

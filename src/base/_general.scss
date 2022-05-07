@@ -10,13 +10,27 @@
 
 // Background Secondary
 .members-3WRCEx, .members-3WRCEx>div,
-.colorable-3rVGna.primaryDark-2UJt1G
+.colorable-3rVGna.primaryDark-2UJt1G,
+.theme-dark .selected-3H3-RC, .theme-light .selected-3H3-RC
 {background: var(--background-secondary) !important;}
 
 // Tertiary 
 .theme-dark .outer-2JOHae.active-1W_Gl9, .theme-dark .outer-2JOHae.interactive-2zD88a:hover, .theme-light .outer-2JOHae.active-1W_Gl9, .theme-light .outer-2JOHae.interactive-2zD88a:hover, 
 .theme-dark .focused-2FU0YH, .theme-light .focused-2FU0YH {
   background-color: var(--background-tertiary);
+}
+
+// Radius
+.theme-dark .selected-3H3-RC {
+  border-radius: var(--radius) !important;
+}
+
+// Floating
+.categoryHeader-OpJ1Ly, .autocompleteInner-y1mjDl,
+.container-2ebMPP,
+.messagesPopoutWrap-3zryHW,
+.browser-mnQ1T7 {
+  background-color: var(--background-floating);
 }
 
 // Fixes

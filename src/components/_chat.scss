@@ -1,9 +1,4 @@
-.scrollableContainer-15eg7h, .base-3bcbY3 .cooldownWrapper-2k1jHK, .base-3bcbY3 .typingDots-1Y8dki {
-    margin-right: -10px;
-    margin-bottom: -12px;
-    min-height: 50px !important;
-    position: relative;
-}
+
 
 .wrapper-1HIH0j {
     background-color: var(--background-tertiary) !important;
@@ -135,3 +130,44 @@
   .cozy-VmLDNB .header-2jRmjb {
       color: transparent !important;
   }
+
+  div[class^=dot-], div[class^=newMessagesBar-] {
+    background-color: rgba(var(--alt-color)) !important;
+    border-color: rgba(var(--alt-color)) !important;
+    border-radius: var(--radius);
+    margin-top: 10px;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.jumpToPresentBar-1cEnH0 {
+    background-color: rgba(var(--alt-color)) !important;
+    border-color: rgba(var(--alt-color)) !important;
+    border-radius: var(--radius);
+    margin-top: 5px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-bottom: 5px;
+    width: fit-content;
+}
+.scrollableContainer-15eg7h {
+    margin-right: -10px;
+    margin-bottom: -12px;
+    min-height: 50px !important;
+    position: relative;
+}
+[class=cooldownWrapper-2k1jHK] {
+    background-color: var(--background-tertiary) !important;
+    border-color: rgba(var(--alt-color)) !important;
+    border-radius: var(--radius);
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-right: 0px;
+    margin-bottom: 20px;
+    color: #000;
+}
+.barButtonMain-2GIx4o, .barButtonAlt-TQoCdZ {
+    top: 3.5px;
+    color: #000;
+}

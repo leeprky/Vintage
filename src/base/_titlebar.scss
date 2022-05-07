@@ -163,3 +163,8 @@
 .theme-dark .children-3xh0VB:after {
   display: none;
 }
+
+.theme-dark .searchAnswer-23w-CH, .theme-dark .searchFilter-2UfsDk,
+.theme-light .searchAnswer-23w-CH, .theme-light .searchFilter-2UfsDk {
+  background-color: var(--input-background);
+}
