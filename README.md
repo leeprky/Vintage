@@ -14,8 +14,8 @@ When scrolling through member lists and long channel lists, the scrollbar random
 
 **Note:** The plugin is owned and maintained by **[LynithDev](https://github.com/LynithDev)** for Powercord so all the credits to him. The BetterDiscord version of this plugin is just a rough port that I made of Lynith's plugin and it is directly importing the SmoothScroll file from Lynith's repo.
 
-# Important Experiments
+# Useful Experiments
 
-# Help Out
+# Contribute
 
 # Credits
