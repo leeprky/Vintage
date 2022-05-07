@@ -171,3 +171,22 @@
     top: 3.5px;
     color: #000;
 }
+
+/* Horizontally listed media */
+[id*="message-accessories-"] {
+    display: flex;
+    flex-wrap: wrap;
+}
+[id*="message-accessories-"] > * {
+    margin-right: .4em !important;
+    min-height: 100% !important;
+}
+[id*="message-accessories-"] > div > a {
+    display: flex;
+    align-items: center;
+    min-height: 100%;
+    background-color: var(--background-secondary);
+}
+[id*="message-reactions"] {
+    width: 100%;
+}
