@@ -1,19 +1,14 @@
 /*
-
-       ░█──░█ ▀█▀ ░█▄─░█ ▀▀█▀▀ ─█▀▀█ ░█▀▀█ ░█▀▀▀ 
-       ─░█░█─ ░█─ ░█░█░█ ─░█── ░█▄▄█ ░█─▄▄ ░█▀▀▀ 
-       ──▀▄▀─ ▄█▄ ░█──▀█ ─░█── ░█─░█ ░█▄▄█ ░█▄▄▄
-*/
-/*
                      .--------.
                      | v0.9.0 |
                      '--------' 
           Last Updated: 07/05/2022 02:20 (UK)
-                  Version: Stylus
+                    Version: Web
 */
 
 /* Main */
-@import url("https://leeprky.github.io/vintage/clients/web/web.css");
+@import url("https://leeprky.github.io/vintage/dist/main.css");
+@import url("https://leeprky.github.io/vintage/clients/betterdiscord/betterdiscord.css");
 
 /*
  ___        _  __       ___        _  _        ___ 
@@ -36,7 +31,7 @@
 @import url("https://leeprky.github.io/vintage/modules/skin/default.css");
 
 /* Lavender Skin - By Lavender */
-/* @use "../../modules/skin/lavender";
+/* @import url("https://leeprky.github.io/vintage/modules/skin/lavender.css");
 
 /* Zelk Skin - By schnensch#4231 */
 /* @use "../../modules/skin/zelk";
@@ -50,9 +45,33 @@
   \__   |_|   __)    |    \_/   | |   _|_   __)   |__
   */
 
+
+/* MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar */
+
+@import "https://leeprky.github.io/vintage/src/optional/macos.scss";
 :root {
-    --version:"0.8.0WEB" !important;
-    --build:"080WEB" !important;
+    --macos-close-bg-dark: #e92a2a25;
+    --macos-close-bg-light: #380d074b;
+    --macos-close-bg-hover: #e92a2a;
+
+    --macos-min-bg-dark: #ebdd1721;
+    --macos-min-bg-light: #3738074b;
+    --macos-min-bg-hover: #f7bc1b;
+
+    --macos-max-bg-dark: #12db3323;
+    --macos-max-bg-light: #07380f4b;
+    --macos-max-bg-hover: #12db33;
+
+/* Popout Modal Style */
+--popout-modal-badges-style: 30px;          /* No Wrap Around */
+/* --popout-modal-badges-style: 30px 30px;  /* Wraps Around To Right */
+
+}
+/* */
+
+:root {
+    --version: "0.9.0WEB" !important;
+    --build:"090WEB" !important;
 
 /* Global Rounding */
     --radius: 10px !important; /* 6 Is Squareish | 12 Is Bubbly */
@@ -98,3 +117,6 @@
     --win-min-text-colour: #beffbe;
     --win-min-border-radius: 0px 0px 0px 12px;
 }
+
+
+

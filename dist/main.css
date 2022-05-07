@@ -8,7 +8,7 @@
 @import url("https://crearts-community.github.io/Context-Icons/theme.css");
 @import url("https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap");
-@import "https://leeprky.github.io/themes/Vintage/pc-version.css";
+@import "https://leeprky.github.io/themes/Vintage/version.css";
 .container-1NXEtd,
 .panels-3wFtMD,
 .peopleColumn-1wMU14,
@@ -18,13 +18,25 @@
 }
 
 .members-3WRCEx, .members-3WRCEx > div,
-.colorable-3rVGna.primaryDark-2UJt1G {
+.colorable-3rVGna.primaryDark-2UJt1G,
+.theme-dark .selected-3H3-RC, .theme-light .selected-3H3-RC {
   background: var(--background-secondary) !important;
 }
 
 .theme-dark .outer-2JOHae.active-1W_Gl9, .theme-dark .outer-2JOHae.interactive-2zD88a:hover, .theme-light .outer-2JOHae.active-1W_Gl9, .theme-light .outer-2JOHae.interactive-2zD88a:hover,
 .theme-dark .focused-2FU0YH, .theme-light .focused-2FU0YH {
   background-color: var(--background-tertiary);
+}
+
+.theme-dark .selected-3H3-RC {
+  border-radius: var(--radius) !important;
+}
+
+.categoryHeader-OpJ1Ly, .autocompleteInner-y1mjDl,
+.container-2ebMPP,
+.messagesPopoutWrap-3zryHW,
+.browser-mnQ1T7 {
+  background-color: var(--background-floating);
 }
 
 [class="anchor-1MIwyf anchorUnderlineOnHover-2qPutX"][href="https://support.discord.com"] {
@@ -108,6 +120,11 @@
 
 .updateIconForeground-2V_zo4 {
   fill: var(--alt-color2) !important;
+}
+
+.userPopout-2j1gM4[aria-label=Leeprky] .headerNormal-3Zn_yu .popoutBanner-3cqRD9 {
+  background: url("https://i.imgur.com/xgm3xAc.gif");
+  background-position: center;
 }
 
 :root {
@@ -345,6 +362,11 @@
 
 .theme-dark .children-3xh0VB:after {
   display: none;
+}
+
+.theme-dark .searchAnswer-23w-CH, .theme-dark .searchFilter-2UfsDk,
+.theme-light .searchAnswer-23w-CH, .theme-light .searchFilter-2UfsDk {
+  background-color: var(--input-background);
 }
 
 @font-face {
@@ -1592,13 +1614,19 @@ svg.slider-32CRPX svg {
 /* Spotify Covers Go Wheeeee */
 /* profile */
 .assetsLargeImageSpotify-17ME3M {
-  animation: spotify-spin 3s linear infinite;
+  animation: spotify-spin 5s linear infinite;
   border-radius: 50%;
+  transition: var(--pop-transiton-time);
+}
+
+.assets-3PQvAh:hover {
+  transform: scale(1.15);
+  transition: var(--pop-transiton-time);
 }
 
 /* spotify controls pc */
 .spotify-cover {
-  animation: spotify-spin 3s linear infinite;
+  animation: spotify-spin 5s linear infinite;
 }
 
 /* the animation  */
@@ -1806,20 +1834,6 @@ div[style="opacity: 1; height: 56px; transform: scale(1);"] {
   background-color: rgba(var(--alt-color), 0.2);
 }
 
-[d="M21.924 8.61789C21.77 8.24489 21.404 8.00089 21 8.00089H15.618L12.894 2.55389C12.555 1.87689 11.444 1.87689 11.105 2.55389L8.38199 8.00089H2.99999C2.59599 8.00089 2.22999 8.24489 2.07599 8.61789C1.92199 8.99089 2.00699 9.42289 2.29299 9.70789L6.87699 14.2919L5.03899 20.7269C4.92399 21.1299 5.07199 21.5619 5.40999 21.8089C5.74999 22.0569 6.20699 22.0659 6.55399 21.8329L12 18.2029L17.445 21.8329C17.613 21.9449 17.806 22.0009 18 22.0009C18.207 22.0009 18.414 21.9369 18.59 21.8089C18.928 21.5619 19.076 21.1299 18.961 20.7269L17.123 14.2919L21.707 9.70789C21.993 9.42289 22.078 8.99089 21.924 8.61789Z"] {
-  d: path("M16.44 3.10156C14.63 3.10156 13.01 3.98156 12 5.33156C10.99 3.98156 9.37 3.10156 7.56 3.10156C4.49 3.10156 2 5.60156 2 8.69156C2 9.88156 2.19 10.9816 2.52 12.0016C4.1 17.0016 8.97 19.9916 11.38 20.8116C11.72 20.9316 12.28 20.9316 12.62 20.8116C15.03 19.9916 19.9 17.0016 21.48 12.0016C21.81 10.9816 22 9.88156 22 8.69156C22 5.60156 19.51 3.10156 16.44 3.10156Z") !important;
-  transform: scale(1.1) translate(-1.5px, -1px);
-}
-
-.wrapper-3kah-n[aria-label=" Favourites"]:hover [d="M21.924 8.61789C21.77 8.24489 21.404 8.00089 21 8.00089H15.618L12.894 2.55389C12.555 1.87689 11.444 1.87689 11.105 2.55389L8.38199 8.00089H2.99999C2.59599 8.00089 2.22999 8.24489 2.07599 8.61789C1.92199 8.99089 2.00699 9.42289 2.29299 9.70789L6.87699 14.2919L5.03899 20.7269C4.92399 21.1299 5.07199 21.5619 5.40999 21.8089C5.74999 22.0569 6.20699 22.0659 6.55399 21.8329L12 18.2029L17.445 21.8329C17.613 21.9449 17.806 22.0009 18 22.0009C18.207 22.0009 18.414 21.9369 18.59 21.8089C18.928 21.5619 19.076 21.1299 18.961 20.7269L17.123 14.2919L21.707 9.70789C21.993 9.42289 22.078 8.99089 21.924 8.61789Z"] {
-  fill: #F62B30;
-}
-
-.childWrapper-1j_1ub:hover, .wrapper-3kah-n[aria-label=" Favourites"] .childWrapper-1j_1ub:hover {
-  background-color: #f62b2e44 !important;
-  backdrop-filter: blur(2px);
-}
-
 .item-2LIpTv {
   border-radius: var(--radius);
   width: 3px;
@@ -1831,13 +1845,6 @@ div[style="opacity: 1; height: 56px; transform: scale(1);"] {
 div[style="opacity: 1; height: 56px; transform: scale(1);"] {
   margin-bottom: 2px;
   top: 0px;
-}
-
-.scrollableContainer-15eg7h, .base-3bcbY3 .cooldownWrapper-2k1jHK, .base-3bcbY3 .typingDots-1Y8dki {
-  margin-right: -10px;
-  margin-bottom: -12px;
-  min-height: 50px !important;
-  position: relative;
 }
 
 .wrapper-1HIH0j {
@@ -1985,6 +1992,72 @@ div[style="opacity: 1; height: 56px; transform: scale(1);"] {
 
 .cozy-VmLDNB .header-2jRmjb {
   color: transparent !important;
+}
+
+div[class^=dot-], div[class^=newMessagesBar-] {
+  background-color: rgba(var(--alt-color)) !important;
+  border-color: rgba(var(--alt-color)) !important;
+  border-radius: var(--radius);
+  margin-top: 10px;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.jumpToPresentBar-1cEnH0 {
+  background-color: rgba(var(--alt-color)) !important;
+  border-color: rgba(var(--alt-color)) !important;
+  border-radius: var(--radius);
+  margin-top: 5px;
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-bottom: 5px;
+  width: fit-content;
+}
+
+.scrollableContainer-15eg7h {
+  margin-right: -10px;
+  margin-bottom: -12px;
+  min-height: 50px !important;
+  position: relative;
+}
+
+[class=cooldownWrapper-2k1jHK] {
+  background-color: var(--background-tertiary) !important;
+  border-color: rgba(var(--alt-color)) !important;
+  border-radius: var(--radius);
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.barButtonMain-2GIx4o, .barButtonAlt-TQoCdZ {
+  top: 3.5px;
+  color: #000;
+}
+
+/* Horizontally listed media */
+[id*=message-accessories-] {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+[id*=message-accessories-] > * {
+  margin-right: 0.4em !important;
+  min-height: 100% !important;
+}
+
+[id*=message-accessories-] > div > a {
+  display: flex;
+  align-items: center;
+  min-height: 100%;
+  background-color: var(--background-secondary);
+}
+
+[id*=message-reactions] {
+  width: 100%;
 }
 
 .callContainer-HtHELf {
@@ -2147,7 +2220,7 @@ div[style="opacity: 1; height: 56px; transform: scale(1);"] {
 .profileBadges-2pItdR {
   display: grid;
   flex-direction: column;
-  grid-template-columns: 30px;
+  grid-template-columns: var(--popout-modal-badges-style);
   left: 10px;
   top: 35px;
   width: max-content;
@@ -2315,8 +2388,27 @@ div[style="opacity: 1; height: 56px; transform: scale(1);"] {
 }
 
 .barInner-3dHef4 {
-  box-shadow: 0px 0px 20px 0.5px var(--alt-color2);
-  background-color: var(--alt-color2);
+  box-shadow: 0px 0px 20px 1.5px #fff;
+  background-color: #fff;
+}
+
+.userPopout-2j1gM4[aria-label=Leeprky] .headerNormal-3Zn_yu .popoutBanner-3cqRD9 {
+  background: url("https://i.imgur.com/xgm3xAc.gif");
+  background-position: center;
+}
+
+[d="M21.924 8.61789C21.77 8.24489 21.404 8.00089 21 8.00089H15.618L12.894 2.55389C12.555 1.87689 11.444 1.87689 11.105 2.55389L8.38199 8.00089H2.99999C2.59599 8.00089 2.22999 8.24489 2.07599 8.61789C1.92199 8.99089 2.00699 9.42289 2.29299 9.70789L6.87699 14.2919L5.03899 20.7269C4.92399 21.1299 5.07199 21.5619 5.40999 21.8089C5.74999 22.0569 6.20699 22.0659 6.55399 21.8329L12 18.2029L17.445 21.8329C17.613 21.9449 17.806 22.0009 18 22.0009C18.207 22.0009 18.414 21.9369 18.59 21.8089C18.928 21.5619 19.076 21.1299 18.961 20.7269L17.123 14.2919L21.707 9.70789C21.993 9.42289 22.078 8.99089 21.924 8.61789Z"] {
+  d: path("M16.44 3.10156C14.63 3.10156 13.01 3.98156 12 5.33156C10.99 3.98156 9.37 3.10156 7.56 3.10156C4.49 3.10156 2 5.60156 2 8.69156C2 9.88156 2.19 10.9816 2.52 12.0016C4.1 17.0016 8.97 19.9916 11.38 20.8116C11.72 20.9316 12.28 20.9316 12.62 20.8116C15.03 19.9916 19.9 17.0016 21.48 12.0016C21.81 10.9816 22 9.88156 22 8.69156C22 5.60156 19.51 3.10156 16.44 3.10156Z") !important;
+  transform: scale(1.1) translate(-1.5px, -1px);
+}
+
+.wrapper-3kah-n[aria-label=" Favourites"]:hover [d="M21.924 8.61789C21.77 8.24489 21.404 8.00089 21 8.00089H15.618L12.894 2.55389C12.555 1.87689 11.444 1.87689 11.105 2.55389L8.38199 8.00089H2.99999C2.59599 8.00089 2.22999 8.24489 2.07599 8.61789C1.92199 8.99089 2.00699 9.42289 2.29299 9.70789L6.87699 14.2919L5.03899 20.7269C4.92399 21.1299 5.07199 21.5619 5.40999 21.8089C5.74999 22.0569 6.20699 22.0659 6.55399 21.8329L12 18.2029L17.445 21.8329C17.613 21.9449 17.806 22.0009 18 22.0009C18.207 22.0009 18.414 21.9369 18.59 21.8089C18.928 21.5619 19.076 21.1299 18.961 20.7269L17.123 14.2919L21.707 9.70789C21.993 9.42289 22.078 8.99089 21.924 8.61789Z"] {
+  fill: #F62B30;
+}
+
+.childWrapper-1j_1ub:hover, .wrapper-3kah-n[aria-label=" Favourites"] .childWrapper-1j_1ub:hover {
+  background-color: #f62b2e44 !important;
+  backdrop-filter: blur(2px);
 }
 
 :root {
@@ -6894,6 +6986,102 @@ a[href*="https://support.discord.com"]:after {
 }
 
 :root {
+  --text-color: #fff;
+  --activity-bg: rgba(var(--alt-color), 0.5);
+  --spotify-bg: #346b47;
+  --twitch-bg: #4d3775;
+  --bot-bg: rgba(var(--alt-color), 0.5);
+  --xbox-bg: #2a522a;
+}
+
+.activityUserPopout-2MzGCj, .activityProfile-1712BN {
+  background-color: var(--activity-bg);
+  border-radius: var(--radius);
+  z-index: 1;
+}
+
+.activityUserPopout-2MzGCj h3, .activityProfile-1712BN h3, .activityUserPopout-2MzGCj .content-tXPNDw, .activityProfile-1712BN .content-tXPNDw, .activityUserPopout-2MzGCj .activityName-3YXl6e, .activityProfile-1712BN .activityName-3YXl6e, .activityUserPopout-2MzGCj .details-2-ciHo, .activityProfile-1712BN .details-2-ciHo {
+  color: var(--text-color) !important;
+}
+
+.activityUserPopout-2MzGCj .button-TGAkj4, .activityProfile-1712BN .button-TGAkj4 {
+  background-color: transparent !important;
+  border: var(--text-color) 2px solid;
+  transition: 0.5s;
+}
+
+.activityUserPopout-2MzGCj .button-TGAkj4:hover, .activityProfile-1712BN .button-TGAkj4:hover {
+  background-color: var(--text-color) !important;
+  border-color: transparent;
+  color: black !important;
+}
+
+.activityUserPopout-2MzGCj .nameWrap-3TyM52.textRow-1sENuL.base-21yXnu.size14-3fJ-ot[title]::after, .activityProfile-1712BN .nameWrap-3TyM52.textRow-1sENuL.base-21yXnu.size14-3fJ-ot[title]::after, .activityUserPopout-2MzGCj .detailsWrap-omKn0b.textRow-1sENuL::after, .activityProfile-1712BN .detailsWrap-omKn0b.textRow-1sENuL::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  background-color: var(--twitch-bg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 6px;
+}
+
+.activityUserPopout-2MzGCj .timeBarUserPopout-qLXZaR::after, .activityProfile-1712BN .timeBarUserPopout-qLXZaR::after, .activityUserPopout-2MzGCj .timeBarProfile-1z_HH-::after, .activityProfile-1712BN .timeBarProfile-1z_HH-::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: var(--spotify-bg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 6px;
+}
+
+.activityUserPopout-2MzGCj .spotifyIcon-2J9kSv, .activityProfile-1712BN .spotifyIcon-2J9kSv {
+  margin: 5px 5px 0px 0px;
+}
+
+.activityUserPopout-2MzGCj .spotifyIcon-2J9kSv path, .activityProfile-1712BN .spotifyIcon-2J9kSv path {
+  fill: var(--text-color);
+}
+
+.activityUserPopout-2MzGCj .contentNoImagesUserPopout-12NyFa::after, .activityProfile-1712BN .contentNoImagesUserPopout-12NyFa::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  background-color: var(--bot-bg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 6px;
+}
+
+.activityProfile-1712BN {
+  margin: 10px;
+  border-radius: 6px;
+}
+
+.activityProfile-1712BN .spotifyIcon-2J9kSv {
+  margin: 0px 0px 0px 0px;
+}
+
+.xboxAssets-aGhVw8 ~ div::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  background-color: var(--xbox-bg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 6px;
+}
+
+:root {
   --spotify-in-discord__end: 100%;
   --spotify-in-discord__player-album-border-radius: 50%;
   --spotify-in-discord__player-album-spin-speed: 20;
@@ -6939,9 +7127,9 @@ a[href*="https://support.discord.com"]:after {
 }
 
 :root {
-  --outdated_underground-080: none !important;
-  --version:"0.8.0";
-  --build:"080";
+  --outdated_underground-090: none !important;
+  --version:"0.9.0";
+  --build:"090";
   --version-display: flex;
   --theme-owner: "Leeprky";
 }

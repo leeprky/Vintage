@@ -1,7 +1,7 @@
 /**
  * @name Vintage [BETA]
  * @author Leeprky#2063
- * @version 0.8.0
+ * @version 0.9.0
  * @description A Windows XI x Material You Mix With a Rustic Feel
  * @source https://github.com/leeprky/Vintage
  * @updateUrl https://raw.githubusercontent.com/leeprky/vintage/main/clients/betterdiscord/betterdiscord.theme.css
@@ -74,12 +74,10 @@
     --macos-max-bg-dark: #12db3323;
     --macos-max-bg-light: #07380f4b;
     --macos-max-bg-hover: #12db33;
-}
-/* */
 
-:root {
-    --version: "0.8.0BD" !important;
-    --build:"080BD" !important;
+/* Popout Modal Style */
+--popout-modal-badges-style: 30px;          /* No Wrap Around */
+/* --popout-modal-badges-style: 30px 30px;  /* Wraps Around To Right */
 
 /* Global Rounding */
     --radius: 10px !important; /* 6 Is Squareish | 12 Is Bubbly */
@@ -126,5 +124,7 @@
     --win-min-border-radius: 0px 0px 0px 12px;
 }
 
-
-
+:root {
+    --version: "0.9.0BD" !important;
+    --build:"090BD" !important;
+}
