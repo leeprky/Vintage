@@ -7,16 +7,8 @@
 
 # Previews
 
-# Default Skin By [Me]()
-![picture](https://cdn.discordapp.com/attachments/825853492962787329/972316385835360266/unknown.png)
-
-# Lavender Skin By [Obsecure](https://github.com/Lavender-Discord/Lavender)
-
-![picture](https://cdn.discordapp.com/attachments/825853492962787329/972316386149953616/unknown.png)
-
-# Zelk Skin By [schnensch0](https://github.com/schnensch0/zelk)
-
-![picture](https://cdn.discordapp.com/attachments/825853492962787329/972316386451914762/unknown.png)
+Default Skin By [Me]() | Lavender Skin By [Obsecure](https://github.com/Lavender-Discord/Lavender) | Zelk Skin By [schnensch0](https://github.com/schnensch0/zelk)
+![gif]((https://user-images.githubusercontent.com/71296232/167234293-e2d5e226-12ba-429b-b8a7-c333bab551cc.gif)
 
 Popout Modal
 
