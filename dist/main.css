@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import "https://leeprky.github.io/snippits/discoloured.css";
 @import url(https://cedrickzedd.github.io/betterdiscordstuff/css/activeNowGrid.css);
+@import "https://spinfish.github.io/css-snippets/snippets/filled-roles.css";
 /* Powercord */
 /* Plugins */
 /* Description */
@@ -1932,8 +1933,17 @@ div[style="opacity: 1; height: 56px; transform: scale(1);"] {
   margin-bottom: -25px !important;
 }
 
+.operations-3q3u6E {
+  margin-top: 20px;
+}
+
 .mentioned-Tre-dv:before {
   box-shadow: 0px 0px 20px 1.5px var(--alt-color2);
+}
+
+.markup-eYLPri code, .imageWrapper-oMkQl4 {
+  background-color: var(--background-tertiary);
+  border-radius: var(--radius);
 }
 
 [class=cooldownWrapper-2k1jHK] {
@@ -1944,6 +1954,37 @@ div[style="opacity: 1; height: 56px; transform: scale(1);"] {
 .content-3spvdd {
   background: transparent !important;
   padding: 5px !important;
+}
+
+.scrollableContainer-15eg7h {
+  box-shadow: 0px 0px 0px 6px var(--background-primary);
+}
+
+.cozy-VmLDNB .headerText-2z4IhQ > span::before {
+  content: "";
+  width: calc(100% + 7px);
+  height: 100%;
+  border-radius: 5px;
+  background-color: currentColor;
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  /* repairs left shift*/
+  left: -3px;
+}
+
+.cozy-VmLDNB .headerText-2z4IhQ > span::after, .cozy-VmLDNB .headerText-2z4IhQ.hasRoleIcon-1Usc6e > span::after {
+  content: ":";
+}
+
+/* repairs left shift */
+.cozy-VmLDNB .headerText-2z4IhQ > span, .cozy-VmLDNB .headerText-2z4IhQ.hasRoleIcon-1Usc6e > span {
+  margin-left: 3px;
+}
+
+.cozy-VmLDNB .header-2jRmjb {
+  color: transparent !important;
 }
 
 .callContainer-HtHELf {
@@ -1979,6 +2020,16 @@ div[style="opacity: 1; height: 56px; transform: scale(1);"] {
   padding-top: 10px;
 }
 
+.root-22AK9z .videoControls-353CsJ .controlSection-1mNixL .headerWrapper-1ULEPv .container-ZMc96U {
+  background-color: var(--background-tertiary) !important;
+}
+
+.quickSelect-384d3G {
+  margin-right: 10px;
+  transform: scale(1) !important;
+  box-shadow: none !important;
+}
+
 @keyframes call-glow {
   50% {
     box-shadow: 0px 0px 10px 5px var(--alt-color2);
@@ -1999,6 +2050,28 @@ div[style="opacity: 1; height: 56px; transform: scale(1);"] {
 [aria-label="Join Call"] .lineHeightReset-1WxXXk .controlIcon-10O-4h {
   left: -4px !important;
   position: relative;
+}
+
+.privateChannels-oVe7HL {
+  margin-left: 10px;
+  background-color: var(--background-secondary) !important;
+  margin-bottom: 22px !important;
+  margin-top: 65px;
+  border-radius: var(--radius);
+}
+
+.searchBar-3TnChZ {
+  border-radius: var(--radius);
+  top: 45px;
+  background-color: var(--background-secondary) !important;
+  width: 210px;
+  position: fixed;
+}
+
+.searchBar-3TnChZ .searchBarComponent-3N7dCG {
+  background-color: var(--background-primary);
+  border-radius: var(--radius);
+  text-align: center;
 }
 
 .privateChannels-oVe7HL {
@@ -2060,12 +2133,190 @@ div[style="opacity: 1; height: 56px; transform: scale(1);"] {
   position: relative;
 }
 
-.activity-1gTu-L {
+.headerTop-3GPUSF, .rolesList-3uZoaa, .headerTextNormal-2mGWX3, .customStatus-oN4ZZY, .aboutMeTitle-3pjiS7 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.avatarWrapperNormal-ahVUaC {
+  position: absolute;
+  left: 35%;
+}
+
+.profileBadges-2pItdR {
+  display: grid;
+  flex-direction: column;
+  grid-template-columns: 30px;
+  left: 10px;
+  top: 35px;
+  width: max-content;
+  background-color: var(--background-floating);
+  border-radius: var(--radius);
+  padding: 4px;
+  position: fixed;
+}
+
+.userPopout-xaxa6l .input-cIJ7To, .aboutMeSection-PUghFQ, .bodyTitle-2Az3VQ, .textarea-_59yqs, .marginBottom8-AtZOdT.size14-e6ZScH {
+  text-align: center;
+}
+
+.customStatus-3XAoF9 {
+  width: 98% !important;
+}
+
+.activity-1gTu-L,
+.customStatus-3XAoF9,
+.userInfoSection-3her-v,
+.bodyTitle-2Az3VQ,
+.role-2TIOKu,
+.note-Go5ZP2,
+.inputWrapper-1YNMmM {
   background-color: var(--background-secondary);
   padding: 10px;
-  margin: 2px;
+  margin-right: 8px;
   margin-bottom: 13px;
   border-radius: 8px !important;
+  margin-left: 0px !important;
+}
+
+.inputWrapper-1YNMmM {
+  margin-right: 0px;
+}
+
+.note-Go5ZP2 {
+  margin-bottom: 0px;
+}
+
+.textarea-_59yqs {
+  min-height: 20px !important;
+}
+
+.userPopout-2j1gM4 {
+  margin-right: 15px;
+  border-radius: var(--radius);
+  background-color: var(--background-floating);
+}
+
+.headerTagUsernameNoNickname-1TjuLc {
+  top: 140px;
+  left: 50px;
+  position: fixed;
+  width: 200px;
+}
+
+.headerTagWithNickname-1U8zZH {
+  top: 160px;
+  left: 50px;
+  position: fixed;
+  width: 200px;
+}
+
+.nickname-t08Mck {
+  top: 130px;
+  left: 50px;
+  position: fixed;
+  width: 200px;
+}
+
+.discrimBase-1VOoau {
+  display: none;
+}
+
+.avatarWrapper-eenWra {
+  margin-top: 20px;
+}
+
+.avatarPositionPremium-1zPBq9 {
+  margin-top: -40px;
+}
+
+.popoutBanner-3cqRD9, .popoutBannerPremium-3i5EEI {
+  height: 180px !important;
+  filter: var(--avatar-popout-banner-blur);
+  opacity: var(--avatar-popout-banner-opacity);
+  border-radius: var(--radius);
+  width: 270px;
+  margin: 15px;
+  margin-bottom: 0px;
+}
+
+.avatar-2Vndt_ {
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.powercord-badge-wrapper {
+  display: none;
+}
+
+.headerTop-3GPUSF {
+  padding: 0px;
+  padding-top: 15px;
+}
+
+.headerTop-3GPUSF, .rolesList-3uZoaa, .headerTextNormal-2mGWX3, .customStatus-oN4ZZY, .aboutMeTitle-3pjiS7 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.rolesList-3uZoaa {
+  display: grid;
+  flex-direction: column;
+  grid-template-columns: 135px 135px;
+  margin-bottom: 0px;
+}
+
+.role-2TIOKu {
+  background-color: inherit !important;
+}
+
+/** Optional */
+.rolesList-1geHY1::-webkit-scrollbar {
+  width: 4.5px;
+}
+
+.rolesList-1geHY1::-webkit-scrollbar-thumb {
+  border-radius: var(--radius);
+  background-color: var(--background-modifier-hover);
+}
+
+.rolesList-1geHY1 > .role-2irmRk {
+  margin: 0;
+  justify-content: center;
+}
+
+.rolesList-1geHY1 .roleCircle-3xAZ1j {
+  flex-shrink: 0;
+}
+
+.rolesList-1geHY1 .roleName-32vpEy {
+  margin: auto;
+}
+
+.addButton-pcyyf6 {
+  grid-column: 1/span var(--roleslist-columns);
+}
+
+.addButton-pcyyf6::before {
+  content: attr(aria-label);
+  text-transform: capitalize;
+}
+
+.addButtonIcon-1NMJ8u {
+  display: none;
+}
+
+.platformIcon-k3yytQ {
+  top: 5px !important;
+  right: 8px !important;
+  position: absolute;
+}
+
+.barInner-3dHef4 {
+  box-shadow: 0px 0px 20px 0.5px var(--alt-color2);
+  background-color: var(--alt-color2);
 }
 
 :root {
@@ -6224,7 +6475,6 @@ a[href*="https://support.discord.com"]:after {
 .toolbar-3_r2xA::after {
   animation: devbadge 5.5s 2 4s normal linear;
   transform: translate(1000px);
-  content: "hi";
   font-size: 22px;
   position: absolute;
 }
@@ -6577,7 +6827,6 @@ a[href*="https://support.discord.com"]:after {
 .toolbar-3_r2xA::after {
   animation: devbadge 5.5s 2 4s normal linear;
   transform: translate(1000px);
-  content: "hi";
   font-size: 22px;
   position: absolute;
 }

@@ -1,0 +1,165 @@
+.headerTop-3GPUSF, .rolesList-3uZoaa, .headerTextNormal-2mGWX3, .customStatus-oN4ZZY, .aboutMeTitle-3pjiS7{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .avatarWrapperNormal-ahVUaC {
+    position: absolute;
+    left: 35%;
+  }
+  .profileBadges-2pItdR {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 30px;
+    left: 10px;
+    top: 35px;
+    width: max-content;
+    background-color: var(--background-floating);
+    border-radius: var(--radius);
+    padding: 4px;
+    position: fixed;
+  }
+  .userPopout-xaxa6l .input-cIJ7To, .aboutMeSection-PUghFQ, .bodyTitle-2Az3VQ, .textarea-_59yqs, .marginBottom8-AtZOdT.size14-e6ZScH{
+    text-align: center;
+  }
+  .customStatus-3XAoF9 {
+      width: 98% !important;
+  }
+  .activity-1gTu-L, 
+  .customStatus-3XAoF9,
+  .userInfoSection-3her-v,
+  .bodyTitle-2Az3VQ,
+  .role-2TIOKu,
+  .note-Go5ZP2,
+  .inputWrapper-1YNMmM {
+    background-color: var(--background-secondary);
+    padding: 10px;
+    margin-right: 8px;
+    margin-bottom: 13px;
+    border-radius: 8px !important;
+    margin-left: 0px !important;
+}
+.inputWrapper-1YNMmM {
+    margin-right: 0px;
+}
+.note-Go5ZP2 {
+    margin-bottom: 0px;
+}
+.textarea-_59yqs {
+    min-height: 20px !important;
+}
+
+.userPopout-2j1gM4 {
+    margin-right: 15px;
+    border-radius: var(--radius);
+    background-color: var(--background-floating);
+}
+.headerTagUsernameNoNickname-1TjuLc {
+    top: 140px;
+    left: 50px;
+    position: fixed;
+    width: 200px;
+}
+.headerTagWithNickname-1U8zZH {
+    top: 160px;
+    left: 50px;
+    position: fixed;
+    width: 200px;
+}
+.nickname-t08Mck{
+    top: 130px;
+    left: 50px;
+    position: fixed;
+    width: 200px;
+}
+.discrimBase-1VOoau {
+    display: none;
+}
+.avatarWrapper-eenWra {
+    margin-top: 20px;
+}
+.avatarPositionPremium-1zPBq9 {
+    margin-top: -40px;
+}
+.popoutBanner-3cqRD9, .popoutBannerPremium-3i5EEI {
+    height: 180px !important;
+    filter: var(--avatar-popout-banner-blur);
+    opacity: var(--avatar-popout-banner-opacity);
+    border-radius: var(--radius);
+    width: 270px;
+
+    margin: 15px;
+    margin-bottom: 0px;
+}
+
+.avatar-2Vndt_ {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.powercord-badge-wrapper {
+    display: none
+}
+
+.headerTop-3GPUSF {
+    padding: 0px;
+    padding-top: 15px;
+}
+
+.headerTop-3GPUSF, .rolesList-3uZoaa, .headerTextNormal-2mGWX3, .customStatus-oN4ZZY, .aboutMeTitle-3pjiS7{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .rolesList-3uZoaa {
+  display: grid;
+  flex-direction: column;
+  grid-template-columns: 135px 135px;
+  margin-bottom: 0px;
+}
+.role-2TIOKu {
+    background-color: inherit !important;
+}
+
+/** Optional */
+@import "https://spinfish.github.io/css-snippets/snippets/filled-roles.css";
+
+.rolesList-1geHY1::-webkit-scrollbar {
+    width: 4.5px;
+}
+.rolesList-1geHY1::-webkit-scrollbar-thumb {
+    border-radius: var(--radius);
+    background-color: var(--background-modifier-hover);
+}
+.rolesList-1geHY1 > .role-2irmRk {
+    margin: 0;
+    justify-content: center;
+}
+.rolesList-1geHY1 .roleCircle-3xAZ1j {
+    flex-shrink: 0;
+}
+.rolesList-1geHY1 .roleName-32vpEy {
+    margin: auto;
+}
+
+.addButton-pcyyf6 {
+    grid-column: 1 / span var(--roleslist-columns);
+}
+.addButton-pcyyf6::before {
+    content: attr(aria-label);
+    text-transform: capitalize;
+}
+.addButtonIcon-1NMJ8u {
+    display: none;
+}
+
+.platformIcon-k3yytQ {
+    top:5px !important;
+    right: 8px !important;
+    position: absolute;
+}
+
+.barInner-3dHef4 {
+    box-shadow: 0px 0px 20px .5px var(--alt-color2);
+    background-color: var(--alt-color2);
+}
