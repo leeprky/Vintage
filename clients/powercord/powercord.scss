@@ -58,56 +58,60 @@
     --macos-max-bg-dark: #12db3323;
     --macos-max-bg-light: #07380f4b;
     --macos-max-bg-hover: #12db33;
+
+
+// Popout Modal Style | 
+--popout-modal-badges-style: 30px;          // No Wrap Around
+// --popout-modal-badges-style: 30px 30px;  // Wraps Around To Right
+
+// Global Rounding
+--radius: 10px !important; // 6 Is Squareish | 12 Is Bubbly
+--avatar-radius: 12% !important; // 12% is square | 24% is bubbly
+
+// Pop Out Buttons
+--pop-transiton-time: ease-in-out 0.4s;
+
+// Scrollbar Display
+--scrollbar-display: none;
+
+// Popout
+--avatar-popout-banner-blur: blur(2px);
+--avatar-popout-banner-opacity: 0.4;
+
+// Watermark Title
+--watermark-Alignment: 50%; 
+--watermark-offset: 4%; // (4%) Higher = More Left
+--watermark-text: "" var(--theme) " v" var(--version) " - (" var(--style-name) ") -  by " var(--style-creator) ""; 
+
+// User Status Indicator's
+--rs-small-spacing:0;
+--rs-large-spacing:0;
+--rs-width:2px;
+--rs-avatar-shape:var(--avatar-radius);
+--rs-online-color:#79ff8b;
+--rs-idle-color:#ffcc74;
+--rs-dnd-color:#ff7979;
+--rs-offline-color:#fff9f9;
+--rs-streaming-color:#b68bff;
+--rs-invisible-color:#ffe9e9;
+
+// Windows Buttons | Requires MacOS Buttons To Be Commented Out - Line 27
+--win-buttons-width: 42px;
+
+--win-close-background-colour: #b9534681;
+--win-close-text-colour: #ffefec;
+
+--win-max-background-colour: #c5a74e79;
+--win-max-text-colour: #ffefc1;
+
+--win-min-background-colour: #60a86073;
+--win-min-text-colour: #beffbe;
+--win-min-border-radius: 0px 0px 0px 12px;
 }
 
 :root {
-
     --version: "0.8.0PC" !important;
     --build:"080PC" !important;
-
-// Global Rounding
-    --radius: 10px !important; // 6 Is Squareish | 12 Is Bubbly
-    --avatar-radius: 12% !important; // 12% is square | 24% is bubbly
-
-// Pop Out Buttons
-    --pop-transiton-time: ease-in-out 0.4s;
-
-// Scrollbar Display
-    --scrollbar-display: none;
-
-// Popout
-    --avatar-popout-banner-blur: blur(2px);
-    --avatar-popout-banner-opacity: 0.4;
-
-// Watermark Title
-    --watermark-Alignment: 50%; 
-    --watermark-offset: 4%; // (4%) Higher = More Left
-    --watermark-text: "" var(--theme) " v" var(--version) " - (" var(--style-name) ") -  by " var(--style-creator) ""; 
-
-// User Status Indicator's
-    --rs-small-spacing:0;
-    --rs-large-spacing:0;
-    --rs-width:2px;
-    --rs-avatar-shape:var(--avatar-radius);
-    --rs-online-color:#79ff8b;
-    --rs-idle-color:#ffcc74;
-    --rs-dnd-color:#ff7979;
-    --rs-offline-color:#fff9f9;
-    --rs-streaming-color:#b68bff;
-    --rs-invisible-color:#ffe9e9;
-    
-// Windows Buttons | Requires MacOS Buttons To Be Commented Out - Line 27
-    --win-buttons-width: 42px;
-
-    --win-close-background-colour: #b9534681;
-    --win-close-text-colour: #ffefec;
-
-    --win-max-background-colour: #c5a74e79;
-    --win-max-text-colour: #ffefc1;
-
-    --win-min-background-colour: #60a86073;
-    --win-min-text-colour: #beffbe;
-    --win-min-border-radius: 0px 0px 0px 12px;
 }
 
 
