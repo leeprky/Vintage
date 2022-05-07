@@ -36,12 +36,21 @@
 // Zelk Skin - By schnensch#4231
 // @use "../../modules/skin/zelk.css";
 
+// Duvbox Skin By Leeprky#2063
+// @use "../../modules/skin/duvbox.css";
+
 // Ovel Skin - By Leeprky#2063
 // @use "../../modules/skin/ovel.css";
+
+// Naive Skin - By Leeprky#2063
+// @use "../../modules/skin/naive.css";
 
 //  __          __   ___    _          ___    __    __
 //  /     | |   (_     |    / \   |V|    |    (_    |_ 
 //  \__   |_|   __)    |    \_/   | |   _|_   __)   |__
+
+// Menu Animations
+@use "../../src/optional/menu-animations";
 
 // MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar
 

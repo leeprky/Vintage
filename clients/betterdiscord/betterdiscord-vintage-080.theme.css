@@ -58,6 +58,8 @@
   \__   |_|   __)    |    \_/   | |   _|_   __)   |__
   */
 
+  /* Menu Animations */
+  @use "../../src/optional/menu-animations";
 
 /* MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar */
 

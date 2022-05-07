@@ -20,6 +20,7 @@
     transform: scale(0.8);
     margin-top: -6px !important;
     margin-left: 2px !important;
+    color: var(--interactive-normal) !important;
   }
   
   .icon-1ELUnB::after {
@@ -128,15 +129,6 @@
     .toolbar-3_r2xA .iconWrapper-2awDjA::after {
       display: none;
     }
-  }
-
-  .toolbar-3_r2xA .iconWrapper-2awDjA::after {
-    background-color: rgba(var(--alt-color), 0.2) !important;
-    padding-top: 5px;
-    padding-bottom: 7px;
-    border-radius: var(--radius);
-    padding-right: 8px;
-    padding-left: 28px;
   }
   .icon-1ELUnB {
     left: 20px !important;
