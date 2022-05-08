@@ -72,7 +72,7 @@
     --background-secondary-alt: #111114;
     --background-tertiary: #0b0b0e;
     --background-accent: #0f0d0c;
-    --background-floating: #17151b;
+    --background-floating: #100f13;
     --background-nested-floating: #201b18;
 
     --background-mobile-primary: var(--background-primary);
@@ -166,8 +166,8 @@
     --button-outline-primary-background-active: var(--background-tertiary);
     --button-outline-primary-border-active: var(--background-tertiary);
 
-    --modal-background: #191820;
-    --modal-footer-background: #22202b;
+    --modal-background: #0c0b0f;
+    --modal-footer-background: #0d0c11;
 
     --scrollbar-thin-thumb: #202225;
     --scrollbar-thin-track: transparent;
