@@ -1,7 +1,7 @@
 /**
  * @name Vintage [BETA]
  * @author Leeprky#2063
- * @version 0.9.0
+ * @version 0.9.1
  * @description A Windows XI x Material You Mix With a Rustic Feel
  * @source https://github.com/leeprky/Vintage
  * @updateUrl https://raw.githubusercontent.com/leeprky/vintage/main/clients/betterdiscord/betterdiscord.theme.css
@@ -13,7 +13,7 @@
 
 /*
                      .--------.
-                     | v0.9.0 |
+                     | v0.9.1 |
                      '--------' 
           Last Updated: 07/05/2022 02:20 (UK)
    Version: BetterDiscord (https://https://betterdiscord.app)
@@ -58,11 +58,12 @@
   \__   |_|   __)    |    \_/   | |   _|_   __)   |__
   */
 
+
 /* Menu Animations */
 @import "https://leeprky.github.io/vintage/src/optional/macos.scss";
 
-/* MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar */
 
+/* MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar */
 @import "https://leeprky.github.io/vintage/src/optional/macos.scss";
 :root {
     --macos-close-bg-dark: #e92a2a25;
@@ -76,7 +77,19 @@
     --macos-max-bg-dark: #12db3323;
     --macos-max-bg-light: #07380f4b;
     --macos-max-bg-hover: #12db33;
+}
 
+
+/* Emoji's */
+
+/* Google */
+/* @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css");
+
+/* Apple */
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
+
+
+:root {
 /* Popout Modal Style */
 --popout-modal-badges-style: 30px;          /* No Wrap Around */
 /* --popout-modal-badges-style: 30px 30px;  /* Wraps Around To Right */
@@ -127,6 +140,6 @@
 }
 
 :root {
-    --version: "0.9.0BD" !important;
-    --build:"090BD" !important;
+    --version: "0.9.1BD" !important;
+    --build:"091BD" !important;
 }

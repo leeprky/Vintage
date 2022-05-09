@@ -3,6 +3,7 @@
 	&:hover {
 		transform: translateY(-4px) scale(1.02);
 		box-shadow: var(--elevation-high);
+		
 	}
 	transition: var(--pop-transiton-time);
 	box-shadow: none;

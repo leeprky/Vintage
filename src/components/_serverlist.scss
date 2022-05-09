@@ -34,3 +34,52 @@ div[style="opacity: 1; height: 56px; transform: scale(1);"] {
     top: 0px;
 }
 
+  /* the animation  */
+  @keyframes ping-animation {
+    0% {
+      transform: scale(1);
+      transition: var(--pop-transition);
+    }
+    25% {
+        transform: scale(1.06);
+        transition: var(--pop-transition);
+      }
+    50% {
+        transform: scale(1.12);
+        transition: var(--pop-transition);
+    }
+    75% {
+        transform: scale(1.06);
+        transition: var(--pop-transition);
+    }
+    100% {
+        transform: scale(1);
+        transition: var(--pop-transition);
+      }
+  }
+
+.numberBadge-37OJ3S,
+.wrapper-2olG5t.badge-3k1jbq {
+	border-radius: 5px !important;
+    background-color: var(--alt-color2) !important;
+    animation: ping-animation 5s linear infinite;
+    transition: var(--pop-transition);
+}
+
+.lowerBadge-3WTshO {
+    pointer-events: none;
+    position: absolute;
+    right: -5px;
+    bottom: -2px;
+    border-radius: var(--radius) !important;
+}
+.upperBadge-1V6Iyi {
+    pointer-events: none;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    border-radius: var(--radius) !important;
+}
+.iconBadge-32fMme.participating-2Z81oO {
+    background-color: var(--alt-color2) !important;
+}

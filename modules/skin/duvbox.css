@@ -26,6 +26,9 @@
     --green-slider-off: #404447fd;
     --green-slider-dot-on: #4770a2;
     --green-slider-dot-off: #303337fd;
+
+    --setting-backdrop-main: #3b373577;
+    --setting-backdrop-sidebar: #33302e7c;
 }
 
 .theme-dark {

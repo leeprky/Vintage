@@ -1,6 +1,6 @@
 /*
                      .--------.
-                     | v0.9.0 |
+                     | v0.9.1 |
                      '--------' 
           Last Updated: 07/05/2022 02:20 (UK)
                     Version: Web
@@ -72,9 +72,6 @@
 /* */
 
 :root {
-    --version: "0.9.0WEB" !important;
-    --build:"090WEB" !important;
-
 /* Global Rounding */
     --radius: 10px !important; /* 6 Is Squareish | 12 Is Bubbly */
     --avatar-radius: 12% !important; /* 12% is square | 24% is bubbly */
@@ -120,5 +117,9 @@
     --win-min-border-radius: 0px 0px 0px 12px;
 }
 
+:root {
+    --version: "0.9.1WEB" !important;
+    --build:"091WEB" !important;
+}
 
 

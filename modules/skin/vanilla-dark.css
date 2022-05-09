@@ -26,6 +26,9 @@
     --green-slider-off: #404447fd;
     --green-slider-dot-on: #4770a2;
     --green-slider-dot-off: #303337fd;
+
+    --setting-backdrop-main: #121314a4;
+    --setting-backdrop-sidebar: #0b0b0c91;
 }
 
 .theme-dark {
@@ -43,7 +46,7 @@
     --interactive-hover: #dcddde;
     --interactive-active: #fff;
     --interactive-muted: #4f545c;
-    --background-primary: rgb(18, 19, 20);
+    --background-primary: #121314;
     --background-secondary: #0b0b0c;
     --background-secondary-alt: #131416;
     --background-tertiary: #000000;

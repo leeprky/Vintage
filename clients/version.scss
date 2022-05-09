@@ -2,8 +2,8 @@
 
 :root {
   --outdated_underground-090: none !important;
-  --version:"0.9.0";
-  --build:"090";
+  --version:"0.9.1";
+  --build:"091";
   --version-display: flex;
   --theme-owner: "Leeprky";
   }
@@ -57,39 +57,36 @@
   .info-3pQQBb {
     &::after {
       content: "Latest " var(--version-latest-long) !important;
-      color: var(--alt-color2);
+      color: var(--text-muted) !important;
       opacity: 0.4;
-      filter: brightness(100%);
       display: block;
       font-size: 12px;
       font-family: var(--font-primary);
-      font-weight: 600;
-      margin-top: 5px;
+      font-weight: 400;
+      margin-top: 0px;
     }
   
     &::before {
       content: "Current " var(--version-long) !important;
-      color: var(--alt-color2);
+      color: var(--text-muted) !important;
       opacity: 1;
-      filter: brightness(100%);
       display: block;
       font-size: 12px;
       font-family: var(--font-primary);
       font-weight: 400;
       position: absolute;
-      margin-top: 102px;
+      margin-top: 82px;
     }
   }
   
   .socialLinks-3ywLUf::after {
     content: "Style: " var(--style-name) " | Creator: " var(--style-creator) !important;
-    color: var(--alt-color2);
+    color: var(--text-muted) !important;
     opacity: 1;
-    filter: brightness(180%);
     display: block;
     font-size: 10px;
     font-family: var(--font-primary);
     font-weight: 400;
     position: absolute;
-    margin-top: 132px;
+    margin-top: 110px;
   }

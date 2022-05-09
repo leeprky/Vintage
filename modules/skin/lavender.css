@@ -40,6 +40,9 @@
     --green-slider-off: #404447fd;
     --green-slider-dot-on: #4770a2;
     --green-slider-dot-off: #303337fd;
+
+    --setting-backdrop-main: #0f0f146e;
+    --setting-backdrop-sidebar: #17161b75;
 }
 
 .theme-dark {
@@ -67,7 +70,7 @@
     --toast-box-shadow: rgba(0, 0, 0, .2);
     --toast-border: var(--background-tertiary);
 
-    --background-primary: #101014;
+    --background-primary: #0f0f14;
     --background-secondary: #17161b;
     --background-secondary-alt: #111114;
     --background-tertiary: #0b0b0e;

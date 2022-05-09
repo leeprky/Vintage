@@ -94,10 +94,6 @@
       border-radius: var(--radius);
   }
 
-[class="cooldownWrapper-2k1jHK"] {
-      bottom: 70px;
-      position: relative;
-  }
   .content-3spvdd {
       background: transparent !important;
       padding: 5px !important;
@@ -105,6 +101,9 @@
 
   .scrollableContainer-15eg7h {
     box-shadow: 0px 00px 00px 6px var(--background-primary);
+  }
+  .scrollableContainer-15eg7h {
+      margin-right: -11px !important;
   }
 
   .cozy-VmLDNB .headerText-2z4IhQ > span::before {
@@ -121,7 +120,7 @@
     left: -3px;
   }
   .cozy-VmLDNB .headerText-2z4IhQ > span::after, .cozy-VmLDNB .headerText-2z4IhQ.hasRoleIcon-1Usc6e > span::after {
-    content: ":";
+    content: "";
   }
   /* repairs left shift */
   .cozy-VmLDNB .headerText-2z4IhQ > span, .cozy-VmLDNB .headerText-2z4IhQ.hasRoleIcon-1Usc6e > span {
@@ -149,27 +148,10 @@
     margin-bottom: 5px;
     width: fit-content;
 }
-.scrollableContainer-15eg7h {
-    margin-right: -10px;
-    margin-bottom: -12px;
-    min-height: 50px !important;
-    position: relative;
-}
-[class=cooldownWrapper-2k1jHK] {
-    background-color: var(--background-tertiary) !important;
-    border-color: rgba(var(--alt-color)) !important;
-    border-radius: var(--radius);
-    padding: 2px;
-    padding-left: 10px;
-    padding-right: 10px;
-
-    margin-right: 0px;
-    margin-bottom: 20px;
-    color: #000;
-}
 .barButtonMain-2GIx4o, .barButtonAlt-TQoCdZ {
     top: 3.5px;
-    color: #000;
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
 }
 
 /* Horizontally listed media */
@@ -192,4 +174,50 @@
 }
 .emojiButton-3FRTuj {
     background-color: transparent !important;
+}
+
+.mention:not(.iconMention-3WxjBe) {
+    border-radius: var(--radius);
+    padding: 4px;
+    content: "";
+}
+
+.attachedBars-2BCP3l {
+    position: relative;
+    bottom: 8px;
+    right: -2px;
+    margin-top: 10px;
+    border-radius: var(--radius) !important;
+    margin-right: -9px;
+}
+.replyBar-1oi75v, .threadSuggestionBar-3ExSyc {
+    border-radius: var(--radius) !important;
+}
+.replyLabel-WWnhHi {
+    margin-bottom: 0px;
+}
+
+.upload-vLbqu- {
+    position: relative;
+    padding: 12px;
+    bottom: 11px;
+    right: -2px;
+    margin-top: 10px;
+    border-radius: var(--radius) !important;
+    margin-right: -9px;
+    background-color: var(--background-tertiary);
+}
+.divider-2rZFJK {
+    display: none;
+}
+
+.reaction-2A2y9y {
+    width: min-width;
+    background-color: var(--background-tertiary);
+    padding: 4px;
+    border-radius: var(--radius);
+}
+.reactionCount-1zkLcN {
+    margin-left: 8px;
+    margin-top: -2px;
 }

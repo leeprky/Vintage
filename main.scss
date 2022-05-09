@@ -9,4 +9,7 @@
 @use "./modules/module";
 
 // Client Code | DONT TOUCH
-@use "./clients/clients.scss"
+@use "./clients/clients.scss";
+
+// Platform Code | DONT TOUCH
+@use "./platform/platform";

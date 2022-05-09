@@ -40,3 +40,32 @@
     box-shadow: none !important;
 }
 
+.iconWrapper-2awDjA[aria-label="Start Voice Call"] {
+    background-color: var(--call-colour);
+}
+
+.iconWrapper-2awDjA[aria-label="Start Video Call"] {
+    background-color: var(--call-colour);
+}
+
+.status-1ZXjSF {
+    position: fixed !important;
+    border-radius: var(--avatar-radius);
+    color: #fff;
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+.status-1ZXjSF path {
+    display: none;
+}
+
+[mask="url(#svg-mask-avatar-voice-call-80)"]::after {
+    content: url("https://raw.githubusercontent.com/leeprky/leeprky.github.io/gh-pages/mute-122-474987.png");
+    transform: scale(0.5) !important;
+}
