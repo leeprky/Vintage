@@ -16,6 +16,27 @@ Popout Modal
 
 [More Previews](https://github.com/leeprky/vintage/blob/main/previews.md)
 
+# Contributing
+
+## Adding Skins:
+Adding Your Own Skin Is Easy!
+
+- **Step 1:** Create a new file in **Vintage/modules/skin** Called **[NAME].css** (Make sure it doesn't already exist).
+- **Step 2:** Either copy another **skin** or create two variables and go from there.
+```css
+:root {
+    --style-name: "Default Skin" !important;
+    --style-creator: "Leeprky#2063";
+}
+```
+
+- **Step 3:** Either copy another **skin** or create two variables and go from there.
+- **Step 4:** Either copy another **skin** or create two variables and go from there.
+
+## Adding Features:
+
+## Fixing Bugs:
+
 # Important Plugins
 When scrolling through member lists and long channel lists, the scrollbar randomly gets stuck and starts flickering. To get rid of this annoyance you need to install Smooth Scroll plugin for [Powercord](https://github.com/LynithDev/SmoothScrollPowerCord) / [BetterDiscord](https://github.com/Lavender-Discord/Lavender/releases/latest/download/smoothscrollBD.plugin.js).
 (Thanks Obsecure.)
@@ -23,7 +44,5 @@ When scrolling through member lists and long channel lists, the scrollbar random
 **Note:** The plugin is owned and maintained by **[LynithDev](https://github.com/LynithDev)** for Powercord so all the credits to him. The BetterDiscord version of this plugin is just a rough port that I made of Lynith's plugin and it is directly importing the SmoothScroll file from Lynith's repo.
 
 # Useful Experiments
-
-# Contribute
 
 # Credits
