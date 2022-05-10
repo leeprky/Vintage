@@ -31,13 +31,13 @@
 // @use "../../modules/skin/vanilla-dark.css";
 
 // Default Skin - By Leeprky#2063
-@use "../../modules/skin/default.css";
+// @use "../../modules/skin/default.css";
 
 // Lavender Skin - By Lavender
 // @use "../../modules/skin/lavender.css";
 
 // Zelk Skin - By schnensch#4231
-// @use "../../modules/skin/zelk.css";
+@use "../../modules/skin/zelk.css";
 
 // Duvbox Skin By Leeprky#2063
 // @use "../../modules/skin/duvbox.css";
@@ -58,8 +58,14 @@
 // Menu Animations
 // @use "../../src/optional/menu-animations.scss";
 
+
+// No Nitro
+@use "../../src/optional/no-nitro.scss";
+
+
 // Horizontal Server List - Rough But Functional
 // @use "../../src/optional/horizontal-server-list.scss";
+
 
 // MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar
 
@@ -81,7 +87,7 @@
 // Emoji's
 
 // Google 
-//@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css");
+// @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css");
 
 // Apple 
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");

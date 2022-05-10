@@ -1,0 +1,24 @@
+/* Remove Buttons */
+.button-f2h6uQ[aria-label="Send a gift or Boost this server"],
+.channel-1Shao0[aria-posinset="2"],
+[aria-controls="discord-nitro-tab"],
+.wrapper-3Zq_cJ
+{
+    display: none !important;
+}
+
+/* Remove Promos */
+.premiumPromo-1eKAIB
+{
+    display: none !important;
+}
+
+/* Remove Emojis */
+.emojiItemDisabled-3VVnwp
+{
+    filter: grayscale(90%) !important;
+}
+.emojiItemDisabled-3VVnwp:hover
+{
+    filter: grayscale(20%) !important;
+}
