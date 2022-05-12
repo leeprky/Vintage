@@ -8,7 +8,7 @@
 
 .searchBar-3TnChZ {
     border-radius: var(--radius);
-    top: 30px;
+    top: 35px;
     background-color: var(--background-secondary) !important;
     width: 210px;
     position: fixed;
@@ -54,4 +54,4 @@
     position: relative;
 }
 
-
+.nowPlayingColumn-1eCBCN>div>div>h3{position:fixed;width:360px;right:40px !important;top:24px;text-align:center;}.nowPlayingColumn-1eCBCN{background:transparent;}.nowPlayingColumn-1eCBCN>div>div{margin-top:60px;display:grid;grid-template-columns:repeat(auto-fill, minmax(160px, 112px));grid-gap:10px;grid-template-rows: repeat(auto-fill, minmax(70px, 0px));justify-content:center;margin-left:auto;margin-right:auto;}.scroller-hE2gWq{border-left:unset;}.itemCard-3Etziu{margin-top:unset;}.itemCard-3Etziu{max-height:40px;}.body-16rSsp{display:none;}

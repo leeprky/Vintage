@@ -55,7 +55,7 @@
 }
 .searchResultsWrap-5RVOkx {
     padding: 10px;
-    margin: 10px 16px 12px 8px;
+    margin: 10px 16px 24px 8px;
     border-radius: var(--radius) !important;
     background-color: var(--background-secondary) !important;
   }
@@ -84,6 +84,15 @@
 
   .operations-3q3u6E {
       margin-top: 20px;
+  }
+  .textArea-2CLwUE,
+  .attachWrapper-3slhXI,
+  .buttons-uaqb-5 {
+      padding-bottom: 1px !important;
+  }
+
+  .chatContent-3KubbW .buttons-uaqb-5 > .expression-picker-chat-input-button:nth-of-type(3) {
+      background-color: var(--background-secondary) !important;
   }
 
   .mentioned-Tre-dv:before {
@@ -119,6 +128,11 @@
     /* repairs left shift*/
     left: -3px;
   }
+
+  .chatContent-3KubbW {
+    margin-right: 15px;
+}
+
   .cozy-VmLDNB .headerText-2z4IhQ > span::after, .cozy-VmLDNB .headerText-2z4IhQ.hasRoleIcon-1Usc6e > span::after {
     content: "";
   }
@@ -180,6 +194,12 @@
     border-radius: var(--radius);
     padding: 4px;
     content: "";
+}
+
+.embedFull-1HGV2S {
+    border-left: px solid var(--alt-color2) !important;
+    border-radius: var(--radius);
+    background: var(--background-tertiary) !important;
 }
 
 .attachedBars-2BCP3l {

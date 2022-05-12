@@ -172,3 +172,28 @@
     padding-bottom: 10px;
     top: 5px;
   }
+
+  .contentRegion-3HkfJJ {
+    padding-top: 20px !important;
+  }
+
+  .item-2idW98,
+  .theme-dark .card-3JmxsM, .theme-light .card-3JmxsM,
+  .theme-dark .hiddenMessage-3QNvPt, .theme-dark .inputDefault-1AaKiD,
+  .theme-light .hiddenMessage-3QNvPt, .theme-light .inputDefault-1AaKiD,
+  .flex-2S1XBF {
+    border-radius: var(--radius) !important;
+  }
+
+  .theme-dark .headerClickable-zGQJz3, .theme-dark .headerDefault-1e6yjj,
+  .theme-light .headerClickable-zGQJz3, .theme-light .headerDefault-1e6yjj {
+    background-color: var(--background-tertiary);
+    border: none !important;
+  }
+
+  .tierHeaderContent-2SPBAA,
+  .theme-dark .tierBody-1d3UiS, .theme-light .tierBody-1d3UiS {
+    background-color: var(--background-secondary);
+    margin-bottom: 5px;
+    border-radius: var(--radius) !important;
+  }

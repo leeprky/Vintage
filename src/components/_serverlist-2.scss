@@ -1,25 +1,14 @@
 // List
 .guilds-2JjMmN {
-    padding: 3px;
-    margin: 7px 7px 25px 18px;
-    border-radius: var(--radius) !important;
-    background-color: var(--background-secondary) !important;
-}
-.scroller-3X7KbA {
-    background-color: var(--background-secondary) !important;
-    border-radius: var(--radius) !important;
+    width: 90px;
 }
 .tree-3agP2X {
+    margin-left: 10px;
     margin-top: 0px;
-    border-radius: var(--radius) !important;
 }
 div[style="opacity: 1; height: 56px; transform: scale(1);"] {
     top: 8px;
     position: relative;
-}
-
-.container-1eFtFS {
-    background-color: var(--background-primary);
 }
 
 .wrapper-28eC3z {
@@ -50,41 +39,31 @@ div[style="opacity: 1; height: 56px; transform: scale(1);"] {
     0% {
       transform: scale(1);
       transition: var(--pop-transition);
-      background-color: var(--ping-colour) !important;
     }
     25% {
         transform: scale(1.06);
         transition: var(--pop-transition);
-        background-color: var(--ping-colour) !important;
       }
     50% {
         transform: scale(1.12);
         transition: var(--pop-transition);
-        background-color: var(--ping-colour) !important;
     }
     75% {
         transform: scale(1.06);
         transition: var(--pop-transition);
-        background-color: var(--ping-colour) !important;
     }
     100% {
         transform: scale(1);
         transition: var(--pop-transition);
-        background-color: var(--ping-colour) !important;
       }
   }
 
 .numberBadge-37OJ3S,
 .wrapper-2olG5t.badge-3k1jbq {
 	border-radius: 5px !important;
-    background-color: var(--ping-colour) !important;
+    background-color: var(--alt-color2) !important;
     animation: ping-animation 5s linear infinite;
     transition: var(--pop-transition);
-}
-
-.listItem-3SmSlK {
-    transform: scale(0.9) !important;
-    margin-left: 1px;
 }
 
 .lowerBadge-3WTshO {
@@ -114,16 +93,3 @@ div[style="opacity: 1; height: 56px; transform: scale(1);"] {
 .folderIconWrapper-1oRIZr[style="background-color: rgba(88, 101, 242, 0.4);"] {
     background-color:  rgba(var(--alt-color), 0.3) !important;
 }
-
-.unreadMentionsIndicatorTop-2bTgUU,
-.unreadMentionsIndicatorBottom-3RJMnQ {
-    left: 0px;
-    border-radius: var(--radius) !important;
-    z-index: 99;
-}
-.mention-3XBnnZ {
-    background-color: var(--ping-colour);
-    border-radius: var(--radius) !important;
-    width: 63px;
-}
-

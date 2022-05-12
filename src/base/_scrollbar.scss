@@ -1,0 +1,24 @@
+// Scrollbar
+
+:root {
+    --scrollbar-thin-thumb: rgba(var(--alt-color), 1) !important;
+    --scrollbar-thin-track: rgba(var(--alt-color), 0.01) !important;
+
+    --scrollbar-auto-thumb: rgba(var(--alt-color), 1) !important;
+    --scrollbar-auto-track: rgba(var(--alt-color), 0.1) !important;
+
+    --scrollbar-auto-scrollbar-color-thumb: pink !important;
+    --scrollbar-auto-scrollbar-color-track: cyan !important;
+}
+
+::-webkit-scrollbar {
+    display: var(--scrollbar-display) !important;
+    min-width: 8px !important;
+    border-radius: var(--radius) !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-clip: padding-box !important;
+}
+
+.scrollableContainer-15eg7h {overflow: hidden !important;}

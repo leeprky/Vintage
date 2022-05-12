@@ -5,7 +5,8 @@
 .panels-3wFtMD,
 .peopleColumn-1wMU14,
 .nowPlayingColumn-1eCBCN, 
-.theme-dark .container-2cd8Mz, .theme-light .container-2cd8Mz
+.theme-dark .container-2cd8Mz, .theme-light .container-2cd8Mz,
+.theme-dark .perksModal-CLcR1c, .theme-light .perksModal-CLcR1c
 {background: var(--background-primary) !important;}
 
 // Background Secondary
@@ -117,4 +118,10 @@
 .userPopout-2j1gM4[aria-label="Leeprky"] .headerNormal-3Zn_yu .popoutBanner-3cqRD9 {
   background: url("https://i.imgur.com/xgm3xAc.gif");
   background-position: center;
+}
+
+// // //
+
+.container-1eFtFS {
+  padding-top: 5.5px !important;
 }

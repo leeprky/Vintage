@@ -1,5 +1,239 @@
-.layer-1Ixpg3,
-.layers-1YQhyW,
-.layer-86YKbF.baseLayer-W6S8cY {
-    background-color: rgba(0, 0, 0, 0.699) !important;
+.backdrop-2ByYRN {
+    background-color: var(--popout-backdrop) !important;
+    backdrop-filter: var(--popout-backdrop-blur) !important;
+}
+
+.root-8LYsGj {
+    background-color: var(--background-tertiary) !important;
+    border-radius: var(--radius);
+    min-height: auto !important;
+}
+
+.profileBannerPremium-KD60EB, .profileBanner-1owKI5 {
+    height: 280px ;
+    filter: var(--avatar-profile-banner-blur);
+    opacity: var(--avatar-profile-banner-opacity);
+
+    margin: 15px;
+    margin-bottom: 0px;
+    border-radius: var(--radius);
+}
+
+.avatar-3QF_VA {
+    position: absolute !important;
+    top: -220px !important;
+    left: 40.2% !important;
+    border: 0px solid var(--background-floating) !important;
+    background-color: var(--background-floating) !important;
+}
+
+.nameTag-2Nlmsy {
+    top: 145px;
+    left: 185px;
+    position: fixed;
+    width: 200px !important;
+    max-width: 200px !important;
+}
+.badgeList-2aoHPw {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: var(--popout-modal-badges-style);
+    left: 14px;
+    top: 74px;
+    width: max-content;
+    background-color: var(--popout-badges-transparency);
+    border-radius: var(--popout-badges-radius);
+    padding: 4px;
+    position: fixed;
+}
+.nameTag-2Nlmsy,
+.nameTag-2Nlmsy .discriminator-1bqsd3,
+.tabBarContainer-sCZC4w {
+display: flex;
+justify-content: center;
+text-align: center;
+}
+.customStatusActivity-WKWGD- {
+    padding: 0 16px 8px;
+}
+.top-K_jibn .item-3XjbnG {
+    background-color: var(--background-secondary);
+    padding: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 0px solid transparent;
+}
+.top-K_jibn .item-3XjbnG:hover {
+    background-color: var(--alt-color2);
+}
+.tabBarContainer-sCZC4w {
+    padding-top: 0px;
+    margin-top: 0px !important;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--background-modifier-accent);
+}
+
+#app-mount .wrapper-1VLyxH rect {
+    x: 0;
+    y: 0;
+    width: 87%;
+    height: 100%;
+    -webkit-mask: none;
+    mask: none;
+    display: block !important;
+    rx: var(--rs-avatar-shape) !important;
+    ry: var(--rs-avatar-shape) !important;
+    fill: transparent !important;
+    stroke-width: var(--rs-width);
+}
+
+.relationshipButtons-3ByBpj {
+    position: fixed;
+    top: 30px;
+    right: 25px;
+}
+
+@media only screen and (min-height: 1235px) {
+.body-1Ukv50 {
+    max-height: 680px !important;
+    min-height: 680px !important;
+}
+}
+@media only screen and (max-height: 1240px) {
+    .body-1Ukv50 {
+        max-height: 680px !important;
+        min-height: 470px !important;
+    }
+    }
+    @media only screen and (max-height: 1030px) {
+        .body-1Ukv50 {
+            max-height: 470px !important;
+            min-height: 320px !important;
+        }
+        }
+        @media only screen and (max-height: 830px) {
+            .body-1Ukv50 {
+                max-height: 320px !important;
+                min-height: 130px !important;
+            }
+            }
+
+.customStatusText-_4TbWr {
+    padding: 8px;
+    margin-top: 55px !important;
+    border-radius: var(--radius);
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--background-secondary);
+}
+.customStatusText-_4TbWr::before {
+    content: "STATUS";
+    background-color: var(--background-secondary-alt);
+    padding: 8px;
+    position: absolute !important;
+    left: 15px !important;
+    top: 305px !important;
+    border-radius: var(--radius);
+    color: var(--header-secondary) !important;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase !important;
+    width: 553px !important;
+
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.userInfoSectionHeader-2mYYun {
+    padding: 8px;
+    border-radius: var(--radius);
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--background-secondary-alt);
+}
+.userInfoText-2MFCmH {
+    padding: 8px;
+    margin-top: 15px;
+    border-radius: var(--radius);
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--background-secondary);
+}
+.note-3M15gE textarea {
+    padding-left: 0px;
+    width: 560px;
+    margin-left: 4px;
+    padding-right: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 15px;
+    border-radius: var(--radius);
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--background-secondary);
+}
+.connectedAccounts-1YaT2t::before {
+    content: "Connected Accounts";
+    background-color: var(--background-secondary-alt);
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: var(--radius);
+    color: var(--header-secondary) !important;
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase !important;
+    width: 543px;
+
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.userInfoSection-2u2hir+.userInfoSection-2u2hir {
+    border-top: 0px solid var(--background-modifier-accent) !important;
+}
+
+.connectedAccount-1xKpli {
+    padding: 8px;
+    margin-top: 15px;
+    
+    border-radius: var(--radius);
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--background-secondary);
+}
+
+.listScroller-entkMk {
+    display: grid !important;
+    flex-direction: column !important;
+    grid-template-columns: 285px 285px;
+    border-radius: var(--radius);
+    padding: 4px;
+    height: auto;
+    align-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.listRow-2nO1T6 {
+    height: 50px;
+    background-color: var(--background-secondary);
+    border-radius: var(--radius);
+    padding: 4px;
+}
+.listAvatar-2bU5Uh, .listRowContent-PEmSWj {
+    margin-left: 10px;
+    padding: 1px;
+}
+
+.lookFilled-yCfaCM.colorGreen-3y-Z79 {
+    border-radius: var(--radius);
 }

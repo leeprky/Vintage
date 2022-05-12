@@ -70,7 +70,7 @@
 }
 .headerTagUsernameNoNickname-1TjuLc {
     top: 140px;
-    left: 50px;
+    left: 56px;
     color: #fff !important;
     position: fixed;
     width: 200px;
@@ -110,8 +110,6 @@
 .avatar-2Vndt_ {
     border: none !important;
     background-color: transparent !important;
-    transform: translateY(0) !important;
-    transform: translateX(0) !important;
 }
 
 .powercord-badge-wrapper {
@@ -246,4 +244,8 @@
 .customStatus-3XAoF9 .customStatusEmoji-1bFQdD.customStatusSoloEmoji-2bSRlG,
 .inputDefault-3FGxgL {
     border-radius: var(--radius);
+}
+
+[class="addButton-1_dZYu actionButton-1YKTU0 role-2TIOKu flex-3BkGQD alignCenter-14kD11 justifyCenter-rrurWZ"] {
+    background-color: rgba(var(--alt-color),0.2) !important;
 }
