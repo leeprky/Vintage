@@ -17,14 +17,15 @@
     --indicator-selected: var(--alt-color);
     --indicator-rounding: var(--radius) !important;
 
+
     /* Green Colour */
     --green-color: var(--alt-color2) !important;
     --spotify-color: var(--green-color);
-    --green-bar-on: #5c646480;
+    --green-bar-on: #61483e;
     --green-bar-bg: var(--green-color);
     --green-slider-on: var(--green-color);
     --green-slider-off: #404447fd;
-    --green-slider-dot-on: #61483e;
+    --green-slider-dot-on: #795141;
     --green-slider-dot-off: #303337fd;
 
     --setting-backdrop-main: #201b1865;
@@ -200,14 +201,14 @@
     --spoiler-revealed-background: var(--background-tertiary);
     --spoiler-hidden-background: var(--background-tertiary);
 
-    --deprecated-card-bg: var(--background-tertiary);
-    --deprecated-card-editable-bg: var(--background-tertiary);
-    --deprecated-store-bg: var(--background-tertiary);
+    --deprecated-card-bg: var(--background-secondary);
+    --deprecated-card-editable-bg: var(--background-secondary);
+    --deprecated-store-bg: var(--background-secondary);
     --deprecated-quickswitcher-input-background: #72767d;
     --deprecated-quickswitcher-input-placeholder: hsla(0,0%,100%,0.3);
-    --deprecated-text-input-bg: var(--background-tertiary);
+    --deprecated-text-input-bg: var(--background-secondary);
     --deprecated-text-input-border: rgba(0,0,0,0.3);
-    --deprecated-text-input-border-hover: var(--background-tertiary);
+    --deprecated-text-input-border-hover: var(--background-secondary);
     --deprecated-text-input-border-disabled: #202225;
     --deprecated-text-input-prefix: #dcddde;
 }

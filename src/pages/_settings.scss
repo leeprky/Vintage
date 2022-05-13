@@ -197,3 +197,96 @@
     margin-bottom: 5px;
     border-radius: var(--radius) !important;
   }
+
+  .previewAvatars-5zC6sZ {
+    margin-left: 28px !important;
+    gap: 28px;
+  }
+
+  [fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)"] {
+    fill: var(--alt-color2) !important;
+  }
+
+  .cardPrimaryOutline-1ofwVz {
+    background-color: var(--background-secondary) !important;
+    border-radius: var(--radius);
+  }
+
+  .cardPrimary-3qRT__ {
+    border-radius: var(--radius);
+}
+.connectionHeader-Ixbb1s {
+    background-color: var(--background-secondary);
+}
+.theme-dark .codeRedemptionRedirect-2hYMSQ,
+.theme-light .codeRedemptionRedirect-2hYMSQ {
+    background-color: var(--background-primary);
+    border-color: var(--background-primary);
+}
+.contentRegion-3HkfJJ {
+  background-color: var(--setting-backdrop-main);
+  border-radius: var(--radius);
+}
+.poggermodeIcon-3Z9uYf {
+    left: 10px;
+    z-index: 99;
+    position: absolute;
+}
+.item-3XjbnG[data-item-id="PowermodeSettings"] .tabBarItemContainer-2HdIlr {
+    margin-left: 30px;
+}
+.item-3XjbnG[data-item-id="PowermodeSettings"]::before {
+    display: none !important;
+}
+.item-3XjbnG {
+  border-radius: var(--radius) !important;
+}
+
+.theme-dark .game-2f2vPC {
+  background-color: var(--background-secondary);
+  border-radius: var(--radius);
+  padding: 12px;
+  margin-bottom: 12px;
+  box-shadow: var(--elevation-high);
+}
+
+
+.children-1xdcWE {
+  background-color: var(--background-secondary);
+  border-radius: var(--radius);
+  padding: 18px;
+  margin-bottom: 12px;
+  box-shadow: var(--elevation-high);
+}
+
+.lookOutlined-3yKVGo.colorRed-rQXKgM {
+  background-color: rgba(107, 27, 27, 0.445);
+  border-radius: var(--radius) !important;
+}
+.lookFilled-yCfaCM.colorRed-rQXKgM {
+  border-radius: var(--radius) !important;
+}
+.lookFilled-yCfaCM.colorPrimary-2AuQVo {
+  border-radius: var(--radius);
+}
+
+.preview-QJ3OG3 {
+  position: absolute
+  height: 180px;
+  overflow: hidden;
+  background-color: var(--background-secondary);
+  top: -100px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
