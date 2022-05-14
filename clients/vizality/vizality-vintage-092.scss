@@ -9,13 +9,12 @@
 //          Last Updated: 07/05/2022 02:20 (UK)
 //       Version: Vizality (https://vizality.com/)
 
-// Main
 @use "../../main.scss";
 
 // Powercord Specific
 @use "./vizality.scss";
 
-// ___        _  __       ___        _  _        ___ 
+// ___        _  __       ___        _  _        ___
 // / __|      | |/ /      |_ _|      | \| |      / __|
 // \__ \      |   <        | |       | .  |      \__ \
 // |___/      |_|\_\      |___|      |_|\_|      |___/
@@ -55,22 +54,19 @@
 // @use "../../modules/skin/naive.css";
 
 //  __          __   ___    _          ___    __    __
-//  /     | |   (_     |    / \   |V|    |    (_    |_ 
+//  /     | |   (_     |    / \   |V|    |    (_    |_
 //  \__   |_|   __)    |    \_/   | |   _|_   __)   |__
 
 // Menu Animations
 // @use "../../src/optional/menu-animations.scss";
 
-
 // No Nitro
 @use "../../src/optional/no-nitro.scss";
 
-
 // Horizontal Server List - Rough But Functional
-// @use "../../src/optional/horizontal-server-list.scss";
+//@use "../../src/optional/horizontal-server-list.scss";
 
-
-// MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar
+//MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar
 
 @use "../../src/optional/macos.scss";
 :root {
@@ -87,88 +83,87 @@
     --macos-max-bg-hover: #12db33;
 }
 
-// Emoji's
+//Emoji's
 
-// Google 
-// @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css");
+//Google
+//@import url("https:/*mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css");
 
-// Apple 
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
+//Apple
+@import url("https:/*mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
 
 :root {
+    // Gradients
+    --default-gradient: 315deg, rgba(var(--alt-color), 0.7) 0%, rgba(var(--alt-color), 0.8) 74%;
+    --special-gradient: 315deg, rgba(var(--alt-color), 0.1) 0%, #c987b8 74%;
+    --red-gradient: 315deg, #aa3738 0%, #f04747 74%;
+    --red-hsl: hsl(359, 63%, 53%);
+    --yellow-gradient: 315deg, #c29b1b 0%, #ffa640 74%;
+    --yellow-hsl: hsl(46, 72%, 52%);
+    --green-gradient: 315deg, #507a73 0%, #4b7c72 74%;
+    --grey-gradient: 315deg, rgba(var(--alt-color), 0.6) 0%, rgba(var(--alt-color), 0.8) 74%;
+    --white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.342) 74%;
 
-/* Gradients */
---default-gradient: 315deg, rgba(var(--alt-color), 0.7) 0%, rgba(var(--alt-color), 0.8) 74%;
---special-gradient: 315deg, rgba(var(--alt-color), 0.1) 0%, #c987b8 74%;
---red-gradient: 315deg, #AA3738 0%, #F04747 74%;
---red-hsl: hsl(359, 63%, 53%);
---yellow-gradient: 315deg, #c29b1b 0%, #ffa640 74%;
---yellow-hsl: hsl(46, 72%, 52%);
---green-gradient: 315deg, #507a73 0%, #4b7c72  74%;
---grey-gradient: 315deg, rgba(var(--alt-color), 0.6) 0%, rgba(var(--alt-color), 0.8) 74%;
---white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.342) 74%;
+    --ping-colour: var(--red-hsl);
 
---ping-colour: var(--red-hsl);
+    // Popout Modal's
+    --popout-modal-badges-style: 30px; //No Wrap Around - Add A Second 30px For Wrap (30px 30px)
 
-// Popout Modal's 
---popout-modal-badges-style: 30px; // No Wrap Around - Add A Second 30px For Wrap (30px 30px)
+    --popout-badges-transparency: rgba(0, 0, 0, 0.473);
+    --popout-badges-radius: 0px 12px 12px 0px;
 
---popout-badges-transparency: rgba(0, 0, 0, 0.473);
---popout-badges-radius: 0px 12px 12px 0px;
+    --avatar-popout-banner-blur: blur(0.5px);
+    --avatar-popout-banner-opacity: 0.3;
 
---avatar-popout-banner-blur: blur(0.5px);
---avatar-popout-banner-opacity: 0.3;
+    --avatar-profile-banner-blur: blur(0.9px);
+    --avatar-profile-banner-opacity: 0.4;
 
---avatar-profile-banner-blur: blur(0.9px);
---avatar-profile-banner-opacity: 0.4;
+    --settings-backdrop-border: scale(0.95);
 
---settings-backdrop-border: scale(0.95);
+    --popout-backdrop: rgba(0, 0, 0, 0.74);
+    --popout-backdrop-blur: blur(4px);
 
---popout-backdrop: rgba(0, 0, 0, 0.74);
---popout-backdrop-blur: blur(4px);
+    // Global Rounding
+    --radius: 10px !important; //6 Is Squareish | 12 Is Bubbly
+    --avatar-radius: 12% !important; //12% is square | 24% is bubbly
 
-// Global Rounding
---radius: 10px !important; // 6 Is Squareish | 12 Is Bubbly
---avatar-radius: 12% !important; // 12% is square | 24% is bubbly
+    // Pop Out Buttons
+    --pop-transiton-time: ease-in-out 0.4s;
 
-// Pop Out Buttons
---pop-transiton-time: ease-in-out 0.4s;
+    // Scrollbar Display
+    --scrollbar-display: block !important;
 
-// Scrollbar Display
---scrollbar-display: block !important;
+    // Watermark Title
+    --watermark-Alignment: 50%;
+    --watermark-offset: 4%; //(4%) Higher = More Left
+    --watermark-text: "" var(--theme) " v" var(--version) " - (" var(--style-name) ") -  by " var(--style-creator) "";
 
-// Watermark Title
---watermark-Alignment: 50%; 
---watermark-offset: 4%; // (4%) Higher = More Left
---watermark-text: "" var(--theme) " v" var(--version) " - (" var(--style-name) ") -  by " var(--style-creator) ""; 
+    // User Status Indicator's
+    --rs-small-spacing: 0;
+    --rs-large-spacing: 0;
+    --rs-width: 2px;
+    --rs-avatar-shape: var(--avatar-radius);
+    --rs-online-color: #79ff8b;
+    --rs-idle-color: #ffcc74;
+    --rs-dnd-color: #ff7979;
+    --rs-offline-color: #fff9f9;
+    --rs-streaming-color: #b68bff;
+    --rs-invisible-color: #ffe9e9;
 
-// User Status Indicator's
---rs-small-spacing:0;
---rs-large-spacing:0;
---rs-width:2px;
---rs-avatar-shape:var(--avatar-radius);
---rs-online-color:#79ff8b;
---rs-idle-color:#ffcc74;
---rs-dnd-color:#ff7979;
---rs-offline-color:#fff9f9;
---rs-streaming-color:#b68bff;
---rs-invisible-color:#ffe9e9;
+    // Windows Buttons | Requires MacOS Buttons To Be Commented Out - Line 27
+    --win-buttons-width: 42px;
 
-// Windows Buttons | Requires MacOS Buttons To Be Commented Out - Line 27
---win-buttons-width: 42px;
+    --win-close-background-colour: #b9534681;
+    --win-close-text-colour: #ffefec;
 
---win-close-background-colour: #b9534681;
---win-close-text-colour: #ffefec;
+    --win-max-background-colour: #c5a74e79;
+    --win-max-text-colour: #ffefc1;
 
---win-max-background-colour: #c5a74e79;
---win-max-text-colour: #ffefc1;
-
---win-min-background-colour: #60a86073;
---win-min-text-colour: #beffbe;
---win-min-border-radius: 0px 0px 0px 12px;
+    --win-min-background-colour: #60a86073;
+    --win-min-text-colour: #beffbe;
+    --win-min-border-radius: 0px 0px 0px 12px;
 }
 
 :root {
-    --version: "0.9.2PC" !important;
-    --build:"092PC" !important;
+    --version: "0.9.2VI" !important;
+    --build: "092VI" !important;
 }

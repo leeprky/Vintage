@@ -1781,6 +1781,15 @@ svg.slider-32CRPX svg {
   box-shadow: inset 0 0 0px 2px var(--alt-color2) !important;
 }
 
+.membersGroup-2eiWxl::after {
+  content: "..............";
+  width: 100px !important;
+  left: -22px;
+  position: relative;
+  background-color: var(--background-secondary) !important;
+  color: var(--background-secondary) !important;
+}
+
 .guilds-2JjMmN {
   padding: 3px;
   margin: 7px 7px 25px 18px;
@@ -1928,6 +1937,15 @@ div[style="opacity: 1; height: 56px; transform: scale(1);"] {
 .wrapper-1HIH0j {
   background-color: var(--background-tertiary) !important;
   margin-top: 10px;
+  border-radius: var(--radius);
+}
+
+.theme-dark .message-G6O-Wv {
+  background-color: var(--background-secondary) !important;
+}
+
+.root-g14mjS, .body-1Ukv50, .topSection-13QKHs {
+  background-color: var(--background-floating) !important;
   border-radius: var(--radius);
 }
 
@@ -2206,6 +2224,10 @@ div[class^=dot-], div[class^=newMessagesBar-] {
 }
 
 .icon-18rqoe {
+  color: var(--alt-color2) !important;
+}
+
+.comboMultiplier-YkNec8 {
   color: var(--alt-color2) !important;
 }
 
@@ -2548,6 +2570,10 @@ div[class^=dot-], div[class^=newMessagesBar-] {
   display: none !important;
 }
 
+.item-3XjbnG {
+  border-radius: var(--radius) !important;
+}
+
 .theme-dark .game-2f2vPC {
   background-color: var(--background-secondary);
   border-radius: var(--radius);
@@ -2556,8 +2582,46 @@ div[class^=dot-], div[class^=newMessagesBar-] {
   box-shadow: var(--elevation-high);
 }
 
-.marginTop40-Q4o1tS {
-  margin-top: 0px !important;
+.children-1xdcWE {
+  background-color: var(--background-secondary);
+  border-radius: var(--radius);
+  padding: 18px;
+  margin-bottom: 12px;
+  box-shadow: var(--elevation-high);
+}
+
+.lookOutlined-3yKVGo.colorRed-rQXKgM {
+  background-color: rgba(107, 27, 27, 0.445);
+  border-radius: var(--radius) !important;
+}
+
+.lookFilled-yCfaCM.colorRed-rQXKgM {
+  border-radius: var(--radius) !important;
+}
+
+.lookFilled-yCfaCM.colorPrimary-2AuQVo {
+  border-radius: var(--radius);
+}
+
+.preview-QJ3OG3 {
+  position: absolute;
+  height: 180px;
+  overflow: hidden;
+  background-color: var(--background-secondary);
+  top: -100px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
 }
 
 .privateChannels-oVe7HL {
@@ -2663,10 +2727,6 @@ div[class^=dot-], div[class^=newMessagesBar-] {
   backdrop-filter: var(--popout-backdrop-blur) !important;
 }
 
-.root-g14mjS, .body-1Ukv50, .topSection-13QKHs {
-  background-color: #000 !important;
-}
-
 .profileBannerPremium-KD60EB, .profileBanner-1owKI5 {
   height: 280px;
   filter: var(--avatar-profile-banner-blur);
@@ -2736,6 +2796,13 @@ div[class^=dot-], div[class^=newMessagesBar-] {
   margin-top: 0px !important;
   padding-bottom: 10px;
   border-bottom: 1px solid var(--background-modifier-accent);
+}
+
+.empty-2zcusz {
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 543px;
 }
 
 #app-mount .wrapper-1VLyxH rect {

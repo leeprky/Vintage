@@ -3,10 +3,6 @@
     backdrop-filter: var(--popout-backdrop-blur) !important;
 }
 
-.root-g14mjS, .body-1Ukv50, .topSection-13QKHs {
-    background-color: #000 !important;
-}
-
 .profileBannerPremium-KD60EB, .profileBanner-1owKI5 {
     height: 280px ;
     filter: var(--avatar-profile-banner-blur);
@@ -71,6 +67,12 @@ text-align: center;
     margin-top: 0px !important;
     padding-bottom: 10px;
     border-bottom: 1px solid var(--background-modifier-accent);
+}
+.empty-2zcusz {
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 543px;
 }
 
 #app-mount .wrapper-1VLyxH rect {

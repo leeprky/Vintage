@@ -65,9 +65,9 @@
 @use "../../src/optional/no-nitro.scss";
 
 // Horizontal Server List - Rough But Functional
-// @use "../../src/optional/horizontal-server-list.scss";
+//@use "../../src/optional/horizontal-server-list.scss";
 
-// MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar
+//MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar
 
 @use "../../src/optional/macos.scss";
 :root {
@@ -84,16 +84,16 @@
     --macos-max-bg-hover: #12db33;
 }
 
-// Emoji's
+//Emoji's
 
-// Google
-// @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css");
+//Google
+//@import url("https:/*mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css");
 
-// Apple
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
+//Apple
+@import url("https:/*mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
 
 :root {
-    /* Gradients */
+    // Gradients
     --default-gradient: 315deg, rgba(var(--alt-color), 0.7) 0%, rgba(var(--alt-color), 0.8) 74%;
     --special-gradient: 315deg, rgba(var(--alt-color), 0.1) 0%, #c987b8 74%;
     --red-gradient: 315deg, #aa3738 0%, #f04747 74%;
@@ -107,7 +107,7 @@
     --ping-colour: var(--red-hsl);
 
     // Popout Modal's
-    --popout-modal-badges-style: 30px; // No Wrap Around - Add A Second 30px For Wrap (30px 30px)
+    --popout-modal-badges-style: 30px; //No Wrap Around - Add A Second 30px For Wrap (30px 30px)
 
     --popout-badges-transparency: rgba(0, 0, 0, 0.473);
     --popout-badges-radius: 0px 12px 12px 0px;
@@ -124,8 +124,8 @@
     --popout-backdrop-blur: blur(4px);
 
     // Global Rounding
-    --radius: 10px !important; // 6 Is Squareish | 12 Is Bubbly
-    --avatar-radius: 12% !important; // 12% is square | 24% is bubbly
+    --radius: 10px !important; //6 Is Squareish | 12 Is Bubbly
+    --avatar-radius: 12% !important; //12% is square | 24% is bubbly
 
     // Pop Out Buttons
     --pop-transiton-time: ease-in-out 0.4s;
@@ -135,7 +135,7 @@
 
     // Watermark Title
     --watermark-Alignment: 50%;
-    --watermark-offset: 4%; // (4%) Higher = More Left
+    --watermark-offset: 4%; //(4%) Higher = More Left
     --watermark-text: "" var(--theme) " v" var(--version) " - (" var(--style-name) ") -  by " var(--style-creator) "";
 
     // User Status Indicator's

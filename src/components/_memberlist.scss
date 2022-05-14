@@ -74,3 +74,12 @@
 [class="avatar-2EVtgZ speaking-3K28iH"] {
     box-shadow: inset 0 0 0px 2px var(--alt-color2) !important;
 }
+
+.membersGroup-2eiWxl::after {
+    content: "..............";
+    width: 100px !important;
+    left: -22px;
+    position: relative;
+    background-color: var(--background-secondary) !important;
+    color: var(--background-secondary) !important;
+}

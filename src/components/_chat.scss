@@ -5,6 +5,13 @@
     margin-top: 10px;
     border-radius: var(--radius);
 }
+.theme-dark .message-G6O-Wv {
+    background-color: var(--background-secondary) !important;
+}
+.root-g14mjS, .body-1Ukv50, .topSection-13QKHs {
+    background-color: var(--background-floating) !important;
+    border-radius: var(--radius);
+}
 
 .form-3gdLxP {
     margin-top: -25px;
@@ -255,5 +262,9 @@
     background-color: var(--background-floating);
 }
 .icon-18rqoe {
+    color: var(--alt-color2) !important;
+}
+
+.comboMultiplier-YkNec8 {
     color: var(--alt-color2) !important;
 }
