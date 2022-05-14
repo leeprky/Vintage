@@ -20,7 +20,7 @@ cd powercord/src/Powercord/themes && git clone https://github.com/leeprky/vintag
 cd vizality/addons/themes && git clone https://github.com/leeprky/vintage
 ```
 
-- **Step 3:** Fully close & re-open [DiscordCanary](https://discordapp.com/api/download/canary?platform=win)
+- **Step 3:** Fully close & re-open [Discord](https://discordapp.com/api/download/stable?platform=win)
 
 ### [For BetterDiscord](https://betterdiscord.app/)
 
