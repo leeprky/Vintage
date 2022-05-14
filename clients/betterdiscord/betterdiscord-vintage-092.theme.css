@@ -102,7 +102,7 @@
     --pop-transiton-time: ease-in-out 0.4s;
 
 /* Scrollbar Display */
-    --scrollbar-display: none;
+    --scrollbar-display: none !important;
 
 /* Popout */
     --avatar-popout-banner-blur: blur(2px);

@@ -7,8 +7,8 @@
 */
 
 /* Main */
-@import url("https://leeprky.github.io/vintage/dist/main.css");
-@import url("https://leeprky.github.io/vintage/clients/betterdiscord/betterdiscord.css");
+@import url("https://leeprky.github.io/Vintage/dist/main.css");
+@import url("https://leeprky.github.io/Vintage/clients/betterdiscord/betterdiscord.css");
 
 /*
  ___        _  __       ___        _  _        ___ 
@@ -28,10 +28,10 @@
 /* @use "../../modules/skin/vanilla";
 
 /* Default Skin - By Leeprky#2063 */
-@import url("https://leeprky.github.io/vintage/modules/skin/default.css");
+@import url("https://leeprky.github.io/Vintage/modules/skin/default.css");
 
 /* Lavender Skin - By Lavender */
-/* @import url("https://leeprky.github.io/vintage/modules/skin/lavender.css");
+/* @import url("https://leeprky.github.io/Vintage/modules/skin/lavender.css");
 
 /* Zelk Skin - By schnensch#4231 */
 /* @use "../../modules/skin/zelk";
@@ -45,12 +45,13 @@
   \__   |_|   __)    |    \_/   | |   _|_   __)   |__
   */
 
+
 /* Menu Animations */
-@import "https://leeprky.github.io/vintage/src/optional/macos.scss";
+@import "https://leeprky.github.io/Vintage/src/optional/macos.scss";
+
 
 /* MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar */
-
-@import "https://leeprky.github.io/vintage/src/optional/macos.scss";
+@import "https://leeprky.github.io/Vintage/src/optional/macos.scss";
 :root {
     --macos-close-bg-dark: #e92a2a25;
     --macos-close-bg-light: #380d074b;
@@ -63,15 +64,23 @@
     --macos-max-bg-dark: #12db3323;
     --macos-max-bg-light: #07380f4b;
     --macos-max-bg-hover: #12db33;
+}
 
+
+/* Emoji's */
+
+/* Google */
+/* @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css");
+
+/* Apple */
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
+
+
+:root {
 /* Popout Modal Style */
 --popout-modal-badges-style: 30px;          /* No Wrap Around */
 /* --popout-modal-badges-style: 30px 30px;  /* Wraps Around To Right */
 
-}
-/* */
-
-:root {
 /* Global Rounding */
     --radius: 10px !important; /* 6 Is Squareish | 12 Is Bubbly */
     --avatar-radius: 12% !important; /* 12% is square | 24% is bubbly */
@@ -80,7 +89,7 @@
     --pop-transiton-time: ease-in-out 0.4s;
 
 /* Scrollbar Display */
-    --scrollbar-display: none;
+    --scrollbar-display: none !important;
 
 /* Popout */
     --avatar-popout-banner-blur: blur(2px);
@@ -118,8 +127,6 @@
 }
 
 :root {
-    --version: "0.9.2WEB" !important;
-    --build:"092WEB" !important;
+    --version: "0.9.2WB" !important;
+    --build:"092WB" !important;
 }
-
-
