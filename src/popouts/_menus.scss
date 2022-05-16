@@ -1,0 +1,30 @@
+.item-1OdjEX {
+    border-radius: var(--radius) !important;
+    width: 98%;
+}
+.menu-1QACrS {
+    position: relative;
+    padding: 5px;
+    z-index: 1;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+    cursor: default;
+    max-height: calc(100vh - 32px);
+    -webkit-box-shadow: var(--elevation-high);
+    box-shadow: var(--elevation-high);
+    background: var(--background-floating);
+    border-radius: var(--radius);
+    margin-top: -10px;
+}
+.item-1OdjEX::before {
+    left: 10px;
+    position: absolute;
+}
+.label-2gNW3x {
+    left: 45px;
+    position: absolute;
+}

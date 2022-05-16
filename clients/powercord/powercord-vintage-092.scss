@@ -68,8 +68,8 @@
 //@use "../../src/optional/horizontal-server-list.scss";
 
 //MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar
+// @use "../../src/optional/macos.scss";
 
-@use "../../src/optional/macos.scss";
 :root {
     --macos-close-bg-dark: #e92a2a25;
     --macos-close-bg-light: #380d074b;
