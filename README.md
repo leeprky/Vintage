@@ -49,9 +49,15 @@ When  **Reduced Motion** is enabled in accesibility settings certains elements b
 
 # Credits
 [CreArt Theme & CreArt Extensions](https://github.com/CreArts-Community) By [CorellanStoma](https://github.com/CorellanStoma)
+
 [Lavender Theme](https://github.com/Lavender-Discord/Lavender) By [Obsecure-Git](https://github.com/Obscure-Git)
+
 [Fluent Icons Theme](https://github.com/stickfab/pc-fluenticons) By [stickfab](https://github.com/stickfab)
+
 [Pop Theme](https://github.com/devinkid1/Pop) By [devinkiid1](https://github.com/devinkid1)
+
 [Better Badges](https://github.com/mr-miner1/Better-Badges) By [mr-miner1](https://github.com/mr-miner1)
+
 [Any CSS Snipits]() From [Powercord #CSS-snippits](https://canary.discord.com/channels/538759280057122817/755005803303403570) & [BetterDiscord #CSS-Snippits](https://canary.discord.com/channels/86004744966914048/836694789898109009)
+
 [Any Theme Skin Ideas...]
