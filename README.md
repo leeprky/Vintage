@@ -29,20 +29,25 @@ Adding Your Own Skin Is Easy!
     --style-creator: "Leeprky#2063";
 }
 ```
-
-- **Step 3:** Either copy another **skin** or create two variables and go from there.
-- **Step 4:** Either copy another **skin** or create two variables and go from there.
+- **Step 3:** Create The Pull Request In The Correct Areas.
 
 ## Adding Features:
-
 ## Fixing Bugs:
 
 # Important Plugins
-When scrolling through member lists and long channel lists, the scrollbar randomly gets stuck and starts flickering. To get rid of this annoyance you need to install Smooth Scroll plugin for [Powercord](https://github.com/LynithDev/SmoothScrollPowerCord) / [BetterDiscord](https://github.com/Lavender-Discord/Lavender/releases/latest/download/smoothscrollBD.plugin.js).
-(Thanks Obsecure.)
+Scrolling through certain lists like servers/memmbers/channels etc it get stuck/flickers. This can be fixed with the following plugin.
+For [Powercord](https://github.com/LynithDev/SmoothScrollPowerCord) By **[LynithDev](https://github.com/LynithDev)** & [BetterDiscord](https://github.com/Lavender-Discord/Lavender/releases/latest/download/smoothscrollBD.plugin.js) Port (Thanks To [Obsecure-Git](https://github.com/Obscure-Git) For The Port)
 
-**Note:** The plugin is owned and maintained by **[LynithDev](https://github.com/LynithDev)** for Powercord so all the credits to him. The BetterDiscord version of this plugin is just a rough port that I made of Lynith's plugin and it is directly importing the SmoothScroll file from Lynith's repo.
+# Known Issues
+When  **Reduced Motion** is enabled in accesibility settings certains elements break, like the profile popout name etc...
 
 # Useful Experiments
 
 # Credits
+[CreArt Theme & CreArt Extensions](https://github.com/CreArts-Community) By [CorellanStoma](https://github.com/CorellanStoma)
+[Lavender Theme](https://github.com/Lavender-Discord/Lavender) By [Obsecure-Git](https://github.com/Obscure-Git)
+[Fluent Icons Theme](https://github.com/stickfab/pc-fluenticons) By [stickfab](https://github.com/stickfab)
+[Pop Theme](https://github.com/devinkid1/Pop) By [devinkiid1](https://github.com/devinkid1)
+[Better Badges](https://github.com/mr-miner1/Better-Badges) By [mr-miner1](https://github.com/mr-miner1)
+[Any CSS Snipits]() From [Powercord #CSS-snippits](https://canary.discord.com/channels/538759280057122817/755005803303403570) & [BetterDiscord #CSS-Snippits](https://canary.discord.com/channels/86004744966914048/836694789898109009)
+[Any Theme Skin Ideas...]
