@@ -59,11 +59,11 @@
     --background-secondary: #0f0f18;
     --glasscord-secondary: 47, 49, 54;
     --glasscord-secondary-opacity: 0.5;
-    --background-secondary-alt: #292b2f;
+    --background-secondary-alt: #09090f !;
     --background-tertiary: #06070a;
     --background-accent: #26292c;
     --background-floating: #060607;
-    --background-nested-floating: #2f3136;
+    --background-nested-floating: #414a5f;
     --background-mobile-primary: #36393f;
     --background-mobile-secondary: #2f3136;
     --background-modifier-hover: rgba(79,84,92,0.4);
