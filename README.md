@@ -35,8 +35,11 @@ Adding Your Own Skin Is Easy!
 ## Fixing Bugs:
 
 # Important Plugins
-Scrolling through certain lists like servers/memmbers/channels etc it get stuck/flickers. This can be fixed with the following plugin.
-For [Powercord](https://github.com/LynithDev/SmoothScrollPowerCord) By **[LynithDev](https://github.com/LynithDev)** & [BetterDiscord](https://github.com/Lavender-Discord/Lavender/releases/latest/download/smoothscrollBD.plugin.js) Port (Thanks To [Obsecure-Git](https://github.com/Obscure-Git) For The Port)
+Scrolling through certain lists like servers/memmbers/channels etc it get stuck/flickers. This can be fixed with the following plugin...
+
+For [Powercord](https://github.com/LynithDev/SmoothScrollPowerCord) By **[LynithDev](https://github.com/LynithDev)**
+For [BetterDiscord](https://github.com/Lavender-Discord/Lavender/releases/latest/download/smoothscrollBD.plugin.js)
+(Thanks To [Obsecure-Git](https://github.com/Obscure-Git) For The BetterDiscord Port)
 
 # Known Issues
 When  **Reduced Motion** is enabled in accesibility settings certains elements break, like the profile popout name etc...
