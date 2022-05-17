@@ -30,6 +30,13 @@
 
     --setting-backdrop-main: #201b1865;
     --setting-backdrop-sidebar: #2b222283;
+
+    --background-invite: #201b18;
+    --background-invite-footer: #2b2222;
+    --background-invite-button: #2b2222;
+    --colour-invite-title: #ffffff;
+    --colour-invite-sub-title: #b9bbbe;
+    --colour-invite-button-title: #ffffff;
 }
 
 .theme-dark {
