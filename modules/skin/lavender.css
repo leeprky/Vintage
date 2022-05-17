@@ -71,7 +71,11 @@
     --toast-border: var(--background-tertiary);
 
     --background-primary: #0f0f14;
+    --glasscord-primary: 15, 15, 20;
+    --glasscord-primary-opacity: 0.4;
     --background-secondary: #17161b;
+    --glasscord-secondary: 23, 22, 27;
+    --glasscord-secondary-opacity: 0.5;
     --background-secondary-alt: #111114;
     --background-tertiary: #0b0b0e;
     --background-accent: #0f0d0c;

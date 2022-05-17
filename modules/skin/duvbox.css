@@ -57,6 +57,8 @@
     --toast-border: var(--background-tertiary);
 
     --background-primary: #3b3735;
+    --glasscord-primary: 59, 55, 53;
+    --glasscord-primary-opacity: 0.4;
     --background-secondary: #33302e;
     --background-secondary-alt: #33302e;
     --background-tertiary: #1d1b1a;

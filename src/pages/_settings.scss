@@ -9,7 +9,60 @@
   .baseLayout-8AMrwn > :first-child {
     width: 100%;
   }
-  
+  .accountProfileCard-lbN7n-,
+  .background-3d_SjE,
+  .accountList-Wii_T5,
+  .connection-YOVI9j,
+  .integration-1qC-fv,
+  .cardWrapper-1bSePP,
+  .noItemsCard-2V85P5,
+  .noItemsCard-5EOcCl,
+  .theme-dark .codeRedemptionRedirect-2hYMSQ, .theme-light .codeRedemptionRedirect-2hYMSQ,
+  .previewMessage-2g_aBv,
+  .lookFilled-1GseHa.select-1Ia3hD,
+  .cameraWrapper-3a7Ngv,
+  .backgroundOption-2mIYjm, .backgroundOptionInner-SSz19O,
+  .container-3jbRo5,
+  .theme-dark .nowPlaying-3UpuKc, .theme-light .nowPlaying-3UpuKc,
+  .theme-dark .container-30qY7E, .theme-light .container-30qY7E,
+  .wrapper-SdcMKg,
+  .option-1QI4c9:hover, .selected-18Wszc.option-1QI4c9, .topRight-wM_dsL, .bottomLeft-1GrX76, .bottomRight-2N4MaX,
+  #theme-toggler-tab .powercord-entities-manage-header,
+  #theme-toggler-tab .powercord-product, .inputWrapper-1YNMmM,
+  .activity-1gTu-L, .customStatus-3XAoF9, .userInfoSection-3her-v, .bodyTitle-2Az3VQ, .role-2TIOKu, .note-Go5ZP2, .inputWrapper-1YNMmM,
+  .membershipDialog-2wAdpQ,
+  .container-2oNtJn, .inner-2pOSmK,
+  .inputWrapper-1YNMmM{
+    border-radius: var(--radius) !important;
+  }
+
+  .connection-YOVI9j,
+  .connectionHeader-Ixbb1s,
+  .noItemsCard-2V85P5,
+  .noItemsCard-5EOcCl,
+  .theme-dark .codeRedemptionRedirect-2hYMSQ, .theme-light .codeRedemptionRedirect-2hYMSQ,
+  .inputWrapper-1YNMmM{
+    background-color: var(--background-tertiary) !important;
+  }
+  .connectionHeader-Ixbb1s {
+    border-radius: var(--radius) var(--radius) 0 0;
+  }
+
+  .subText-3Yps8e,
+  .text-md-normal-304U3g[data-text-variant="text-md/normal"]{
+    filter: blur(var(--sensitive-info-blur));
+    transition: var(--pop-transiton-time);
+  }
+  .subText-3Yps8e:hover,
+  .text-md-normal-304U3g[data-text-variant="text-md/normal"]:hover {
+    filter: blur(var(--sensitive-info-hover));
+    transition: var(--pop-transiton-time);
+  }
+.contents-3ca1mk,
+.usernameInnerRow-1-STdK {
+    filter: blur(0px) !important;
+  }
+
   .upsellContainer-22N_CL {
     background-repeat: no-repeat;
     background-position: 50%;
@@ -92,10 +145,10 @@
       padding-right: 30px;
       padding: 30px;
     background-color: var(--setting-backdrop-sidebar);
-    border-radius: 24px;
+    border-radius: var(--radius) 0 var(--radius) 0 !important;
 }
 .sidebarRegionScroller-FXiQOh {
-    border-radius: var(--radius);
+  border-radius: var(--radius) 0 0 var(--radius) !important;
 }
 
   
@@ -225,6 +278,9 @@
 }
 .contentRegion-3HkfJJ {
   background-color: var(--setting-backdrop-main);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+.platform-win .standardSidebarView-E9Pc3j {
   border-radius: var(--radius);
 }
 .poggermodeIcon-3Z9uYf {
@@ -263,7 +319,8 @@
   background-color: rgba(107, 27, 27, 0.445);
   border-radius: var(--radius) !important;
 }
-.lookFilled-yCfaCM.colorRed-rQXKgM {
+.lookFilled-yCfaCM.colorRed-rQXKgM,
+.accountBtn-3pgcgr .accountBtnInner-3ttD-i {
   border-radius: var(--radius) !important;
 }
 .lookFilled-yCfaCM.colorPrimary-2AuQVo {

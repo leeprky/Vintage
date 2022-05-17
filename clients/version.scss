@@ -1,18 +1,16 @@
 @import "https://leeprky.github.io/themes/Vintage/version.css";
 
 :root {
-  --outdated_underground-092: none !important;
-  --version:"0.9.2";
-  --build:"092";
+  --outdated_underground-093: none !important;
+  --version:"0.9.3";
+  --build:"093";
   --version-display: flex;
   --theme-owner: "Leeprky";
   }
 
 #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div.base-2jDfDU:before {
-    position: absolute;
-    left: 10% !important;
     width: fit-content;
-    border-radius: 0 0 12px 12px !important;
+    border-radius: var(--radius) !important;
     top: 0px !important;
     content: "An update is available for '" var(--theme) "' - Please Update To: " var(--version-latest) " (Currently on v" var(--version) ") "!important;
     display: block;
@@ -23,21 +21,14 @@
     font-size: 16px;
     font-weight: 500;
     height: auto;
-    line-height: 16px;
     opacity: 1;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
     position: relative;
     text-align: center;
     border-radius: var(--bubble-radius) !important;
     visibility: unset;
     white-space: pre-wrap;
-    top: 58px !important;
-    left: 700px !important;
     bottom: unset;
     right: unset;
-    max-width: 2000px;
     min-width: unset;
     max-height: unset;
     min-height: unset;
@@ -50,8 +41,8 @@
   :root {
     --version:"UNKOWN";
     --build:"UNKNOWN";
-    --style-name:"UNKNOWN";
-    --style-creator:"UNKOWN";
+    --style-name:"UNKNOWN - ENABLE A SKIN";
+    --style-creator:"UNKNOWN - ENABLE A SKIN";
   }
   
   .info-3pQQBb {

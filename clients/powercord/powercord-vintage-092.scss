@@ -27,14 +27,38 @@
 
 // // // // // // //
 
+// Glasscord Skin - By Nyaomi#9646 (WORK IN PROGRESS)
+// ENABLE WITH ANOTHER SKIN TO USE
+// @use "../../modules/skin/glasscord.css";
+
+// // // // // // //
+
+// Wallpaper - Disable Other Skins To Use (WORK IN PROGRESS)
+// @use "../../modules/skin/image.scss";
+
+// // // // // // //
+
+// Client Skins
+
+// Powercord Skin
+@use "./powercord-skin.css";
+
+// Vizality Skin
+// @use "../vizality/vizality-skin.css";
+
+// BetterDiscord Skin
+// @use "../betterdiscord/betterdiscord.skin.css";
+
+// // // // // // //
+
 // Vanilla Skin - By Discord
-@use "../../modules/skin/vanilla.css";
+// @use "../../modules/skin/vanilla.css";
 
 // Vanilla Dark By Leeprky#2063
 // @use "../../modules/skin/vanilla-dark.css";
 
-// (Powercord Default)  Default Skin - By Leeprky#2063
-// @use "../../modules/skin/default.css";
+// Brown - By Leeprky#2063
+// @use "../../modules/skin/brown.css";
 
 // Lavender Skin - By Lavender
 // @use "../../modules/skin/lavender.css";
@@ -61,6 +85,12 @@
 // Menu Animations
 // @use "../../src/optional/menu-animations.scss";
 
+// New Server List
+@use "../../src/components/serverlist";
+
+// Legacy Server List
+// @use "../../src/components/serverlist-2";
+
 // No Nitro
 @use "../../src/optional/no-nitro.scss";
 
@@ -68,8 +98,7 @@
 //@use "../../src/optional/horizontal-server-list.scss";
 
 //MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar
-// @use "../../src/optional/macos.scss";
-
+@use "../../src/optional/macos.scss";
 :root {
     --macos-close-bg-dark: #e92a2a25;
     --macos-close-bg-light: #380d074b;
@@ -83,14 +112,18 @@
     --macos-max-bg-light: #07380f4b;
     --macos-max-bg-hover: #12db33;
 }
+/* */
 
 //Emoji's
-
 //Google
 //@import url("https:/*mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css");
-
 //Apple
-@import url("https:/*mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
+
+// Wallpaper Customisation (WORK IN PROGRESS)
+:root {
+    --image-bg: url("https://cdn.wallpapersafari.com/34/55/8ciD7v.png")
+}
 
 :root {
     // Gradients
@@ -120,23 +153,26 @@
 
     --settings-backdrop-border: scale(0.95);
 
-    --popout-backdrop: rgba(0, 0, 0, 0.74);
+    --popout-backdrop: rgba(0, 0, 0, 0.562);
     --popout-backdrop-blur: blur(4px);
 
     // Global Rounding
-    --radius: 10px !important; //6 Is Squareish | 12 Is Bubbly
+    --radius: 12px !important; //6 Is Squareish | 12 Is Bubbly
     --avatar-radius: 12% !important; //12% is square | 24% is bubbly
 
     // Pop Out Buttons
     --pop-transiton-time: ease-in-out 0.4s;
 
+    // Sensitive Info Blur
+    --sensitive-info-blur: 0px;
+    --sensitive-info-hover: 0px;
+
     // Scrollbar Display
     --scrollbar-display: none !important;
 
     // Watermark Title
-    --watermark-Alignment: 50%;
-    --watermark-offset: 4%; //(4%) Higher = More Left
     --watermark-text: "" var(--theme) " v" var(--version) " - (" var(--style-name) ") -  by " var(--style-creator) "";
+    --watermark-top: 11.5px;
 
     // User Status Indicator's
     --rs-small-spacing: 0;
@@ -165,6 +201,6 @@
 }
 
 :root {
-    --version: "0.9.2PC" !important;
-    --build: "092PC" !important;
+    --version: "0.9.3PC" !important;
+    --build: "093PC" !important;
 }

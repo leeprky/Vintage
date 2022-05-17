@@ -47,6 +47,8 @@
     --interactive-active: #fff;
     --interactive-muted: #4f545c;
     --background-primary: #121314;
+    --glasscord-primary: 18, 19, 20;
+    --glasscord-primary-opacity: 0.4;
     --background-secondary: #0b0b0c;
     --background-secondary-alt: #131416;
     --background-tertiary: #000000;

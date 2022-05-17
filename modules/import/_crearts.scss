@@ -1,8 +1,12 @@
+@media only screen and (min-width: 1800px) {
+  :root {
+    --FG-row: 1fr 1fr 1fr 1fr !important;
+  }
+}
 :root {
-    --FA-version: "v1.0.10";
     --FG-row: 1fr 1fr 1fr;
-    --FG-search-radius: 8px;
-    --FG-cards-radius: 8px;
+    --FG-search-radius: var(--radius);
+    --FG-cards-radius: var(--radius);
     --FG-cards-height: 180px;
     --FG-cards-banner-background: var(--brand-experiment);
     --FG-cards-margin-bottom: 26px;
@@ -34,7 +38,7 @@
     --FG-mutal-guilds-active: 1.0;
     --FG-avatar-shape: 50%;
     --FG-transition: all 0.4s ease;
-    --user-accent-color: var(--FG-cards-banner-background);
+    --user-accent-color: var(--alt-color2);
   }
   
   /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */

@@ -3,12 +3,13 @@
 	padding-top: 0.5px;
 	height: 32.5px;
 	margin-top: 4px;
+	background-color: transparent !important;
 }
 
 // Buttons
 .winButton-3UMjdg {
 	position: relative;
-	top: -4px;
+	top: 0px;
     right: 0px;
 	cursor: pointer;
 	width: 36px;
@@ -16,6 +17,7 @@
 	pointer-events: auto;
 	-webkit-app-region: no-drag;
 }
+
 .titleBar-1it3bQ {
 	>* {
 		&:nth-child(2) {
@@ -54,38 +56,38 @@
 	}
 }
 
-// Watermark
-.wordmark-2u86JB {
-	&:after {
-		color: var(--text) !important;
-		content: var(--watermark-text);
-		font-size: 14px;
-		font-weight: 500;
-		width: 1000000%;
-		top: 10px !important;
-	}
-	left: calc(var(--watermark-Alignment) - var(--watermark-offset)) !important;
-	vertical-align: middle;
-	text-align: center;
-	align-content: center;
+  // Remove Wordmark
+  .platform-win .wordmark-2u86JB svg {
+	display: none;
+  }
+
+  .wordmarkWindows-2dq6rw::after {
+	position: fixed;
+	font-size: 14px;
+	font-weight: 400;
+	width: 100%;
+	top: var(--watermark-top);
+	left: 0;
+  
+	display: flex;
+	justify-content: center;
 	align-items: center;
-	align-self: center;
-	top: 4px;
-	>svg {
-		width: 0px;
-	}
-}
-.theme-light {
+  }
+
+  .wordmarkWindows-2dq6rw::after {
+	content: var(--watermark-text);
+  }
+  .theme-light {
 	.wordmark-2u86JB {
 		&:after {
-			color: rgb(48, 48, 48);
+			color: var(--header-primary);
 		}
 	}
 }
 .theme-dark {
 	.wordmark-2u86JB {
 		&:after {
-			color: rgb(247, 245, 245);
+			color: var(--header-primary);
 		}
 	}
 }

@@ -1,0 +1,26 @@
+:root {
+
+    --watermark-text: "" var(--theme) " v" var(--version) " - (" var(--style-name) " - "var(--glasscord-name)") -  by " var(--style-creator) " x " var(--glasscord-creator) !important;
+
+    --glasscord-name: "Glasscord" !important;
+    --glasscord-creator: "Nyaomi#9646";
+
+    --glasscord-win-blur: blurbehind !important;
+	--glasscord-macos-vibrancy: fullscreen-ui !important; 
+	--glasscord-linux-blur: true !important;
+
+    --background-secondary: rgba(var(--glasscord-secondary),var(--glasscord-secondary-opacity)) !important;
+}
+
+.appMount-2yBXZl, body {
+    background-color: rgba(var(--glasscord-primary),var(--glasscord-primary-opacity)) !important;
+}
+
+.app-2CXKsg,
+.bg-1QIAus,
+.container-1eFtFS,
+.sidebar-1tnWFu,
+.chat-2ZfjoI,
+.panels-3wFtMD {
+    background-color: transparent !important;
+}
