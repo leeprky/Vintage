@@ -38,6 +38,7 @@ Adding Your Own Skin Is Easy!
 Scrolling through certain lists like servers/memmbers/channels etc it get stuck/flickers. This can be fixed with the following plugin...
 
 For [Powercord](https://github.com/LynithDev/SmoothScrollPowerCord) By **[LynithDev](https://github.com/LynithDev)**
+
 For [BetterDiscord](https://github.com/Lavender-Discord/Lavender/releases/latest/download/smoothscrollBD.plugin.js)
 (Thanks To [Obsecure-Git](https://github.com/Obscure-Git) For The BetterDiscord Port)
 
