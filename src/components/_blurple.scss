@@ -88,6 +88,9 @@
       background-color: rgba(var(--alt-color)) !important;
     }
   }
+  .selectedProgressBar-11z5d9 {
+    background-color: var(--alt-color2) !important;
+  }
   
   .colorDefault-1e8tQv {
     background-color: var(--alt-color);
@@ -305,7 +308,7 @@
     background-color: rgba(var(--alt-color), 0.8) !important;
   }
   
-  .result-3OpoO7:hover:after {
+  .result-3OpoO7::after {
     -webkit-box-shadow: inset 0 0 0 2px rgba(var(--alt-color)), inset 0 0 0 3px #2f3136 !important;
     box-shadow: inset 0 0 0 2px rgba(var(--alt-color)), inset 0 0 0 3px #2f3136 !important;
   }
