@@ -1,10 +1,10 @@
 {
     "name": "Vintage Theme [BETA]",
-    "version": "0.9.2",
+    "version": "0.9.3",
     "author": "Leeprky#2063",
     "description": "A Windows XI x Material You Mix With a Rustic Feel",
     "license": "MIT",
-    "theme": "clients/powercord/powercord-vintage-092.scss",
+    "theme": "clients/powercord/powercord-vintage-093.scss",
     "splashTheme": "modules/splash/_splash.scss",
     "invite": "discord.gg/Ff3rqAYB89"
 }
