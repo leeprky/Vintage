@@ -28,8 +28,11 @@
     --green-slider-dot-on: #2c408a;
     --green-slider-dot-off: #303337fd;
 
-    --setting-backdrop-main: #30303073;
-    --setting-backdrop-sidebar: #25252571;
+    --setting-backdrop-backdrop: #080808be;
+    --setting-backdrop-main: #3030308f;
+    --setting-backdrop-sidebar: #252525a9;
+    --settings-backdrop-border: scale(0.95);
+    --setting-backdrop-blur: blur(1.5px);
 
     --background-invite: #303030;
     --background-invite-footer: #252525;

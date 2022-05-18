@@ -155,9 +155,10 @@
     --avatar-profile-banner-opacity: 0.4;
 
     --settings-backdrop-border: scale(0.95);
+    --setting-backdrop-blur: blur(1.5px);
 
     --popout-backdrop: rgba(0, 0, 0, 0.562);
-    --popout-backdrop-blur: blur(4px);
+    --popout-backdrop-blur: blur(1.5px);
 
     // Global Rounding
     --radius: 12px !important; //6 Is Squareish | 12 Is Bubbly

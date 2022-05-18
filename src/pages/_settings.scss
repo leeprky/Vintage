@@ -206,8 +206,8 @@
     }
   
     &:nth-child(2) {
-      background-color: var(--popout-backdrop) !important;
-      backdrop-filter: var(--popout-backdrop-blur);
+      background-color: var(--setting-backdrop-backdrop) !important;
+      backdrop-filter: var(--setting-backdrop-blur);
     }
   }
   
