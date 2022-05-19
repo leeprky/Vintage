@@ -58,6 +58,7 @@ When  **Reduced Motion** is enabled in accesibility settings certains elements b
 
 [Better Badges](https://github.com/mr-miner1/Better-Badges) By [mr-miner1](https://github.com/mr-miner1)
 
+[Emoji`s](https://mutant.revolt.chat/)
 [Any CSS Snipits]() From [Powercord #CSS-snippits](https://canary.discord.com/channels/538759280057122817/755005803303403570) & [BetterDiscord #CSS-Snippits](https://canary.discord.com/channels/86004744966914048/836694789898109009)
 
 [Any Theme Skin Ideas...]
