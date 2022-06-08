@@ -86,6 +86,15 @@
 // Horizontal Server List - Rough But Functional
 //@use "../../src/optional/horizontal-server-list.scss";
 
+//Emoji's
+
+//Google
+//@import url("https:/*mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css");
+
+//Apple
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
+
+
 // MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar
 @use "../../src/optional/macos.scss";
 :root {
@@ -102,12 +111,6 @@
     --macos-max-bg-hover: #12db33;
 }
 /* */
-
-//Emoji's
-//Google
-//@import url("https:/*mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css");
-//Apple
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
 
 // Wallpaper Customisation (WORK IN PROGRESS)
 :root {
