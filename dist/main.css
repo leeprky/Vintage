@@ -1,9 +1,9 @@
-@import https://leeprky.github.io/snippits/discoloured.css;
+@import "https://leeprky.github.io/snippits/discoloured.css";
 @import "https://stickfab.github.io/pc-fluenticons/src/fluenticons-base.css";
 @import "https://stickfab.github.io/pc-fluenticons/src/fluenticons-settings.css";
 @import "https://stickfab.github.io/pc-fluenticons/src/fluenticons-context.css";
 @import "https://mr-miner1.github.io/Better-Badges/src/badges.css";
-@import https://leeprky.github.io/themes/Vintage/version.css;
+@import "https://leeprky.github.io/themes/Vintage/version.css";
 .container-1NXEtd,.panels-3wFtMD,.peopleColumn-1wMU14,.nowPlayingColumn-1eCBCN,.theme-dark .container-2cd8Mz,.theme-light .container-2cd8Mz,.theme-dark .perksModal-CLcR1c,.theme-light .perksModal-CLcR1c{background:var(--background-primary)!important}
 .members-3WRCEx,.members-3WRCEx > div,.colorable-3rVGna.primaryDark-2UJt1G,.theme-dark .selected-3H3-RC,.theme-light .selected-3H3-RC{background:var(--background-secondary)!important}
 .theme-dark .outer-2JOHae.active-1W_Gl9,.theme-dark .outer-2JOHae.interactive-2zD88a:hover,.theme-light .outer-2JOHae.active-1W_Gl9,.theme-light .outer-2JOHae.interactive-2zD88a:hover,.theme-dark .focused-2FU0YH,.theme-light .focused-2FU0YH{background-color:var(--background-tertiary)}
