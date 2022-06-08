@@ -3439,7 +3439,7 @@ div[class^=dot-], div[class^=newMessagesBar-] {
   border-radius: var(--radius) !important;
 }
 
-.notice-1x8lm- {
+.notice-1x8lm-, .notice-2HEN-u {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4398,9 +4398,9 @@ button:not(.barButtonMain-2GIx4o):hover {
 }
 
 :root {
-  --outdated_underground-093: none !important;
-  --version:"0.9.3";
-  --build:"093";
+  --outdated_underground-094: none !important;
+  --version:"0.9.4";
+  --build:"094";
   --version-display: flex;
   --theme-owner: "Leeprky";
 }
