@@ -167,7 +167,7 @@
 }
 .bannerVisible-Vkyg1I .headerContent-2SNbie {
   z-index: 99 !important;
-  margin-top: -10px;
+  margin-top: 20px;
 }
 
 .header-3OsQeK {
@@ -201,3 +201,19 @@
   margin-top: -7px;
 }
 
+
+.unreadBottom-3Ojk6R  .mention-3XBnnZ {
+  background-color: var(--ping-colour);
+  border-radius: var(--radius) !important;
+  width: 215px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.unreadTop-1DJtGv .mention-3XBnnZ {
+  background-color: var(--ping-colour);
+  border-radius: var(--radius) !important;
+  width: 215px;
+  bottom: 0px;
+  left: 0px;
+}

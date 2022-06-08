@@ -28,3 +28,41 @@
     left: 45px;
     position: absolute;
 }
+
+.categoryHeader-OpJ1Ly, .autocompleteInner-y1mjDl, .container-2ebMPP, .messagesPopoutWrap-3zryHW, .browser-mnQ1T7 {
+    border-radius: var(--radius);
+}
+.channel-3NJZ1V, .scroller-145h9c {
+    background-color: var(--background-floating) !important;
+    border-radius: var(--radius) !important;
+}
+
+.notice-1x8lm- {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 40px;
+    border-radius: var(--radius);
+    margin-top: 10px;
+    width: 97%;
+    margin-left: 10px;
+    padding: 0 8px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-color: var(--brand-experiment-600);
+    color: #fff;
+}
+
+.powercord-toast .buttons button {
+    border-radius: var(--radius);
+    background-color: rgba(var(--alt-color),0.2);
+}
+.lookOutlined-3yKVGo.colorBrand-I6CyqQ:hover {
+    background-color: var(--alt-color2);
+}
