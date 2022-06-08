@@ -1,18 +1,19 @@
 //
-//       ░█──░█ ▀█▀ ░█▄─░█ ▀▀█▀▀ ─█▀▀█ ░█▀▀█ ░█▀▀▀ 
-//       ─░█░█─ ░█─ ░█░█░█ ─░█── ░█▄▄█ ░█─▄▄ ░█▀▀▀ 
+//       ░█──░█ ▀█▀ ░█▄─░█ ▀▀█▀▀ ─█▀▀█ ░█▀▀█ ░█▀▀▀
+//       ─░█░█─ ░█─ ░█░█░█ ─░█── ░█▄▄█ ░█─▄▄ ░█▀▀▀
 //       ──▀▄▀─ ▄█▄ ░█──▀█ ─░█── ░█─░█ ░█▄▄█ ░█▄▄▄
 
 //                     .--------.
-//                     | v0.9.3 |
-//                     '--------' 
-//          Last Updated: 07/05/2022 02:20 (UK)
-//       Version: Vizality (https://vizality.com/)
+//                     | v0.9.4 |
+//                     '--------'
+//          Last Updated: 08/06/2022 22:04 (UK)
+//    Version: Powercord (https://https://powercord.dev/)
 
+// Main
 @use "../../main.scss";
 
-// Vizality Specific
-@use "./vizality.scss";
+// Powercord Specific
+@use "./powercord.scss";
 
 // ___        _  __       ___        _  _        ___
 // / __|      | |/ /      |_ _|      | \| |      / __|
@@ -26,13 +27,24 @@
 
 // // // // // // //
 
+// Glasscord Skin - By Nyaomi#9646 (WORK IN PROGRESS)
+// ENABLE WITH ANOTHER SKIN TO USE
+// @use "../../modules/skin/glasscord.css";
+
+// // // // // // //
+
+// Wallpaper - Disable Other Skins To Use (WORK IN PROGRESS)
+// @use "../../modules/skin/image.scss";
+
+// // // // // // //
+
 // Client Skins
 
 // Powercord Skin
-// @use "../powercord/powercord-skin.css";
+// @use "./powercord-skin.css";
 
 // Vizality Skin
-@use "../vizality/vizality-skin.css";
+// @use "../vizality/vizality-skin.css";
 
 // BetterDiscord Skin
 // @use "../betterdiscord/betterdiscord.skin.css";
@@ -46,7 +58,7 @@
 // @use "../../modules/skin/vanilla-dark.css";
 
 // Brown - By Leeprky#2063
-// @use "../../modules/skin/brown.css";
+@use "../../modules/skin/brown.css";
 
 // Lavender Skin - By Lavender
 // @use "../../modules/skin/lavender.css";
@@ -70,8 +82,11 @@
 //  /     | |   (_     |    / \   |V|    |    (_    |_
 //  \__   |_|   __)    |    \_/   | |   _|_   __)   |__
 
-// Menu Animations
-// @use "../../src/optional/menu-animations.scss";
+/* Menu Animations */
+@import "https://leeprky.github.io/Vintage/src/optional/menu-animations.css";
+
+// Pop Animations
+@import "https://leeprky.github.io/Vintage/modules/import/pop.css";
 
 // New Server List
 @use "../../src/components/serverlist";
@@ -80,13 +95,13 @@
 // @use "../../src/components/serverlist-2";
 
 // No Nitro
-@use "../../src/optional/no-nitro.scss";
+@import "https://leeprky.github.io/Vintage/src/optional/no-nitro.css";
 
 // Horizontal Server List - Rough But Functional
-//@use "../../src/optional/horizontal-server-list.scss";
+// @import "https://leeprky.github.io/Vintage/src/optional/horizontal-serverlist.css";
 
-// MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar
-@use "../../src/optional/macos.scss";
+// MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar */
+@import "https://leeprky.github.io/Vintage/src/optional/macos.css";
 :root {
     --macos-close-bg-dark: #e92a2a25;
     --macos-close-bg-light: #380d074b;
@@ -103,8 +118,10 @@
 /* */
 
 //Emoji's
+
 //Google
 //@import url("https:/*mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css");
+
 //Apple
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
 
@@ -139,10 +156,8 @@
     --avatar-profile-banner-blur: blur(0.9px);
     --avatar-profile-banner-opacity: 0.4;
 
-    --settings-backdrop-border: scale(0.95);
-
     --popout-backdrop: rgba(0, 0, 0, 0.562);
-    --popout-backdrop-blur: blur(4px);
+    --popout-backdrop-blur: blur(1.5px);
 
     // Global Rounding
     --radius: 12px !important; //6 Is Squareish | 12 Is Bubbly
@@ -189,6 +204,6 @@
 }
 
 :root {
-    --version: "0.9.3VI" !important;
-    --build: "093VI" !important;
+    --version: "0.9.4PC" !important;
+    --build: "094PC" !important;
 }

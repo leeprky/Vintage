@@ -1,19 +1,19 @@
 //
-//       ░█──░█ ▀█▀ ░█▄─░█ ▀▀█▀▀ ─█▀▀█ ░█▀▀█ ░█▀▀▀
-//       ─░█░█─ ░█─ ░█░█░█ ─░█── ░█▄▄█ ░█─▄▄ ░█▀▀▀
+//       ░█──░█ ▀█▀ ░█▄─░█ ▀▀█▀▀ ─█▀▀█ ░█▀▀█ ░█▀▀▀ 
+//       ─░█░█─ ░█─ ░█░█░█ ─░█── ░█▄▄█ ░█─▄▄ ░█▀▀▀ 
 //       ──▀▄▀─ ▄█▄ ░█──▀█ ─░█── ░█─░█ ░█▄▄█ ░█▄▄▄
 
 //                     .--------.
-//                     | v0.9.3 |
-//                     '--------'
-//          Last Updated: 07/05/2022 02:20 (UK)
-//    Version: Powercord (https://https://powercord.dev/)
+//                     | v0.9.4 |
+//                     '--------' 
+//          Last Updated: 08/06/2022 22:04 (UK)
+//       Version: Vizality (https://vizality.com/)
 
 // Main
 @use "../../main.scss";
 
-// Powercord Specific
-@use "./powercord.scss";
+// Vizality Specific
+@use "./vizality.scss";
 
 // ___        _  __       ___        _  _        ___
 // / __|      | |/ /      |_ _|      | \| |      / __|
@@ -27,24 +27,13 @@
 
 // // // // // // //
 
-// Glasscord Skin - By Nyaomi#9646 (WORK IN PROGRESS)
-// ENABLE WITH ANOTHER SKIN TO USE
-// @use "../../modules/skin/glasscord.css";
-
-// // // // // // //
-
-// Wallpaper - Disable Other Skins To Use (WORK IN PROGRESS)
-// @use "../../modules/skin/image.scss";
-
-// // // // // // //
-
 // Client Skins
 
 // Powercord Skin
-// @use "./powercord-skin.css";
+// @use "../powercord/powercord-skin.css";
 
 // Vizality Skin
-// @use "../vizality/vizality-skin.css";
+@use "../vizality/vizality-skin.css";
 
 // BetterDiscord Skin
 // @use "../betterdiscord/betterdiscord.skin.css";
@@ -58,7 +47,7 @@
 // @use "../../modules/skin/vanilla-dark.css";
 
 // Brown - By Leeprky#2063
-@use "../../modules/skin/brown.css";
+// @use "../../modules/skin/brown.css";
 
 // Lavender Skin - By Lavender
 // @use "../../modules/skin/lavender.css";
@@ -85,9 +74,6 @@
 // Menu Animations
 // @use "../../src/optional/menu-animations.scss";
 
-// Pop Animations
-@use "../../modules/import/pop";
-
 // New Server List
 @use "../../src/components/serverlist";
 
@@ -100,7 +86,7 @@
 // Horizontal Server List - Rough But Functional
 //@use "../../src/optional/horizontal-server-list.scss";
 
-//MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar
+// MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar
 @use "../../src/optional/macos.scss";
 :root {
     --macos-close-bg-dark: #e92a2a25;
@@ -154,8 +140,10 @@
     --avatar-profile-banner-blur: blur(0.9px);
     --avatar-profile-banner-opacity: 0.4;
 
+    --settings-backdrop-border: scale(0.95);
+
     --popout-backdrop: rgba(0, 0, 0, 0.562);
-    --popout-backdrop-blur: blur(1.5px);
+    --popout-backdrop-blur: blur(4px);
 
     // Global Rounding
     --radius: 12px !important; //6 Is Squareish | 12 Is Bubbly
@@ -202,6 +190,6 @@
 }
 
 :root {
-    --version: "0.9.3PC" !important;
-    --build: "093PC" !important;
+    --version: "0.9.4VI" !important;
+    --build: "094VI" !important;
 }
