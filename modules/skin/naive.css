@@ -27,8 +27,8 @@
     --green-slider-dot-on: #724a50;
     --green-slider-dot-off: #303337fd;
 
-    --setting-backdrop-main: #090a0c70;
-    --setting-backdrop-sidebar: #0f111669;
+    --setting-backdrop-main: #090a0c;
+    --setting-backdrop-sidebar: #0f1116;
 }
 
 .theme-dark {
@@ -38,6 +38,7 @@
     --text-normal: #ffe8e8;
     --text-muted: #ffc6c6;
     --text-link: var(--main-colour2);
+    --colour-invite-title: var(--text-normal) !important;
     --text-link-low-saturation: hsl(12,calc(var(--saturation-factor, 1)*100%),52.9%);
 
     --text-positive: hsl(var(--main-colour3),calc(var(--saturation-factor, 1)*51.6%),52.2%);

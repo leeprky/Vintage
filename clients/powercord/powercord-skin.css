@@ -28,9 +28,9 @@
     --green-slider-dot-on: #2c408a;
     --green-slider-dot-off: #303337fd;
 
-    --setting-backdrop-backdrop: #080808be;
-    --setting-backdrop-main: #3030308f;
-    --setting-backdrop-sidebar: #252525a9;
+    --setting-backdrop-backdrop: #080808;
+    --setting-backdrop-main: #303030;
+    --setting-backdrop-sidebar: #252525;
     --settings-backdrop-border: scale(0.95);
     --setting-backdrop-blur: blur(1.5px);
 
