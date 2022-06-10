@@ -189,7 +189,8 @@
   height: 48px !important;
   margin-top: 8px;
   margin-left: 15px;
-  width: 97.7%;
+  min-width: 565px !important;
+  max-width: 96% !important;
   border-radius: var(--radius);
   background-color: var(--background-secondary) !important;
   box-shadow: var(--elevation-low);

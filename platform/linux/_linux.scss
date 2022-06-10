@@ -1,5 +1,17 @@
 .platform-linux {
 
+    .withFrame-2dL45i {
+        padding-top: 0.5px;
+        height: 32.5px;
+        margin-top: 20px !important;
+        background-color: transparent !important;
+    }
+
+    .container-1eFtFS {
+        padding-top: 0px !important;
+        margin-top: -5px !important;
+    }
+
     .container-ZMc96U {
         height: 60px !important;
         padding-top: 10px !important;
@@ -16,7 +28,7 @@
 
     .searchBar-3TnChZ {
         border-radius: var(--radius);
-        top: 15px;
+        top: 3px;
         height: 60px;
         background-color: var(--background-secondary) !important;
         width: 210px;
@@ -38,7 +50,7 @@
         border-radius: var(--radius) !important;
         position: relative !important;
         margin-right: 10px !important;
-        min-height: 100% !important;
+        min-height: 101.5% !important;
         margin-left: -12px;
     }
 
@@ -77,6 +89,10 @@
     
     .members-3WRCEx {
         margin-top: 10px !important;
+    }
+
+    .headerContent-2SNbie {
+        margin-top: 7px;
     }
     
 }

@@ -1,14 +1,14 @@
 :root {
-    --style-name: "Default Skin" !important;
+    --style-name: "Gruvbox" !important;
     --style-creator: "Leeprky#2063";
 }
 
 :root 
 {
     /* Blurple Colour */
-    --main-colour: 143, 127, 108 !important;
-    --main-colour2: #8f7f6c !important;
-    --main-colour3: 33 !important;
+    --main-colour: 221, 199, 161 !important;
+    --main-colour2: #ddc7a1 !important;
+    --main-colour3: 38 !important;
 
     /* Channel Unreads */
     --indicator-connected: 60, 150, 60;
@@ -20,12 +20,12 @@
     /* Green Colour */
     --green-color: var(--alt-color2) !important;
     --spotify-color: var(--green-color);
-    --green-bar-on: #5c646480;
+    --green-bar-on: #645e5c80;
     --green-bar-bg: var(--green-color);
     --green-slider-on: var(--green-color);
-    --green-slider-off: #404447fd;
+    --green-slider-off: #474240fd;
     --green-slider-dot-on: #755547;
-    --green-slider-dot-off: #303337fd;
+    --green-slider-dot-off: #373330fd;
 
     --setting-backdrop-main: #3b3735;
     --setting-backdrop-sidebar: #33302e;
@@ -57,15 +57,15 @@
     --toast-box-shadow: rgba(0, 0, 0, .2);
     --toast-border: var(--background-tertiary);
 
-    --background-primary: #3b3735;
+    --background-primary: #202020;
     --glasscord-primary: 59, 55, 53;
     --glasscord-primary-opacity: 0.4;
-    --background-secondary: #33302e;
-    --background-secondary-alt: #33302e;
-    --background-tertiary: #1d1b1a;
+    --background-secondary: #32302f;
+    --background-secondary-alt: #252423;
+    --background-tertiary: #1a1a1a;
     --background-accent: var(--main-colour2);
-    --background-floating: #1a1716;
-    --background-nested-floating: #201b18;
+    --background-floating: #1a1a1a;
+    --background-nested-floating: #1a1a1a;
 
     --background-mobile-primary: var(--background-primary);
     --background-mobile-secondary: var(--background-secondary);
