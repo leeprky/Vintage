@@ -10,10 +10,10 @@
 //    Version: Vizality (https://github.com/vizality)
 
 // Main
-@use "../../main.scss";
+@import "../../main.scss";
 
 // Powercord Specific
-@use "./powercord.scss";
+@import "./vizality.scss";
 
 // ___        _  __       ___        _  _        ___
 // / __|      | |/ /      |_ _|      | \| |      / __|
@@ -83,7 +83,7 @@
 //  \__   |_|   __)    |    \_/   | |   _|_   __)   |__
 
 // New Server List
-@use "../../src/components/serverlist";
+@import "../../src/components/serverlist";
 
 // Legacy Server List
 // @use "../../src/components/serverlist-2";
