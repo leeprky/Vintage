@@ -60,9 +60,11 @@
 
 :root {
   --user-banner: ;
+  --colour-invite-title: var(--header-primary) !important;
+  --colour-invite-sub-title: var(--header-secondary) !important;
 }
 
-.avatar-2e8lTP, :root .wrapper-1VLyxH foreignObject, :root .callAvatarMask-fiNMWy foreignObject, :root .avatarContainer-gPrCzX foreignObject, :root .avatarMasked-qX7NI7 {
+.avatarContainer-3FF_Km, .avatar-2e8lTP, :root .wrapper-1VLyxH foreignObject, :root .callAvatarMask-fiNMWy foreignObject, :root .avatarContainer-gPrCzX foreignObject, :root .avatarMasked-qX7NI7 {
   mask: none !important;
   -webkit-mask: none !important;
   border-radius: var(--avatar-radius) !important;
@@ -415,7 +417,8 @@
   height: 48px !important;
   margin-top: 8px;
   margin-left: 15px;
-  width: 97.7%;
+  min-width: 565px !important;
+  max-width: 96% !important;
   border-radius: var(--radius);
   background-color: var(--background-secondary) !important;
   box-shadow: var(--elevation-low);
@@ -628,19 +631,6 @@
   text-transform: capitalize;
 }
 
-@media only screen and (max-width: 1040px) {
-  .sidebar-1tnWFu {
-    width: 75px;
-    transition: var(--pop-transiton-time);
-    border-radius: var(--radius);
-  }
-
-  .sidebar-1tnWFu:hover {
-    width: 240px;
-    transition: var(--pop-transiton-time);
-    border-radius: var(--radius);
-  }
-}
 /*  ------------------------------------------
                     Alt Colour
                ( blurple-replacer )
@@ -1821,6 +1811,11 @@ svg.slider-32CRPX svg {
   color: var(--background-secondary) !important;
 }
 
+.selected-1-Z6gm .layout-1qmrhw {
+  border-radius: var(--radius);
+  transition: var(--pop-transiton-time);
+}
+
 .wrapper-1HIH0j {
   background-color: var(--background-tertiary) !important;
   margin-top: 10px;
@@ -2198,6 +2193,11 @@ div[class^=dot-], div[class^=newMessagesBar-] {
 }
 .emptyChannelIcon-1YdEz2 {
   display: none;
+}
+
+.slateTextArea-27tjG0 {
+  align-content: center !important;
+  text-align: center !important;
 }
 
 .callContainer-HtHELf {
@@ -4440,6 +4440,13 @@ button:not(.barButtonMain-2GIx4o):hover {
   pointer-events: none;
 }
 
+:root {
+  --version:"UNKOWN";
+  --build:"UNKNOWN";
+  --style-name:"UNKNOWN - ENABLE A SKIN";
+  --style-creator:"UNKNOWN - ENABLE A SKIN";
+}
+
 .info-3pQQBb::after {
   content: "Latest " var(--version-latest-long) !important;
   color: var(--text-muted) !important;
@@ -4504,6 +4511,16 @@ button:not(.barButtonMain-2GIx4o):hover {
   margin-top: 10px !important;
 }
 
+.platform-linux .withFrame-2dL45i {
+  padding-top: 0.5px;
+  height: 32.5px;
+  margin-top: 20px !important;
+  background-color: transparent !important;
+}
+.platform-linux .container-1eFtFS {
+  padding-top: 0px !important;
+  margin-top: -5px !important;
+}
 .platform-linux .container-ZMc96U {
   height: 60px !important;
   padding-top: 10px !important;
@@ -4517,7 +4534,7 @@ button:not(.barButtonMain-2GIx4o):hover {
 }
 .platform-linux .searchBar-3TnChZ {
   border-radius: var(--radius);
-  top: 15px;
+  top: 3px;
   height: 60px;
   background-color: var(--background-secondary) !important;
   width: 210px;
@@ -4538,7 +4555,7 @@ button:not(.barButtonMain-2GIx4o):hover {
   border-radius: var(--radius) !important;
   position: relative !important;
   margin-right: 10px !important;
-  min-height: 100% !important;
+  min-height: 101.5% !important;
   margin-left: -12px;
 }
 .platform-linux .container-1NXEtd {
@@ -4573,6 +4590,9 @@ button:not(.barButtonMain-2GIx4o):hover {
 }
 .platform-linux .members-3WRCEx {
   margin-top: 10px !important;
+}
+.platform-linux .headerContent-2SNbie {
+  margin-top: 7px;
 }
 
 .powercord-codeblock-lang {

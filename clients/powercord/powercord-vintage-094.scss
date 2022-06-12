@@ -41,7 +41,7 @@
 // Client Skins
 
 // Powercord Skin
-// @use "./powercord-skin.css";
+@use "./powercord-skin.css";
 
 // Vizality Skin
 // @use "../vizality/vizality-skin.css";
@@ -67,7 +67,7 @@
 // @use "../../modules/skin/zelk.css";
 
 // Gruvbox Skin By Leeprky#2063
-@use "../../modules/skin/gruvbox.css";
+// @use "../../modules/skin/gruvbox.css";
 
 // Dracula Skin By Leeprky#2063
 // @use "../../modules/skin/dracula.css";
@@ -137,7 +137,7 @@
     --white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.342) 74%;
 
     --ping-colour: var(--red-hsl);
-
+    
     // Popout Modal's
     --popout-modal-badges-style: 30px; //No Wrap Around - Add A Second 30px For Wrap (30px 30px)
 

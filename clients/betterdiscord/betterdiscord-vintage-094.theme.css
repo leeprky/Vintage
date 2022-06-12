@@ -55,21 +55,21 @@
 /* @import "https://leeprky.github.io/Vintage/clients/vizality/vizality-skin.css";
 
 /* BetterDiscord Skin */
-/* @import "https://leeprky.github.io/Vintage/clients/betterdiscord/betterdiscord-skin.css";
+@import url("https://leeprky.github.io/Vintage/clients/betterdiscord/betterdiscord.skin.css");
 
 /* */
 
 /* Vanilla Skin - By Discord */
-/* @import "https://leeprky.github.io/Vintage/modules/skin/vanilla.css"
+/* @import "https://leeprky.github.io/Vintage/modules/skin/vanilla.css";
 
 /* Vanilla Dark By Leeprky#2063 */
-/* @import "https://leeprky.github.io/Vintage/modules/skin/vanilla-dark.css"
+/* @import "https://leeprky.github.io/Vintage/modules/skin/vanilla-dark.css";
 
 /* Brown - By Leeprky#2063 */
 /* @import "https:/*leeprky.github.io/Vintage/modules/skin/brown.css";
 
 /* Lavender Skin - By Lavender */
-@import "https://leeprky.github.io/Vintage/modules/skin/lavender.css";
+/* @import "https://leeprky.github.io/Vintage/modules/skin/lavender.css";
 
 /* Zelk Skin - By schnensch#4231 */
 /* @import "https://leeprky.github.io/Vintage/modules/skin/zelk.css"
