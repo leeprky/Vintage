@@ -184,5 +184,6 @@
 
 :root {
     --version: "0.9.4BD" !important;
+    --outdated_vintage-094: none !important;
     --build:"094BD" !important;
 }

@@ -1,19 +1,19 @@
 //
-//       ░█──░█ ▀█▀ ░█▄─░█ ▀▀█▀▀ ─█▀▀█ ░█▀▀█ ░█▀▀▀ 
-//       ─░█░█─ ░█─ ░█░█░█ ─░█── ░█▄▄█ ░█─▄▄ ░█▀▀▀ 
+//       ░█──░█ ▀█▀ ░█▄─░█ ▀▀█▀▀ ─█▀▀█ ░█▀▀█ ░█▀▀▀
+//       ─░█░█─ ░█─ ░█░█░█ ─░█── ░█▄▄█ ░█─▄▄ ░█▀▀▀
 //       ──▀▄▀─ ▄█▄ ░█──▀█ ─░█── ░█─░█ ░█▄▄█ ░█▄▄▄
 
 //                     .--------.
 //                     | v0.9.4 |
-//                     '--------' 
+//                     '--------'
 //          Last Updated: 08/06/2022 22:04 (UK)
-//       Version: Vizality (https://vizality.com/)
+//    Version: Vizality (https://github.com/vizality)
 
 // Main
 @use "../../main.scss";
 
-// Vizality Specific
-@use "./vizality.scss";
+// Powercord Specific
+@use "./powercord.scss";
 
 // ___        _  __       ___        _  _        ___
 // / __|      | |/ /      |_ _|      | \| |      / __|
@@ -27,10 +27,21 @@
 
 // // // // // // //
 
+// Glasscord Skin - By Nyaomi#9646 (WORK IN PROGRESS)
+// ENABLE WITH ANOTHER SKIN TO USE
+// @use "../../modules/skin/glasscord.css";
+
+// // // // // // //
+
+// Wallpaper - Disable Other Skins To Use (WORK IN PROGRESS)
+// @use "../../modules/skin/image.scss";
+
+// // // // // // //
+
 // Client Skins
 
 // Powercord Skin
-// @use "../powercord/powercord-skin.css";
+// @use "./powercord-skin.css";
 
 // Vizality Skin
 @use "../vizality/vizality-skin.css";
@@ -71,9 +82,6 @@
 //  /     | |   (_     |    / \   |V|    |    (_    |_
 //  \__   |_|   __)    |    \_/   | |   _|_   __)   |__
 
-// Menu Animations
-// @use "../../src/optional/menu-animations.scss";
-
 // New Server List
 @use "../../src/components/serverlist";
 
@@ -81,10 +89,10 @@
 // @use "../../src/components/serverlist-2";
 
 // No Nitro
-@use "../../src/optional/no-nitro.scss";
+@import "https://leeprky.github.io/Vintage/src/optional/no-nitro.css";
 
 // Horizontal Server List - Rough But Functional
-//@use "../../src/optional/horizontal-server-list.scss";
+// @import "https://leeprky.github.io/Vintage/src/optional/horizontal-serverlist.css";
 
 // Emoji's
 
@@ -94,8 +102,8 @@
 // Apple
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
 
-// MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar
-@use "../../src/optional/macos.scss";
+// MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar */
+@import "https://leeprky.github.io/Vintage/src/optional/macos.css";
 :root {
     --macos-close-bg-dark: #e92a2a25;
     --macos-close-bg-light: #380d074b;
@@ -129,7 +137,7 @@
     --white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.342) 74%;
 
     --ping-colour: var(--red-hsl);
-
+    
     // Popout Modal's
     --popout-modal-badges-style: 30px; //No Wrap Around - Add A Second 30px For Wrap (30px 30px)
 
@@ -142,10 +150,8 @@
     --avatar-profile-banner-blur: blur(0.9px);
     --avatar-profile-banner-opacity: 0.4;
 
-    --settings-backdrop-border: scale(0.95);
-
     --popout-backdrop: rgba(0, 0, 0, 0.562);
-    --popout-backdrop-blur: blur(4px);
+    --popout-backdrop-blur: blur(1.5px);
 
     // Global Rounding
     --radius: 12px !important; //6 Is Squareish | 12 Is Bubbly
@@ -193,5 +199,6 @@
 
 :root {
     --version: "0.9.4VI" !important;
+    --outdated_vintage-094: none !important;
     --build: "094VI" !important;
 }
