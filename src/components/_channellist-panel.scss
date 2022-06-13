@@ -55,21 +55,32 @@
   }
   
   .powercord-spotify.hover .container-YkUktl {
-    height: 135px;
+    height: 145px;
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+    bottom: 24px !important;
     position: relative;
     background-color: var(--background-secondary);
     border-radius: var(--radius);
   }
 
+  .powercord-spotify .spotify-seek {
+    display: none;
+  }
+  .powercord-spotify.hover .spotify-seek {
+    display: block !important;
+  }
+
   
   .powercord-spotify .container-YkUktl {
-    bottom: 25px;
+    bottom: 36px;
   }
 
   .button-12Fmur {
       background-color: transparent;
       border-radius: var(--radius);
-      margin-left: 3px !important;
+      margin-left: 2px !important;
+      left: -35px;
   }
 
   .activityPanel-9icbyU {
@@ -128,12 +139,14 @@
   
     .spotify-extra-controls {
       margin-top: -35px;
+      margin-left: 70px;
       transition: 300ms;
     }
   
     [class="flex-2S1XBF flex-3BkGQD horizontal-112GEH horizontal-1Piu5- flex-3BkGQD directionRow-2Iu2A9 justifyStart-2Mwniq alignStretch-Uwowzr noWrap-hBpHBz spotify-buttons"] [aria-label="Mute"] {
       top: 0px;
       display: flex !important;
+      left: 0px;
     }
   }
   
