@@ -33,10 +33,10 @@
 
 .theme-dark {
     --header-primary: #fddcce;
-    --header-secondary: #fcc5ad;
+    --header-secondary: #ffefe8;
 
     --text-normal: #fddfd3;
-    --text-muted: #f8b79e;
+    --text-muted: #ffe5da;
     --text-link: var(--main-colour2);
     --colour-invite-title: var(--text-normal) !important;
     --text-link-low-saturation: hsl(12,calc(var(--saturation-factor, 1)*100%),52.9%);
