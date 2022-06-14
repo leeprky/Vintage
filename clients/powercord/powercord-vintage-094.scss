@@ -41,7 +41,7 @@
 // Client Skins
 
 // Powercord Skin
-// @use "./powercord-skin.css";
+@use "./powercord-skin.css";
 
 // Vizality Skin
 // @use "../vizality/vizality-skin.css";
@@ -67,7 +67,7 @@
 // @use "../../modules/skin/zelk.css";
 
 // Gruvbox Skin By Leeprky#2063
-@use "../../modules/skin/gruvbox.css";
+// @use "../../modules/skin/gruvbox.css";
 
 // Dracula Skin By Leeprky#2063
 // @use "../../modules/skin/dracula.css";
@@ -89,7 +89,7 @@
 // @use "../../src/components/serverlist-2";
 
 // No Nitro
-@import "https://leeprky.github.io/Vintage/src/optional/no-nitro.css";
+// @import "https://leeprky.github.io/Vintage/src/optional/no-nitro.css";
 
 // Horizontal Server List - Rough But Functional
 // @import "https://leeprky.github.io/Vintage/src/optional/horizontal-serverlist.css";

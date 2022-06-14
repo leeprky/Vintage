@@ -6,8 +6,8 @@
 :root 
 {
     /* Blurple Colour */
-    --main-colour: 221, 199, 161 !important;
-    --main-colour2: #ddc7a1 !important;
+    --main-colour: 184, 158, 113 !important;
+    --main-colour2: #b89e71 !important;
     --main-colour3: 38 !important;
 
     /* Channel Unreads */
@@ -49,7 +49,7 @@
     --interactive-normal: #fddccefb;
     --interactive-hover: #ffc9b3ec;
     --interactive-active: #ffece3;
-    --interactive-muted: #ffbfa47c;
+    --interactive-muted: #ffe3d67c;
 
     --toast-background: var(--background-floating);
     --toast-header: var(--background-tertiary);
@@ -64,7 +64,7 @@
     --background-secondary-alt: #252423;
     --background-tertiary: #1a1a1a;
     --background-accent: var(--main-colour2);
-    --background-floating: #1a1a1a;
+    --background-floating: #0f0f0f;
     --background-nested-floating: #1a1a1a;
 
     --background-mobile-primary: var(--background-primary);
@@ -189,8 +189,8 @@
     --background-message-automod: hsla(359,calc(var(--saturation-factor, 1)*82.6%),59.4%,0.05);
     --background-message-automod-hover: hsla(359,calc(var(--saturation-factor, 1)*82.6%),59.4%,0.1);
 
-    --channels-default: #faccba;
-    --channel-icon: #fddfd3;
+    --channels-default: #fff7f4;
+    --channel-icon: #fff2ec;
     --channel-text-area-placeholder: #fddfd3;
 
     --guild-header-text-shadow: 0 1px 1px rgba(0,0,0,0.4);

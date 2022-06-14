@@ -1,5 +1,13 @@
+
 /* Remove Buttons */
-.button-f2h6uQ[aria-label="Send a gift or Boost this server"], .channel-1Shao0[aria-posinset="2"], [aria-controls="discord-nitro-tab"], .wrapper-3Zq_cJ {
+.button-f2h6uQ[aria-label="Send a gift or Boost this server"], .channel-1Shao0[aria-posinset="2"],
+[data-item-id="NitroServerBoost"],
+[id="guild-header-popout-premium-subscribe"],
+[data-item-id="Subscriptions"],
+[data-item-id="DiscordNitro"],
+[data-item-id="Billing"],
+.wrapper-3Zq_cJ, .wrapper-2-Da9H,
+.banner-1YaD3N:hover .premiumIconWrapper-32h0Ri{
     display: none !important;
 }
 /* Remove Promos */

@@ -74,13 +74,7 @@
   
   .powercord-spotify .container-YkUktl {
     bottom: 36px;
-  }
-
-  .button-12Fmur {
-      background-color: transparent;
-      border-radius: var(--radius);
-      margin-left: 2px !important;
-      left: -35px;
+    margin-top: 12px !important;
   }
 
   .activityPanel-9icbyU {
@@ -259,11 +253,22 @@
 }
 
 
+/* New Profile Modal */
+// /* remove the // if you dont have it
+.button-12Fmur {
+  background-color: transparent;
+  border-radius: var(--radius);
+  margin-left: 2px !important;
+  left: -35px;
+}
+
+/* */
+
 .withTagAsButton-OsgQ9L:hover, .withTagless-10ooWt:hover {
   background-color: rgba(var(--alt-color), 0.02) !important;
 }
 
-.menu-1QACrS {
+.menu-1QACrS[aria-label="Set Status"] {
   left: -22px;
   top: 5px;
   max-width: 230px;
@@ -281,7 +286,7 @@
   position: fixed !important
 }
 
-.menu-1QACrS  .profileBadges-2pItdR {
+.menu-1QACrS .profileBadges-2pItdR {
   top: 430px;
   left: 123px;
 }
