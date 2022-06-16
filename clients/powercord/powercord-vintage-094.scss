@@ -153,8 +153,8 @@
     --popout-backdrop: rgba(0, 0, 0, 0.562);
     --popout-backdrop-blur: blur(1.5px);
 
-    // Center Or Left
-    --text-alignment: center; // Flex OR center
+    // Center Text
+    --text-alignment: flex; // Flex OR center
 
     // Global Rounding
     --radius: 12px !important; //6 Is Squareish | 12 Is Bubbly
