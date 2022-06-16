@@ -1,7 +1,10 @@
 // Splash
+:root {
+    --background-secondary: var(--background-primary) !important;
+}
 #splash {
     -webkit-app-region: drag;
-    background: var(--background-secondary);
+    background: var(--background-secondary) !important;
     position: absolute;
     top: 0;
     left: 0;

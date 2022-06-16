@@ -137,6 +137,9 @@
     --white-gradient: 315deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.342) 74%;
 
     --ping-colour: var(--red-hsl);
+
+    // Center Text
+    --text-alignment: center; // Flex OR center
     
     // Popout Modal's
     --popout-modal-badges-style: 30px; //No Wrap Around - Add A Second 30px For Wrap (30px 30px)

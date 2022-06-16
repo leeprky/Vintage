@@ -147,6 +147,9 @@
 /* Scrollbar Display */
     --scrollbar-display: none !important;
 
+/* Center Text */
+--text-alignment: center; /* Flex OR center */
+
 /* Popout */
     --avatar-popout-banner-blur: blur(2px);
     --avatar-popout-banner-opacity: 0.4;
