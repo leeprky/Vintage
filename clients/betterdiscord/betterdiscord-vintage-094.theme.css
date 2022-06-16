@@ -55,7 +55,7 @@
 /* @import "https://leeprky.github.io/Vintage/clients/vizality/vizality-skin.css";
 
 /* BetterDiscord Skin */
-@import url("https://leeprky.github.io/Vintage/clients/betterdiscord/betterdiscord.skin.css");
+/* @import url("https://leeprky.github.io/Vintage/clients/betterdiscord/betterdiscord.skin.css");
 
 /* */
 
@@ -66,7 +66,7 @@
 /* @import "https://leeprky.github.io/Vintage/modules/skin/vanilla-dark.css";
 
 /* Brown - By Leeprky#2063 */
-/* @import "https:/*leeprky.github.io/Vintage/modules/skin/brown.css";
+@import "https:/*leeprky.github.io/Vintage/modules/skin/brown.css";
 
 /* Lavender Skin - By Lavender */
 /* @import "https://leeprky.github.io/Vintage/modules/skin/lavender.css";
@@ -92,7 +92,7 @@
   */
 
 /* No Nitro */
-@import "https://leeprky.github.io/Vintage/src/optional/no-nitro.css";
+/* @import "https://leeprky.github.io/Vintage/src/optional/no-nitro.css";
 
 /* Menu Animations */
 @import "https://leeprky.github.io/Vintage/src/optional/menu-animations.css";
@@ -109,10 +109,10 @@
 /* @import url("https:/*mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css");
 
 /* Apple */
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
+/* @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
 
 /* MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar */
-@import "https://leeprky.github.io/Vintage/src/optional/macos.css";
+/* @import "https://leeprky.github.io/Vintage/src/optional/macos.css";
 :root {
     --macos-close-bg-dark: #e92a2a25;
     --macos-close-bg-light: #380d074b;

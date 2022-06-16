@@ -44,7 +44,7 @@
 // @use "./powercord-skin.css";
 
 // Vizality Skin
-@use "../vizality/vizality-skin.css";
+// @use "../vizality/vizality-skin.css";
 
 // BetterDiscord Skin
 // @use "../betterdiscord/betterdiscord.skin.css";
@@ -58,7 +58,7 @@
 // @use "../../modules/skin/vanilla-dark.css";
 
 // Brown - By Leeprky#2063
-// @use "../../modules/skin/brown.css";
+@use "../../modules/skin/brown.css";
 
 // Lavender Skin - By Lavender
 // @use "../../modules/skin/lavender.css";
@@ -89,7 +89,7 @@
 // @use "../../src/components/serverlist-2";
 
 // No Nitro
-@import "https://leeprky.github.io/Vintage/src/optional/no-nitro.css";
+// @import "https://leeprky.github.io/Vintage/src/optional/no-nitro.css";
 
 // Horizontal Server List - Rough But Functional
 // @import "https://leeprky.github.io/Vintage/src/optional/horizontal-serverlist.css";
@@ -100,10 +100,10 @@
 //@import url("https:/*mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css");
 
 // Apple
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
+// @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
 
 // MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar */
-@import "https://leeprky.github.io/Vintage/src/optional/macos.css";
+/* @import "https://leeprky.github.io/Vintage/src/optional/macos.css";
 :root {
     --macos-close-bg-dark: #e92a2a25;
     --macos-close-bg-light: #380d074b;

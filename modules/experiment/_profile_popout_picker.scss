@@ -1,0 +1,50 @@
+.labelContainer-2vJzYL {
+    background-color: var(--background-secondary);
+    border-radius: var(--radius);
+    margin-top: 12px !important;
+}
+.separator-1So4YB {
+    display: none;
+}
+
+/* New Profile Modal */
+// /* remove the // if you dont have it
+.button-12Fmur {
+    background-color: transparent;
+    border-radius: var(--radius);
+    margin-left: 2px !important;
+    left: -35px;
+  }
+  
+  /* */
+  
+  .withTagAsButton-OsgQ9L:hover, .withTagless-10ooWt:hover {
+    background-color: rgba(var(--alt-color), 0.02) !important;
+  }
+  
+  .menu-1QACrS[aria-label="Set Status"] {
+    left: -22px;
+    top: 5px;
+    max-width: 230px;
+  }
+  .menu-1QACrS .profileBody-3QbfPe {
+    display: none;
+  }
+  .menu-1QACrS .popoutBanner-3cqRD9, .menu-1QACrS .popoutBannerPremium-3i5EEI {
+    max-width: 210px !important;
+    left: -10px;
+  }
+  .menu-1QACrS .headerTagUsernameNoNickname-1TjuLc {
+    top: 530px;
+    left: 130px;
+    position: fixed !important
+  }
+  
+  .menu-1QACrS .profileBadges-2pItdR {
+    top: 430px;
+    left: 123px;
+  }
+  
+  .menu-1QACrS .headerTop-3GPUSF {
+    display: none !important;
+  }
