@@ -35,6 +35,7 @@ div[style="opacity: 1; height: 56px; transform: scale(1);"] {
 }
 
   /* the animation  */
+/* - remove to enable badge animation
   @keyframes ping-animation {
     0% {
       transform: scale(1);
@@ -58,12 +59,20 @@ div[style="opacity: 1; height: 56px; transform: scale(1);"] {
       }
   }
 
+  /* */
+
+  
 .numberBadge-37OJ3S,
 .wrapper-2olG5t.badge-3k1jbq {
 	border-radius: 5px !important;
-    background-color: var(--alt-color2) !important;
+    background-color: var(--ping-colour) !important;
     animation: ping-animation 5s linear infinite;
     transition: var(--pop-transition);
+}
+
+.listItem-3SmSlK {
+    transform: scale(0.9) !important;
+    margin-left: 1px;
 }
 
 .lowerBadge-3WTshO {
@@ -92,4 +101,27 @@ div[style="opacity: 1; height: 56px; transform: scale(1);"] {
 }
 .folderIconWrapper-1oRIZr[style="background-color: rgba(88, 101, 242, 0.4);"] {
     background-color:  rgba(var(--alt-color), 0.3) !important;
+}
+
+
+  .unreadMentionsIndicatorTop-2bTgUU,
+  .unreadMentionsIndicatorBottom-3RJMnQ {
+      left: 7px;
+      border-radius: var(--radius) !important;
+      z-index: 99;
+  }
+
+  
+.mention-3XBnnZ {
+    background-color: var(--ping-colour);
+    border-radius: var(--radius) !important;
+    width: 63px;
+}
+
+[style="color: rgb(88, 101, 242);"] {
+    color: rgba(var(--alt-color), 1) !important;
+}
+[style="background-color: rgb(88, 101, 242);"],
+.lookFilled-yCfaCM.colorBrandNew-2-gGsS {
+    background-color: rgba(var(--alt-color), 1) !important;
 }

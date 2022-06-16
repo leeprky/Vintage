@@ -83,10 +83,10 @@
 //  \__   |_|   __)    |    \_/   | |   _|_   __)   |__
 
 // New Server List
-@import "../../src/components/serverlist";
+// @import "../../src/components/serverlist";
 
 // Legacy Server List
-// @use "../../src/components/serverlist-2";
+@use "../../src/components/serverlist-2";
 
 // No Nitro
 // @import "https://leeprky.github.io/Vintage/src/optional/no-nitro.css";
@@ -97,13 +97,13 @@
 // Emoji's
 
 // Google
-//@import url("https:/*mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css");
+// @import url("https:/*mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Google.css");
 
 // Apple
-// @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css");
 
 // MacOS Titlebar | Add '/*' At Start Of Line Below To Change To Windows Titlebar */
-/* @import "https://leeprky.github.io/Vintage/src/optional/macos.css";
+@import "https://leeprky.github.io/Vintage/src/optional/macos.css";
 :root {
     --macos-close-bg-dark: #e92a2a25;
     --macos-close-bg-light: #380d074b;
