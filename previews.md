@@ -1,12 +1,12 @@
 # *SCREENSHOTS MAY BE OUTDATED*
 
 # Vanilla Skins
-![picture]()
 
 Vanilla Skin
 ![picture]()
 
-Vanilla+ Dark Skin
+Vanilla Dark Skin
+![picture]()
 
 # Custom Skins
 
