@@ -7,7 +7,7 @@
 
 # Previews
 
-Default Skin By [Me]() | Lavender Skin By [Obsecure](https://github.com/Lavender-Discord/Lavender) | Zelk Skin By [schnensch0](https://github.com/schnensch0/zelk) 
+Default Skin By [Me]() | Lavender Skin By [Obscure](https://github.com/Lavender-Discord/Lavender) | Zelk Skin By [schnensch0](https://github.com/schnensch0/zelk) 
 ![gif](https://user-images.githubusercontent.com/71296232/167234293-e2d5e226-12ba-429b-b8a7-c333bab551cc.gif)[More Previews](https://github.com/leeprky/vintage/blob/main/previews.md)
 
 Popout Modal
@@ -48,7 +48,7 @@ When  **Reduced Motion** is enabled in accesibility settings certains elements b
 # Credits
 [CreArt Theme & CreArt Extensions](https://github.com/CreArts-Community) By [CorellanStoma](https://github.com/CorellanStoma)
 
-[Lavender Theme](https://github.com/Lavender-Discord/Lavender) By [Obsecure-Git](https://github.com/Obscure-Git)
+[Lavender Theme](https://github.com/Lavender-Discord/Lavender) By [Obscure-Git](https://github.com/Obscure-Git)
 
 [Fluent Icons Theme](https://github.com/stickfab/pc-fluenticons) By [stickfab](https://github.com/stickfab)
 
