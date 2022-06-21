@@ -26,7 +26,7 @@ cd vizality/addons/themes && git clone https://github.com/leeprky/vintage
 
  **Step 1:** Go to [Latest Release](https://github.com/leeprky/vintage/releases) 
 
- **Step 2:** Click on the `betterdiscord-vintage-080.theme.css` and save.
+ **Step 2:** Click on the `betterdiscord-vintage-094.theme.css` and save.
 
  **Step 3:** Move file to **AppData\Roaming\BetterDiscord\themes**.
  
